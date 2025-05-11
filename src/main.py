@@ -339,20 +339,20 @@ CODE CONTENT:
             keyword_score = keyword_scores.get(doc_id, 0.0)
             vector_score = vector_scores.get(doc_id, 0.0)
             
-            # Skip documents with very low scores in either index
-            if keyword_score < 0.4 or vector_score < 0.4:
+            # Skip documents with very low scores in both indexes
+            if keyword_score < 0.1 and vector_score < 0.1:  # Lowered from 0.2
                 continue
             
-            # Weight vector scores more heavily (70%) as they capture semantic similarity better
-            base_score = (0.3 * keyword_score + 0.7 * vector_score)
+            # Weight vector scores more heavily (65%) as they capture semantic similarity better
+            base_score = (0.35 * keyword_score + 0.65 * vector_score)
             
             # Apply additional scoring factors
             final_score = base_score
             
             # Strong boost for files that appear in both indexes with high scores
             if doc_id in keyword_scores and doc_id in vector_scores:
-                if keyword_score > 0.6 and vector_score > 0.6:
-                    final_score *= 1.5
+                if keyword_score > 0.4 and vector_score > 0.4:  # Lowered from 0.5
+                    final_score *= 1.4
                 else:
                     final_score *= 1.2
             
@@ -362,30 +362,30 @@ CODE CONTENT:
             
             # Strong boost for exact name matches
             if any(term in doc_name for term in req_terms):
-                final_score *= 1.4
+                final_score *= 1.3
             
             # Penalize test files more aggressively
             if 'test' in doc_name.lower():
-                final_score *= 0.6
+                final_score *= 0.8  # Less aggressive than 0.7
             
             # Penalize utility/helper classes unless they have very high scores
             if any(term in doc_name for term in ['util', 'helper', 'common']):
-                final_score *= 0.7
+                final_score *= 0.9  # Less aggressive than 0.8
             
             # Boost domain-specific classes
             domain_terms = {'patient', 'doctor', 'visit', 'record', 'health', 'medical', 'prescription'}
             if any(term in doc_name for term in domain_terms):
-                final_score *= 1.3
+                final_score *= 1.2
             
             combined_scores.append((doc_id, final_score))
         
         # Sort by score in descending order
         sorted_scores = sorted(combined_scores, key=lambda x: x[1], reverse=True)
         
-        # Apply stricter adaptive thresholding
+        # Apply adaptive thresholding
         if sorted_scores:
             max_score = sorted_scores[0][1]
-            threshold = max_score * 0.7  # Keep only scores within 70% of max score
+            threshold = max_score * 0.4  # Lowered from 0.5
             filtered_scores = [(doc_id, score) for doc_id, score in sorted_scores if score >= threshold]
             
             # If we have enough high-quality results, return them
@@ -393,7 +393,7 @@ CODE CONTENT:
                 return filtered_scores[:top_k]
             
             # If we don't have enough high-quality results, try a lower threshold
-            threshold = max_score * 0.5
+            threshold = max_score * 0.2  # Lowered from 0.3
             filtered_scores = [(doc_id, score) for doc_id, score in sorted_scores if score >= threshold]
             return filtered_scores[:top_k]
         

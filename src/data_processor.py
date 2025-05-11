@@ -207,47 +207,34 @@ class iTrustDataProcessor:
             return self.call_graph
     
     def load_solution_links(self) -> List[Tuple[str, str]]:
-        """Load ground truth solution links"""
+        """Load solution links from the solution links file"""
         try:
-            # First try the new file in src directory
-            solution_path = Path('src/itrust-groundtruth.txt')
-            if not solution_path.exists():
-                # Fallback to original location
-                solution_path = self.dataset_path / 'itrust_solution_links_english.txt'
-                
-            print(f"\nLoading solution links from: {solution_path}")
-            if not solution_path.exists():
-                print(f"Warning: Solution links file not found at {solution_path}")
+            solution_links_path = self.dataset_path / 'itrust_solution_links_english.txt'
+            if not solution_links_path.exists():
+                print(f"Warning: Solution links file not found at {solution_links_path}")
                 return self.solution_links
-                
-            with open(solution_path, 'r', encoding='utf-8') as f:
-                for line_num, line in enumerate(f, 1):
+            
+            print("Loading solution links...")
+            with open(solution_links_path, 'r', encoding='utf-8') as f:
+                for line in f:
                     try:
-                        line = line.strip()
-                        if not line:  # Skip empty lines
+                        # Handle both Windows and Unix line endings
+                        line = line.strip().replace('\r', '')
+                        if not line:
                             continue
                             
-                        # Split by colon and keep extensions to match code_files keys
-                        parts = line.split(':')
-                        if len(parts) != 2:
-                            print(f"Warning: Invalid format in line {line_num}: {line}")
-                            continue
-                            
-                        req_id = parts[0].strip()  # Keep .txt extension
-                        code_id = parts[1].strip()  # Keep .java extension
+                        # Split on colon and clean up
+                        req_id, code_id = line.split(':')
+                        req_id = req_id.strip()
+                        code_id = code_id.strip()
                         
-                        if req_id and code_id:  # Only add if both parts exist
-                            self.solution_links.append((req_id, code_id))
-                            if line_num <= 5:  # Print first few links for verification
-                                print(f"Added link: {req_id} -> {code_id}")
-                        else:
-                            print(f"Warning: Invalid link in line {line_num}: {line}")
-                            
+                        # Add to solution links
+                        self.solution_links.append((req_id, code_id))
                     except Exception as e:
-                        print(f"Warning: Failed to parse line {line_num}: {str(e)}")
+                        print(f"Warning: Failed to parse solution link line: {str(e)}")
                         continue
             
-            print(f"Successfully loaded {len(self.solution_links)} solution links")
+            print(f"Loaded {len(self.solution_links)} solution links")
             return self.solution_links
         except Exception as e:
             print(f"Error loading solution links: {str(e)}")
