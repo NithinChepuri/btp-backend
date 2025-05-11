@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC36S3",
+      "LabProcUAPAction"
+    ],
+    [
+      "UC36S3",
+      "RiskChecker"
+    ],
+    [
+      "UC36S3",
+      "EditPersonnelAction"
+    ],
+    [
+      "UC36S3",
+      "SendMessageAction"
+    ],
+    [
+      "UC36S3",
+      "EmergencyReportAction"
+    ]
+  ]
+}

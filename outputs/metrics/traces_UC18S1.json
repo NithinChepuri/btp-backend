@@ -1,0 +1,20 @@
+{
+  "links": [
+    [
+      "UC18S1",
+      "PrescriptionReportBean"
+    ],
+    [
+      "UC18S1",
+      "AllergyBean"
+    ],
+    [
+      "UC18S1",
+      "SecurityQA"
+    ],
+    [
+      "UC18S1",
+      "LabProcUAPAction"
+    ]
+  ]
+}

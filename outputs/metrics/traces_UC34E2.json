@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC34E2",
+      "PersonnelBaseAction"
+    ],
+    [
+      "UC34E2",
+      "ChildhoodInfectionFactor"
+    ],
+    [
+      "UC34E2",
+      "ReferralBean"
+    ],
+    [
+      "UC34E2",
+      "AccessDAO"
+    ],
+    [
+      "UC34E2",
+      "ChronicDiseaseRiskAction"
+    ]
+  ]
+}

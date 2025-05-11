@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC30S7",
+      "DrugInteractionBean"
+    ],
+    [
+      "UC30S7",
+      "GenderFactor"
+    ],
+    [
+      "UC30S7",
+      "iTrustException"
+    ],
+    [
+      "UC30S7",
+      "OfficeVisitBaseAction"
+    ],
+    [
+      "UC30S7",
+      "BloodType"
+    ]
+  ]
+}

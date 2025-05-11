@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC34E1",
+      "ReferralBean"
+    ],
+    [
+      "UC34E1",
+      "PersonnelBaseAction"
+    ],
+    [
+      "UC34E1",
+      "AccessDAO"
+    ],
+    [
+      "UC34E1",
+      "ChronicDiseaseRiskAction"
+    ],
+    [
+      "UC34E1",
+      "PersonnelDAO"
+    ]
+  ]
+}

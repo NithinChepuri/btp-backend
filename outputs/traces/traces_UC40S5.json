@@ -1,0 +1,10 @@
+{
+  "requirement_id": [
+    "UC40S5",
+    "UC40S5"
+  ],
+  "code_id": [
+    "TransactionType.java",
+    "PrescriptionAlerts.java"
+  ]
+}

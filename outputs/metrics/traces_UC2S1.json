@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC2S1",
+      "PrescriptionReportBean"
+    ],
+    [
+      "UC2S1",
+      "AllergyBean"
+    ],
+    [
+      "UC2S1",
+      "SecurityQA"
+    ],
+    [
+      "UC2S1",
+      "OfficeVisitBean"
+    ],
+    [
+      "UC2S1",
+      "ManageHospitalAssignmentsAction"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC15S1",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC15S1",
+      "OfficeVisitBaseAction"
+    ],
+    [
+      "UC15S1",
+      "UpdateHospitalListAction"
+    ],
+    [
+      "UC15S1",
+      "PatientRiskFactor"
+    ],
+    [
+      "UC15S1",
+      "PrescriptionReportBean"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC11S2",
+      "DeclareHCPAction"
+    ],
+    [
+      "UC11S2",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC11S2",
+      "OfficeVisitBaseAction"
+    ],
+    [
+      "UC11S2",
+      "UpdateHospitalListAction"
+    ],
+    [
+      "UC11S2",
+      "PatientRiskFactor"
+    ]
+  ]
+}

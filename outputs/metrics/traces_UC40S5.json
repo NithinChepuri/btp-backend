@@ -1,0 +1,16 @@
+{
+  "links": [
+    [
+      "UC40S5",
+      "TransactionType"
+    ],
+    [
+      "UC40S5",
+      "UpdateCPTCodeListAction"
+    ],
+    [
+      "UC40S5",
+      "AdverseEventBean"
+    ]
+  ]
+}

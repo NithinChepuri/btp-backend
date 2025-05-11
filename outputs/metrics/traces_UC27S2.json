@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC27S2",
+      "GetVisitRemindersAction"
+    ],
+    [
+      "UC27S2",
+      "EditOfficeVisitValidator"
+    ],
+    [
+      "UC27S2",
+      "EditPersonnelAction"
+    ],
+    [
+      "UC27S2",
+      "OfficeVisitLoader"
+    ],
+    [
+      "UC27S2",
+      "State"
+    ]
+  ]
+}

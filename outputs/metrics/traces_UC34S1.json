@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC34S1",
+      "PatientRiskFactor"
+    ],
+    [
+      "UC34S1",
+      "PatientBaseAction"
+    ],
+    [
+      "UC34S1",
+      "EditPatientAction"
+    ],
+    [
+      "UC34S1",
+      "DeclareHCPAction"
+    ],
+    [
+      "UC34S1",
+      "ICDCodesDAO"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC3E1",
+      "LabProcUAPAction"
+    ],
+    [
+      "UC3E1",
+      "LOINCbean"
+    ],
+    [
+      "UC3E1",
+      "EmergencyReportAction"
+    ],
+    [
+      "UC3E1",
+      "RiskChecker"
+    ],
+    [
+      "UC3E1",
+      "GetVisitRemindersAction"
+    ]
+  ]
+}

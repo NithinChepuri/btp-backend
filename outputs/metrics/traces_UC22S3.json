@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC22S3",
+      "PatientRiskFactor"
+    ],
+    [
+      "UC22S3",
+      "EditPatientAction"
+    ],
+    [
+      "UC22S3",
+      "PatientBaseAction"
+    ],
+    [
+      "UC22S3",
+      "DeclareHCPAction"
+    ],
+    [
+      "UC22S3",
+      "ICDCodesDAO"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC9S1",
+      "PatientRiskFactor"
+    ],
+    [
+      "UC9S1",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC9S1",
+      "OfficeVisitBaseAction"
+    ],
+    [
+      "UC9S1",
+      "UpdateHospitalListAction"
+    ],
+    [
+      "UC9S1",
+      "PatientBaseAction"
+    ]
+  ]
+}

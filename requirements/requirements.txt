@@ -1,0 +1,5 @@
+sentence-transformers
+faiss-cpu
+py2neo
+nltk
+neo4j

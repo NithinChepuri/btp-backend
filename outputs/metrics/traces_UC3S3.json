@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC3S3",
+      "PatientNavigation"
+    ],
+    [
+      "UC3S3",
+      "SessionTimeoutListener"
+    ],
+    [
+      "UC3S3",
+      "GetVisitRemindersAction"
+    ],
+    [
+      "UC3S3",
+      "LoginFailureAction"
+    ],
+    [
+      "UC3S3",
+      "State"
+    ]
+  ]
+}

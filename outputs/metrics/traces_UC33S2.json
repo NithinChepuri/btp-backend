@@ -1,0 +1,20 @@
+{
+  "links": [
+    [
+      "UC33S2",
+      "PrescriptionReportBean"
+    ],
+    [
+      "UC33S2",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC33S2",
+      "OfficeVisitBaseAction"
+    ],
+    [
+      "UC33S2",
+      "UpdateHospitalListAction"
+    ]
+  ]
+}

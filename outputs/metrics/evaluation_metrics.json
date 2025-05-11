@@ -1,0 +1,7606 @@
+{
+  "precision": 0.08674531575294935,
+  "recall": 0.4370629370629371,
+  "f1_score": 0.14475969889982632,
+  "true_positives": 125,
+  "false_positives": 1316,
+  "false_negatives": 161,
+  "detailed_results": [
+    {
+      "requirement_id": "UC10E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "EditPHRAction.java",
+          1.047856823560251
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8826317570078371
+        ],
+        [
+          "RiskDAO.java",
+          0.8756146342628001
+        ],
+        [
+          "TransactionDAO.java",
+          0.8531809008021353
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.851717734865427
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.833837852178812
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.8190746322956084
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.8068094948279856
+        ],
+        [
+          "HealthRecordsDAO.java",
+          0.8066618589670432
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7991491011750697
+        ],
+        [
+          "PatientDAO.java",
+          0.7916254452896118
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC10E2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          0.8739442487601304
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8301820691912968
+        ],
+        [
+          "RiskDAO.java",
+          0.8250039167124429
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7961005830226738
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7915849928489523
+        ],
+        [
+          "PatientBaseAction.java",
+          0.7846575907913156
+        ],
+        [
+          "EditPHRAction.java",
+          0.7727343728748955
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7716036171770095
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7712269530531564
+        ],
+        [
+          "HealthRecordsDAO.java",
+          0.7559345618562057
+        ],
+        [
+          "AuthDAO.java",
+          0.7040320150248208
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC10S1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "EditHealthHistoryAction.java",
+        "EditPHRAction.java",
+        "FamilyDAO.java",
+        "HealthRecordsDAO.java",
+        "OfficeVisitDAO.java",
+        "PersonnelDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0366188920324029
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0137757694628968
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9596420288857036
+        ],
+        [
+          "EditPHRAction.java",
+          0.9441564823784308
+        ],
+        [
+          "AuthDAO.java",
+          0.9206952314073533
+        ],
+        [
+          "RiskDAO.java",
+          0.9030591682453551
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9012140417498103
+        ],
+        [
+          "TransactionDAO.java",
+          0.8840447111764244
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8561474450189913
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8535186731817385
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8509009468269345
+        ]
+      ],
+      "metrics": {
+        "true_positives": 4,
+        "false_positives": 7,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC10S2.txt",
+      "true_classes": [
+        "TransactionDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          0.9926014557632319
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9288705621834451
+        ],
+        [
+          "AuthDAO.java",
+          0.8969100834192687
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8962715316030975
+        ],
+        [
+          "RiskDAO.java",
+          0.8791523660583013
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8759819702969133
+        ],
+        [
+          "TransactionDAO.java",
+          0.8752135424800993
+        ],
+        [
+          "EditPHRAction.java",
+          0.8738928289034364
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8513064934382267
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8456036944830413
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8340516545862526
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC11E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.901871574274063
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8614150180420874
+        ],
+        [
+          "RiskDAO.java",
+          0.8533437419793605
+        ],
+        [
+          "TransactionDAO.java",
+          0.8424821058797834
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8237843119432924
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.8145183503444193
+        ],
+        [
+          "PatientDAO.java",
+          0.8013502354860306
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7995531141407488
+        ],
+        [
+          "EditPHRAction.java",
+          0.792296166357994
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7885781115753648
+        ],
+        [
+          "DeclareHCPAction.java",
+          0.7851171754403112
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC11E2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          0.8822710765466776
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8246777878390151
+        ],
+        [
+          "RiskDAO.java",
+          0.8180605326878229
+        ],
+        [
+          "PersonnelDAO.java",
+          0.7961713508218569
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7912124532097975
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7895236380725702
+        ],
+        [
+          "PatientBaseAction.java",
+          0.783608740241269
+        ],
+        [
+          "PersonnelBaseAction.java",
+          0.7732911760008994
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7700069555630682
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7665410309429963
+        ],
+        [
+          "EditPHRAction.java",
+          0.7600476068369546
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC11S1.txt",
+      "true_classes": [
+        "AllergyDAO.java",
+        "EditOfficeVisitAction.java",
+        "OfficeVisitDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          1.221175248016031
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1785451577148611
+        ],
+        [
+          "PatientDAO.java",
+          0.9760253056876543
+        ],
+        [
+          "AuthDAO.java",
+          0.8917181053166228
+        ],
+        [
+          "EditPHRAction.java",
+          0.8897072475572653
+        ],
+        [
+          "RiskDAO.java",
+          0.8690100213291533
+        ],
+        [
+          "TransactionDAO.java",
+          0.8614507128108551
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8559461405122597
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8416264763555485
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.837635015716097
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8361725622421821
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC11S2.txt",
+      "true_classes": [
+        "AllergyDAO.java",
+        "EditOfficeVisitAction.java",
+        "OfficeVisitDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          1.145389819551837
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8509512262042244
+        ],
+        [
+          "RiskDAO.java",
+          0.7913237925452188
+        ],
+        [
+          "TransactionDAO.java",
+          0.7878957640198828
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7611221598940006
+        ],
+        [
+          "AdverseEventDAO.java",
+          0.7507355613714087
+        ],
+        [
+          "DrugInteractionDAO.java",
+          0.7468544529181247
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.7441665515815918
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7408274904953658
+        ],
+        [
+          "LOINCDAO.java",
+          0.7390770373151079
+        ],
+        [
+          "PatientDAO.java",
+          0.7389972535325204
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC12.txt",
+      "true_classes": [
+        "TransactionDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "TransactionDAO.java",
+          0.8481157709488555
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8436147974444228
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.82884839450895
+        ],
+        [
+          "RiskDAO.java",
+          0.7897416776354153
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.772875343849055
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.7703501036744911
+        ],
+        [
+          "PrescriptionReportAction.java",
+          0.7658344552163917
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.7657176527904987
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7646056599788825
+        ],
+        [
+          "LoginFailureAction.java",
+          0.7586302485667228
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7577726059199333
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC13.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "EditRepresentativesAction.java",
+        "PatientDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.768315943410046
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.581401278536983
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.4593698386856753
+        ],
+        [
+          "EditPHRAction.java",
+          1.4503655554546175
+        ],
+        [
+          "AuthDAO.java",
+          1.450314738816414
+        ],
+        [
+          "TransactionDAO.java",
+          1.4218835747335032
+        ],
+        [
+          "RiskDAO.java",
+          1.4200197973353423
+        ],
+        [
+          "PersonnelDAO.java",
+          1.4033749040234682
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.348027983829298
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.3210449618647924
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          1.2873372604217026
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC13E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "EditPHRAction.java",
+          1.0308748827747807
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8761712241246699
+        ],
+        [
+          "TransactionDAO.java",
+          0.8716310127933026
+        ],
+        [
+          "RiskDAO.java",
+          0.8685079007835387
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8630249711371958
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.846081700379133
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8318087055094242
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.8061332682960032
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.8026611146993636
+        ],
+        [
+          "HealthRecordsDAO.java",
+          0.7999310744158251
+        ],
+        [
+          "PatientDAO.java",
+          0.7996090477752684
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC15E1.txt",
+      "true_classes": [
+        "DiagnosisBeanValidator.java",
+        "LOINCBeanValidator.java",
+        "MedicationBeanValidator.java",
+        "ProcedureBeanValidator.java"
+      ],
+      "predicted_classes": [
+        [
+          "UpdateCPTCodeListAction.java",
+          1.1686167422859295
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.1221998501147818
+        ],
+        [
+          "UpdateNDCodeListAction.java",
+          1.0852013476686502
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0131145633471008
+        ],
+        [
+          "RiskDAO.java",
+          0.9608785268268584
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9237242691314219
+        ],
+        [
+          "TransactionDAO.java",
+          0.9062751235063073
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.8998616434357165
+        ],
+        [
+          "UpdateICDCodeListAction.java",
+          0.8981000957836829
+        ],
+        [
+          "NDCodesDAO.java",
+          0.8887194487473963
+        ],
+        [
+          "EditPHRAction.java",
+          0.8737153707647324
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 4
+      }
+    },
+    {
+      "requirement_id": "UC15S1.txt",
+      "true_classes": [
+        "CPTCodesDAO.java",
+        "UpdateCPTCodeListAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "CPTCodesDAO.java",
+          1.8509697639720324
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          1.82358267821057
+        ],
+        [
+          "PatientDAO.java",
+          1.0218199500427876
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.997363710494647
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9611482878315778
+        ],
+        [
+          "EditPHRAction.java",
+          0.9558900548450453
+        ],
+        [
+          "AuthDAO.java",
+          0.9481953653499071
+        ],
+        [
+          "TransactionDAO.java",
+          0.9218530373780135
+        ],
+        [
+          "PersonnelDAO.java",
+          0.907411073869893
+        ],
+        [
+          "RiskDAO.java",
+          0.9034256349028635
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8944169837939571
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC15S2.txt",
+      "true_classes": [
+        "ICDCodesDAO.java",
+        "UpdateICDCodeListAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "ICDCodesDAO.java",
+          1.8196378876264827
+        ],
+        [
+          "UpdateICDCodeListAction.java",
+          1.7478585004735225
+        ],
+        [
+          "PatientDAO.java",
+          0.9560752571668559
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9490034998139323
+        ],
+        [
+          "EditPHRAction.java",
+          0.9320244368470509
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9119101420208612
+        ],
+        [
+          "AuthDAO.java",
+          0.9057821740953568
+        ],
+        [
+          "RiskDAO.java",
+          0.8949587356703426
+        ],
+        [
+          "TransactionDAO.java",
+          0.8827529687351348
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8617179925666639
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8587802808294556
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC15S3.txt",
+      "true_classes": [
+        "NDCodesDAO.java",
+        "UpdateNDCodeListAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "NDCodesDAO.java",
+          1.353773569180016
+        ],
+        [
+          "UpdateNDCodeListAction.java",
+          1.2851161786031422
+        ],
+        [
+          "PatientDAO.java",
+          1.167681631806873
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1450230127436434
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0911880693903808
+        ],
+        [
+          "AuthDAO.java",
+          1.0819372395493208
+        ],
+        [
+          "TransactionDAO.java",
+          1.048258099377778
+        ],
+        [
+          "RiskDAO.java",
+          1.0356811316392143
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0244683091218791
+        ],
+        [
+          "EditPHRAction.java",
+          1.0199477781128885
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.0137943788647836
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC15S4.txt",
+      "true_classes": [
+        "LOINCDAO.java",
+        "UpdateLOINCListAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "LOINCDAO.java",
+          1.4965874807423634
+        ],
+        [
+          "PatientDAO.java",
+          1.3749889524370191
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.3552381323994747
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.2687670643143396
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.207901495973218
+        ],
+        [
+          "AuthDAO.java",
+          1.1980076777032391
+        ],
+        [
+          "RiskDAO.java",
+          1.1876463458942756
+        ],
+        [
+          "EditPHRAction.java",
+          1.1861908287060057
+        ],
+        [
+          "TransactionDAO.java",
+          1.1820629113735182
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.1537327595111786
+        ],
+        [
+          "PersonnelDAO.java",
+          1.1535021045422982
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC16.txt",
+      "true_classes": [
+        "ChronicDiseaseRiskAction.java",
+        "HealthRecordsDAO.java",
+        "HeartDiseaseRisks.java",
+        "RiskChecker.java",
+        "Type1DiabetesRisks.java",
+        "Type2DiabetesRisks.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.005807325359343
+        ],
+        [
+          "EditPHRAction.java",
+          0.9601821021757398
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9531710407263813
+        ],
+        [
+          "RiskDAO.java",
+          0.9438527175983339
+        ],
+        [
+          "AuthDAO.java",
+          0.9344848632216498
+        ],
+        [
+          "TransactionDAO.java",
+          0.9240674729346555
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9215687163268111
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8952592888082344
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8942775076350956
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.8822649616432708
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8774504691612869
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 6
+      }
+    },
+    {
+      "requirement_id": "UC16E1.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.503764689767183
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.3706097497568104
+        ],
+        [
+          "AuthDAO.java",
+          1.307660770820463
+        ],
+        [
+          "RiskDAO.java",
+          1.29232111756007
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.257865146255016
+        ],
+        [
+          "EditPHRAction.java",
+          1.2235003883282658
+        ],
+        [
+          "TransactionDAO.java",
+          1.2092626227156618
+        ],
+        [
+          "PersonnelDAO.java",
+          1.2033534486963848
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.1931910634161411
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.1827402660931714
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.1649512325091604
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC17S1.txt",
+      "true_classes": [
+        "GetVisitRemindersAction.java",
+        "VisitRemindersDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "EditPHRAction.java",
+          0.8773147665136665
+        ],
+        [
+          "RiskDAO.java",
+          0.8604855123835787
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.847049889103907
+        ],
+        [
+          "PatientDAO.java",
+          0.8405103326578246
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7761801249069542
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7661499948202719
+        ],
+        [
+          "TransactionDAO.java",
+          0.7571048141068831
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.7305531520146806
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7201258686670418
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.7133114626734516
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.7109737200882758
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC17S2.txt",
+      "true_classes": [
+        "GetVisitRemindersAction.java",
+        "VisitRemindersDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0086947666149326
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9209518696266049
+        ],
+        [
+          "AuthDAO.java",
+          0.8902498274999214
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8686515655211764
+        ],
+        [
+          "RiskDAO.java",
+          0.8676291440434267
+        ],
+        [
+          "EditPHRAction.java",
+          0.8635699006012756
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8590426333254016
+        ],
+        [
+          "TransactionDAO.java",
+          0.85664681868705
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8292442111951006
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8268256320245303
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8200766164219896
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC17S3.txt",
+      "true_classes": [
+        "GetVisitRemindersAction.java",
+        "VisitRemindersDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "GetVisitRemindersAction.java",
+          0.9945540774210108
+        ],
+        [
+          "PatientDAO.java",
+          0.8135472272780324
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.7888407435064314
+        ],
+        [
+          "TransactionDAO.java",
+          0.7686737749814987
+        ],
+        [
+          "RiskDAO.java",
+          0.7671513732683658
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7620269822351933
+        ],
+        [
+          "PersonnelDAO.java",
+          0.7368628719599246
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7319645558066367
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7234341281597613
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.70420679633975
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.6904778453629017
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC18E1.txt",
+      "true_classes": [
+        "HospitalBeanValidator.java"
+      ],
+      "predicted_classes": [
+        [
+          "UpdateHospitalListAction.java",
+          1.0682055124453915
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9900831028997897
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9453560130815505
+        ],
+        [
+          "RiskDAO.java",
+          0.9396544162702559
+        ],
+        [
+          "HospitalsDAO.java",
+          0.9042569839246273
+        ],
+        [
+          "TransactionDAO.java",
+          0.8729502397313119
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8605945289390086
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.8559703680660724
+        ],
+        [
+          "EditPHRAction.java",
+          0.8519543746089936
+        ],
+        [
+          "ManageHospitalAssignmentsAction.java",
+          0.8345352575743289
+        ],
+        [
+          "PatientDAO.java",
+          0.823953281393051
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC18E2.txt",
+      "true_classes": [
+        "HospitalBeanValidator.java"
+      ],
+      "predicted_classes": [
+        [
+          "UpdateHospitalListAction.java",
+          1.0712618470883695
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9487994445405005
+        ],
+        [
+          "HospitalsDAO.java",
+          0.9127524214010236
+        ],
+        [
+          "RiskDAO.java",
+          0.9110080592887401
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9012360959351062
+        ],
+        [
+          "TransactionDAO.java",
+          0.8756456352260112
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.8527559368650913
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8505727040956018
+        ],
+        [
+          "PatientDAO.java",
+          0.8430488926792143
+        ],
+        [
+          "EditPHRAction.java",
+          0.8287734518623352
+        ],
+        [
+          "AuthDAO.java",
+          0.8007078817033767
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC18S1.txt",
+      "true_classes": [
+        "HospitalsDAO.java",
+        "UpdateHospitalListAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "EditOfficeVisitAction.java",
+          0.8454164659415245
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.814926753971529
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7982226391490935
+        ],
+        [
+          "HospitalsDAO.java",
+          0.7908889633678434
+        ],
+        [
+          "UpdateHospitalListAction.java",
+          0.7595209211776435
+        ],
+        [
+          "UpdateNDCodeListAction.java",
+          0.7442040801558493
+        ],
+        [
+          "PatientDAO.java",
+          0.7242746811647415
+        ],
+        [
+          "AuthDAO.java",
+          0.7234536274995804
+        ],
+        [
+          "EditPHRAction.java",
+          0.7125652028617859
+        ],
+        [
+          "PersonnelDAO.java",
+          0.700407977388382
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.6920037343940734
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC18S2.txt",
+      "true_classes": [
+        "HospitalsDAO.java",
+        "UpdateHospitalListAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.264890194264933
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.21894769595623
+        ],
+        [
+          "AuthDAO.java",
+          1.1872130641077348
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1782963288242816
+        ],
+        [
+          "RiskDAO.java",
+          1.133087265475035
+        ],
+        [
+          "EditPHRAction.java",
+          1.1288907387291907
+        ],
+        [
+          "PersonnelDAO.java",
+          1.1270191442065516
+        ],
+        [
+          "TransactionDAO.java",
+          1.103452567812478
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.0827467776882653
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.0705040326196007
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.0694842783143519
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC19E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.8897166272156237
+        ],
+        [
+          "RiskDAO.java",
+          0.8599097057847975
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8443453689787387
+        ],
+        [
+          "TransactionDAO.java",
+          0.8356373462798592
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8292805203816889
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.821125834284067
+        ],
+        [
+          "EditPHRAction.java",
+          0.7967828541898727
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.795539695567131
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.787524366733074
+        ],
+        [
+          "PatientDAO.java",
+          0.7861731790781021
+        ],
+        [
+          "AuthDAO.java",
+          0.7598541062021256
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC19E2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          0.8653591152194512
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8327837407779692
+        ],
+        [
+          "RiskDAO.java",
+          0.8061078382430076
+        ],
+        [
+          "DeclareHCPAction.java",
+          0.8003379306971267
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7841275148277282
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7838986892616749
+        ],
+        [
+          "PatientBaseAction.java",
+          0.7769648402282145
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7592670489106178
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.757681535181999
+        ],
+        [
+          "EditMonitoringListAction.java",
+          0.7281604832274912
+        ],
+        [
+          "EditPHRAction.java",
+          0.7266548931455612
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC19S1.txt",
+      "true_classes": [
+        "EmailUtil.java",
+        "PatientDAO.java",
+        "ViewPrescriptionRecordsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0496603544537793
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.982995187902584
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9780570137756565
+        ],
+        [
+          "EditPHRAction.java",
+          0.9696096586401578
+        ],
+        [
+          "RiskDAO.java",
+          0.9393732871788376
+        ],
+        [
+          "TransactionDAO.java",
+          0.9371164290727664
+        ],
+        [
+          "AuthDAO.java",
+          0.9274452960105416
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9151930049514104
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8994476944483406
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8723957455797949
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.8626831505938805
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC19S2.txt",
+      "true_classes": [
+        "PatientDAO.java",
+        "ViewPrescriptionRecordsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.1576874526930807
+        ],
+        [
+          "ReportRequestDAO.java",
+          1.0998007187286956
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0683261213727433
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0372406678499222
+        ],
+        [
+          "EditPHRAction.java",
+          0.9904743327186109
+        ],
+        [
+          "AuthDAO.java",
+          0.9860802525421123
+        ],
+        [
+          "RiskDAO.java",
+          0.9728282943071576
+        ],
+        [
+          "TransactionDAO.java",
+          0.9452610009269098
+        ],
+        [
+          "PersonnelDAO.java",
+          0.940959867260606
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9203850508083341
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9199299335878999
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC19S3.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "EditOfficeVisitAction.java",
+          1.1897986816870336
+        ],
+        [
+          "PatientDAO.java",
+          0.9063144480507646
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8863326122624872
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.8088336729691027
+        ],
+        [
+          "EmergencyReportAction.java",
+          0.8067757669931556
+        ],
+        [
+          "RiskDAO.java",
+          0.8022465330126285
+        ],
+        [
+          "PrescriptionReportAction.java",
+          0.7986638769867235
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.7801366230883596
+        ],
+        [
+          "UpdateNDCodeListAction.java",
+          0.7646479774137415
+        ],
+        [
+          "ReportRequestDAO.java",
+          0.7630133552241186
+        ],
+        [
+          "EditPatientAction.java",
+          0.755044698898109
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC1E1.txt",
+      "true_classes": [
+        "AddPatientValidator.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.203664821263964
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.124086681451554
+        ],
+        [
+          "AuthDAO.java",
+          1.116913919165626
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0720309468469618
+        ],
+        [
+          "RiskDAO.java",
+          1.0642658227141149
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0512413930173663
+        ],
+        [
+          "EditPHRAction.java",
+          1.0404567553191184
+        ],
+        [
+          "TransactionDAO.java",
+          1.0266394869619901
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.018388424478625
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.0037060347273796
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9976609891502856
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC1E2.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "EditPHRAction.java",
+          0.8876882657677692
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.880713393163334
+        ],
+        [
+          "RiskDAO.java",
+          0.8666120330849125
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8645295302157182
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.817610092493404
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8125127559077089
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.79885648211425
+        ],
+        [
+          "PatientDAO.java",
+          0.7966845870950005
+        ],
+        [
+          "HospitalsDAO.java",
+          0.7820540119683526
+        ],
+        [
+          "PersonnelDAO.java",
+          0.750667662507404
+        ],
+        [
+          "AuthDAO.java",
+          0.7375225676185434
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC1S1.txt",
+      "true_classes": [
+        "AddPatientAction.java",
+        "AuthDAO.java",
+        "PatientDAO.java",
+        "TransactionDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "AuthDAO.java",
+          1.3199453836002593
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.202047230206465
+        ],
+        [
+          "PatientDAO.java",
+          1.1395796448731188
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0596602036134504
+        ],
+        [
+          "EditPHRAction.java",
+          1.0217384998405665
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.017829422538227
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9892119891237667
+        ],
+        [
+          "RiskDAO.java",
+          0.9768230932868255
+        ],
+        [
+          "TransactionDAO.java",
+          0.9685686329987109
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9441005112166405
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.915737260698711
+        ]
+      ],
+      "metrics": {
+        "true_positives": 3,
+        "false_positives": 8,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC1S2.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.3617375925338897
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.2531082568175065
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1763118792867187
+        ],
+        [
+          "AuthDAO.java",
+          1.135797645051648
+        ],
+        [
+          "EditPHRAction.java",
+          1.1259472561785218
+        ],
+        [
+          "RiskDAO.java",
+          1.1106833793088065
+        ],
+        [
+          "TransactionDAO.java",
+          1.09065448217116
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.0723426594204688
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0685911857565138
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.0372699334191917
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.0260791697318072
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC21E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.8897166272156237
+        ],
+        [
+          "RiskDAO.java",
+          0.8599097057847975
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8443453689787387
+        ],
+        [
+          "TransactionDAO.java",
+          0.8356373462798592
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8292805203816889
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.821125834284067
+        ],
+        [
+          "EditPHRAction.java",
+          0.7967828541898727
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.795539695567131
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.787524366733074
+        ],
+        [
+          "PatientDAO.java",
+          0.7861731790781021
+        ],
+        [
+          "AuthDAO.java",
+          0.7598541062021256
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC21E2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          0.980439098945326
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9249728852337996
+        ],
+        [
+          "RiskDAO.java",
+          0.9166505686740081
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8892179512762227
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8851807296363511
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8744510724847316
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8691255255670547
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.8342761636760232
+        ],
+        [
+          "PatientBaseAction.java",
+          0.8284261578925513
+        ],
+        [
+          "DrugInteractionDAO.java",
+          0.826287751398484
+        ],
+        [
+          "AdverseEventDAO.java",
+          0.811639361720244
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC21S1.txt",
+      "true_classes": [
+        "AllergyDAO.java",
+        "EmergencyReportAction.java",
+        "PatientDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.5467643216833242
+        ],
+        [
+          "AuthDAO.java",
+          1.3487373190922276
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.3300139489904363
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.3154973436889645
+        ],
+        [
+          "RiskDAO.java",
+          1.312526983300842
+        ],
+        [
+          "TransactionDAO.java",
+          1.3058356302891143
+        ],
+        [
+          "PersonnelDAO.java",
+          1.2929387776407644
+        ],
+        [
+          "EditPHRAction.java",
+          1.2550243312754628
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.23244945281048
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.1925536211265877
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.183423647639265
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC22E1.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.8890461080045697
+        ],
+        [
+          "RiskDAO.java",
+          0.8701486468991582
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8534136061262432
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.8285312928217322
+        ],
+        [
+          "EditPHRAction.java",
+          0.8145253706411881
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.8101825401221622
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8093701090140125
+        ],
+        [
+          "PatientDAO.java",
+          0.7907483065041628
+        ],
+        [
+          "UpdateNDCodeListAction.java",
+          0.7809445923763404
+        ],
+        [
+          "UpdateICDCodeListAction.java",
+          0.7766623126898679
+        ],
+        [
+          "AuthDAO.java",
+          0.7463329297386516
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC22E2.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.8698507450518609
+        ],
+        [
+          "RiskDAO.java",
+          0.8067557448120115
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7792700648202894
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7509272507443426
+        ],
+        [
+          "PatientDAO.java",
+          0.739960183238983
+        ],
+        [
+          "ChronicDiseaseRiskAction.java",
+          0.7377490535638331
+        ],
+        [
+          "AuthDAO.java",
+          0.7195649665832521
+        ],
+        [
+          "EditPHRAction.java",
+          0.6913586306190489
+        ],
+        [
+          "PersonnelDAO.java",
+          0.6610947602748871
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.6556721583223343
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.6515115619897841
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC22S1.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0495115921672509
+        ],
+        [
+          "AuthDAO.java",
+          1.010930124124658
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0047961068913152
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9589897559569932
+        ],
+        [
+          "TransactionDAO.java",
+          0.9434542273882958
+        ],
+        [
+          "EditPHRAction.java",
+          0.9394294257871055
+        ],
+        [
+          "RiskDAO.java",
+          0.9336206650244908
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9308666309378133
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9119945259632952
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.9008583143944525
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8998557875634424
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC22S2.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "GetVisitRemindersAction.java",
+          1.0711504479434972
+        ],
+        [
+          "PatientDAO.java",
+          0.9659125188613686
+        ],
+        [
+          "AuthDAO.java",
+          0.9377128113433654
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9307544602248846
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.918413440105888
+        ],
+        [
+          "TransactionDAO.java",
+          0.8970456755508542
+        ],
+        [
+          "EditPHRAction.java",
+          0.8799171399819816
+        ],
+        [
+          "RiskDAO.java",
+          0.867368206336366
+        ],
+        [
+          "PersonnelDAO.java",
+          0.865418565704582
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8547621850022882
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.838467730612894
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC22S3.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          0.9669145861994225
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9316157226310422
+        ],
+        [
+          "AuthDAO.java",
+          0.9109659804363327
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9099298118813387
+        ],
+        [
+          "EditPHRAction.java",
+          0.895500952647424
+        ],
+        [
+          "TransactionDAO.java",
+          0.886703498523197
+        ],
+        [
+          "RiskDAO.java",
+          0.878189053792332
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8644883296187346
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8614649941680597
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8486052835852838
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8373871449331597
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC23E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "EditPHRAction.java",
+          0.9461471838681095
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8837563431041242
+        ],
+        [
+          "RiskDAO.java",
+          0.8586296044070719
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8039702022898195
+        ],
+        [
+          "TransactionDAO.java",
+          0.7980756571254729
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7776760205142498
+        ],
+        [
+          "PatientDAO.java",
+          0.7714061397933959
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.7665395305860041
+        ],
+        [
+          "AuthDAO.java",
+          0.7365737838840484
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.7096860521316528
+        ],
+        [
+          "PersonnelDAO.java",
+          0.7043743266868591
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC23E2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          0.865851249855763
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8397886646226407
+        ],
+        [
+          "RiskDAO.java",
+          0.7931351576678275
+        ],
+        [
+          "DeclareHCPAction.java",
+          0.7912858322634415
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7793233053041935
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7635459056056499
+        ],
+        [
+          "PatientBaseAction.java",
+          0.761869432661198
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7430342889354705
+        ],
+        [
+          "EditPHRAction.java",
+          0.7072480545225143
+        ],
+        [
+          "AuthDAO.java",
+          0.6995935366048813
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.6870126323890685
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC23S1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.3003298995067585
+        ],
+        [
+          "AuthDAO.java",
+          1.1216924122924146
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1157309573054248
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.102434819530515
+        ],
+        [
+          "RiskDAO.java",
+          1.0833184767068895
+        ],
+        [
+          "EditPHRAction.java",
+          1.0730263021584538
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0421232213854374
+        ],
+        [
+          "TransactionDAO.java",
+          1.0381789767793839
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.015898475950793
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.0085256799380076
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.0028136679570792
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC23S3.txt",
+      "true_classes": [
+        "AllergyDAO.java",
+        "FamilyDAO.java",
+        "HealthRecordsDAO.java",
+        "OfficeVisitDAO.java",
+        "PatientDAO.java",
+        "ReportRequestDAO.java",
+        "ViewMyRecordsAction.java",
+        "ViewMyReportRequestsAction.java",
+        "ViewReportAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.8255049295119038
+        ],
+        [
+          "PatientDAO.java",
+          0.7993336811158925
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7894644165302069
+        ],
+        [
+          "RiskDAO.java",
+          0.7587297480568018
+        ],
+        [
+          "AdverseEventDAO.java",
+          0.7372765545810351
+        ],
+        [
+          "PersonnelDAO.java",
+          0.7361376385935653
+        ],
+        [
+          "PrescriptionReportAction.java",
+          0.7302922991370348
+        ],
+        [
+          "ReportRequestDAO.java",
+          0.7251823051625689
+        ],
+        [
+          "EmergencyReportAction.java",
+          0.7201121525331301
+        ],
+        [
+          "HealthRecordsDAO.java",
+          0.7172970304537114
+        ],
+        [
+          "DAOFactory.java",
+          0.7161720605526836
+        ]
+      ],
+      "metrics": {
+        "true_positives": 4,
+        "false_positives": 7,
+        "false_negatives": 5
+      }
+    },
+    {
+      "requirement_id": "UC23S4.txt",
+      "true_classes": [
+        "ReportRequestDAO.java",
+        "ViewMyReportRequestsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "ReportRequestDAO.java",
+          1.2564602111460381
+        ],
+        [
+          "PatientDAO.java",
+          1.21733604934885
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.110142533280023
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0960249028078555
+        ],
+        [
+          "AuthDAO.java",
+          1.0921593244122751
+        ],
+        [
+          "EditPHRAction.java",
+          1.0875345322261332
+        ],
+        [
+          "RiskDAO.java",
+          1.063369540578203
+        ],
+        [
+          "PersonnelDAO.java",
+          1.047380654985938
+        ],
+        [
+          "TransactionDAO.java",
+          1.0348695145180893
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.032351985200405
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.022277359682927
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC24.txt",
+      "true_classes": [
+        "SurveyAction.java",
+        "SurveyDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          1.0521929800982548
+        ],
+        [
+          "PatientDAO.java",
+          1.0516631818020141
+        ],
+        [
+          "AuthDAO.java",
+          0.9957831926974258
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9927970194305277
+        ],
+        [
+          "EditPHRAction.java",
+          0.9720149256665707
+        ],
+        [
+          "RiskDAO.java",
+          0.9712946197023987
+        ],
+        [
+          "TransactionDAO.java",
+          0.9629422560923545
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9415445161094764
+        ],
+        [
+          "SurveyDAO.java",
+          0.9273435521813331
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9261441303897175
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9173066036205318
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC25.txt",
+      "true_classes": [
+        "HospitalsDAO.java",
+        "SurveyResultDAO.java",
+        "ViewSurveyResultAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "SurveyResultDAO.java",
+          1.1024026010506636
+        ],
+        [
+          "PatientDAO.java",
+          0.9537692652233333
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9423120408412385
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9174050840744914
+        ],
+        [
+          "EditPHRAction.java",
+          0.8938487054400172
+        ],
+        [
+          "AuthDAO.java",
+          0.8837861428204542
+        ],
+        [
+          "RiskDAO.java",
+          0.8728434044141692
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8650789660129293
+        ],
+        [
+          "TransactionDAO.java",
+          0.8566437736117413
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8378852006653246
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.8333761804592761
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC25E1.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.306324443160604
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1813784765647273
+        ],
+        [
+          "EditPHRAction.java",
+          1.126152625010331
+        ],
+        [
+          "RiskDAO.java",
+          1.104957490403089
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1014151378002166
+        ],
+        [
+          "AuthDAO.java",
+          1.0976054316170012
+        ],
+        [
+          "PersonnelDAO.java",
+          1.066235913714901
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.0380699698814482
+        ],
+        [
+          "TransactionDAO.java",
+          1.0321944634627764
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.0199053222793206
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.0173230386668353
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC26E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.64719959592695
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.52980536434402
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.3538876401166915
+        ],
+        [
+          "RiskDAO.java",
+          1.326585834470391
+        ],
+        [
+          "AuthDAO.java",
+          1.2983645898702243
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.2618629733253273
+        ],
+        [
+          "EditPHRAction.java",
+          1.2496856713323594
+        ],
+        [
+          "PersonnelDAO.java",
+          1.2443218362752348
+        ],
+        [
+          "TransactionDAO.java",
+          1.2418943486917762
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.22748630884327
+        ],
+        [
+          "HospitalsDAO.java",
+          1.1734393027467032
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC26E2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.6374681434564289
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.5039246964039898
+        ],
+        [
+          "AuthDAO.java",
+          1.35540963738809
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.330385445222139
+        ],
+        [
+          "RiskDAO.java",
+          1.323398088906954
+        ],
+        [
+          "PersonnelDAO.java",
+          1.3005106238096948
+        ],
+        [
+          "EditPHRAction.java",
+          1.277619750951767
+        ],
+        [
+          "TransactionDAO.java",
+          1.2666168742592137
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.2456226435522237
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.224042986167719
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.2123851504411696
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC26S1.txt",
+      "true_classes": [
+        "LabProcedureDAO.java",
+        "ViewMyRecordsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "LabProcedureDAO.java",
+          1.1271154619345245
+        ],
+        [
+          "PatientDAO.java",
+          1.0565536065702852
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0218171487104377
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9722217851919087
+        ],
+        [
+          "AuthDAO.java",
+          0.9621794773457569
+        ],
+        [
+          "RiskDAO.java",
+          0.9321627354930457
+        ],
+        [
+          "TransactionDAO.java",
+          0.9228242584482178
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9221675433503194
+        ],
+        [
+          "EditPHRAction.java",
+          0.9101903003634777
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9049689071114674
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.8923860050491592
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC26S2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "EditPatientAction.java",
+        "GetUserNameAction.java",
+        "LabProcUAPAction.java",
+        "LabProcedureDAO.java",
+        "PatientDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.2644256278360615
+        ],
+        [
+          "LabProcedureDAO.java",
+          1.2492593740622797
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1714025032090722
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1400934363681958
+        ],
+        [
+          "AuthDAO.java",
+          1.102500766135221
+        ],
+        [
+          "EditPHRAction.java",
+          1.0610199680006502
+        ],
+        [
+          "TransactionDAO.java",
+          1.0438698045080173
+        ],
+        [
+          "RiskDAO.java",
+          1.041440183850055
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0310838434910878
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.0093452528202584
+        ],
+        [
+          "EmergencyReportAction.java",
+          0.9942267526831625
+        ]
+      ],
+      "metrics": {
+        "true_positives": 3,
+        "false_positives": 8,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC26S3.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java",
+        "LabProcUAPAction.java",
+        "LabProcedureDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0981394018102755
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0586165935198404
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.019314933695316
+        ],
+        [
+          "AuthDAO.java",
+          1.0145240360605172
+        ],
+        [
+          "TransactionDAO.java",
+          0.9714699988372844
+        ],
+        [
+          "RiskDAO.java",
+          0.9687481322168268
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9636172794297181
+        ],
+        [
+          "EditPHRAction.java",
+          0.9577385336880683
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9517143393192886
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9374647078692834
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.9356797338907149
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC26S4.txt",
+      "true_classes": [
+        "LabProcedureDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          1.5111297120946299
+        ],
+        [
+          "LabProcedureDAO.java",
+          1.2474821920358725
+        ],
+        [
+          "PatientDAO.java",
+          1.2299456647702305
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1553292534460127
+        ],
+        [
+          "AuthDAO.java",
+          1.1037487947394695
+        ],
+        [
+          "RiskDAO.java",
+          1.0701071019018997
+        ],
+        [
+          "EditPHRAction.java",
+          1.068938624757528
+        ],
+        [
+          "PersonnelDAO.java",
+          1.066737094048094
+        ],
+        [
+          "TransactionDAO.java",
+          1.0548001489099859
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.0185015881718322
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.011786469153404
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC27S1.txt",
+      "true_classes": [
+        "EmailUtil.java",
+        "ResetPasswordAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "ResetPasswordAction.java",
+          1.0670222692269826
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.7804804816493985
+        ],
+        [
+          "RiskDAO.java",
+          0.7669473820085524
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7508669152209757
+        ],
+        [
+          "TransactionDAO.java",
+          0.7468554310243128
+        ],
+        [
+          "PatientDAO.java",
+          0.7311762612485885
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7296299826002121
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7094730744750498
+        ],
+        [
+          "FakeEmailDAO.java",
+          0.7069264704187016
+        ],
+        [
+          "AuthDAO.java",
+          0.7065600659322738
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.6996884018719196
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC27S2.txt",
+      "true_classes": [
+        "EmailUtil.java",
+        "LabProcUAPAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.2738466380747997
+        ],
+        [
+          "LabProcedureDAO.java",
+          1.2147708863895104
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.2004695341647904
+        ],
+        [
+          "AuthDAO.java",
+          1.1185203957334282
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1030464458205265
+        ],
+        [
+          "EditPHRAction.java",
+          1.081078859819152
+        ],
+        [
+          "RiskDAO.java",
+          1.0671260312692314
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0344115400463763
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.0224816237647747
+        ],
+        [
+          "TransactionDAO.java",
+          1.0206908349737722
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.0133321950345195
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC28.txt",
+      "true_classes": [
+        "OfficeVisitDAO.java",
+        "PatientDAO.java",
+        "ViewPatientOfficeVisitHistoryAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          1.051192722620597
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9653686181481678
+        ],
+        [
+          "RiskDAO.java",
+          0.9543988238570688
+        ],
+        [
+          "PatientDAO.java",
+          0.9336523179402105
+        ],
+        [
+          "TransactionDAO.java",
+          0.8915992693493365
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8775442685396427
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.868392880455732
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.8555037197053432
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.8312990953005274
+        ],
+        [
+          "EditPHRAction.java",
+          0.8294501995277405
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8276186026484965
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC29.txt",
+      "true_classes": [
+        "LabProcedureDAO.java",
+        "MyDiagnosisAction.java",
+        "OfficeVisitDAO.java",
+        "PatientDAO.java",
+        "PersonnelDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.3091179892931715
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.2784466947558106
+        ],
+        [
+          "MyDiagnosisAction.java",
+          1.1613169010281894
+        ],
+        [
+          "SurveyResultDAO.java",
+          1.0901419123504184
+        ],
+        [
+          "EmergencyReportAction.java",
+          1.0899909176741307
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9815862806304549
+        ],
+        [
+          "EditPHRAction.java",
+          0.9457684853170235
+        ],
+        [
+          "AuthDAO.java",
+          0.9424253705332045
+        ],
+        [
+          "RiskDAO.java",
+          0.936420179227809
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9119988940661069
+        ],
+        [
+          "TransactionDAO.java",
+          0.9111509640623652
+        ]
+      ],
+      "metrics": {
+        "true_positives": 4,
+        "false_positives": 7,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC2E2.txt",
+      "true_classes": [
+        "AddPersonnelValidator.java"
+      ],
+      "predicted_classes": [
+        [
+          "EditPHRAction.java",
+          0.8876882657677692
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.880713393163334
+        ],
+        [
+          "RiskDAO.java",
+          0.8666120330849125
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8645295302157182
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.817610092493404
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8125127559077089
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.79885648211425
+        ],
+        [
+          "PatientDAO.java",
+          0.7966845870950005
+        ],
+        [
+          "HospitalsDAO.java",
+          0.7820540119683526
+        ],
+        [
+          "PersonnelDAO.java",
+          0.750667662507404
+        ],
+        [
+          "AuthDAO.java",
+          0.7375225676185434
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC2S1.txt",
+      "true_classes": [
+        "AddHCPAction.java",
+        "AuthDAO.java",
+        "PersonnelDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "HospitalsDAO.java",
+          1.0528410038374234
+        ],
+        [
+          "SurveyResultDAO.java",
+          1.0237745923460406
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.0162163559134427
+        ],
+        [
+          "PatientDAO.java",
+          0.9390223613223979
+        ],
+        [
+          "AuthDAO.java",
+          0.9065190539403051
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9054989292510444
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8997288632196102
+        ],
+        [
+          "EditPHRAction.java",
+          0.8914557432045227
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8803412117983839
+        ],
+        [
+          "TransactionDAO.java",
+          0.8703345199679379
+        ],
+        [
+          "RiskDAO.java",
+          0.8556635084587159
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC2S2.txt",
+      "true_classes": [
+        "AddUAPAction.java",
+        "AuthDAO.java",
+        "PersonnelDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.328222739266703
+        ],
+        [
+          "AuthDAO.java",
+          1.21595481183619
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.2074881650597415
+        ],
+        [
+          "EditPHRAction.java",
+          1.1765959829944608
+        ],
+        [
+          "TransactionDAO.java",
+          1.1699033789686704
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1696133602099417
+        ],
+        [
+          "PersonnelDAO.java",
+          1.151268949730333
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.1160140926999638
+        ],
+        [
+          "RiskDAO.java",
+          1.1098530925246772
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.0874530440861692
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.0790782427358627
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC30E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.901871574274063
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8614150180420874
+        ],
+        [
+          "RiskDAO.java",
+          0.8533437419793605
+        ],
+        [
+          "TransactionDAO.java",
+          0.8424821058797834
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8237843119432924
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.8145183503444193
+        ],
+        [
+          "PatientDAO.java",
+          0.8013502354860306
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7995531141407488
+        ],
+        [
+          "EditPHRAction.java",
+          0.792296166357994
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7885781115753648
+        ],
+        [
+          "DeclareHCPAction.java",
+          0.7851171754403112
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC30E2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "DeclareHCPAction.java",
+          0.9279616305020054
+        ],
+        [
+          "PatientDAO.java",
+          0.8815443600748476
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8438330920679568
+        ],
+        [
+          "RiskDAO.java",
+          0.800795120375633
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7995660585336684
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7794118605322836
+        ],
+        [
+          "PatientBaseAction.java",
+          0.7712894722543134
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7702254331569671
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7521958878643512
+        ],
+        [
+          "EditPHRAction.java",
+          0.7228147723102569
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.6966992630052566
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC30S1.txt",
+      "true_classes": [
+        "EmailUtil.java",
+        "MessageDAO.java",
+        "SendMessageAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "FakeEmailDAO.java",
+          1.0733926199584403
+        ],
+        [
+          "MessageDAO.java",
+          1.0621574393236914
+        ],
+        [
+          "PatientDAO.java",
+          1.0519125441685895
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9929066266715348
+        ],
+        [
+          "AuthDAO.java",
+          0.9810310011319835
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9624397328985832
+        ],
+        [
+          "EditPHRAction.java",
+          0.9483001961319958
+        ],
+        [
+          "TransactionDAO.java",
+          0.9437509884131481
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9230035288480722
+        ],
+        [
+          "RiskDAO.java",
+          0.9150344976030959
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9055880968454569
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC30S2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java",
+        "PatientDAO.java",
+        "SendMessageAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0703425445216646
+        ],
+        [
+          "MessageDAO.java",
+          1.0629203995008147
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0052283289919217
+        ],
+        [
+          "AuthDAO.java",
+          0.9922423414743419
+        ],
+        [
+          "EditPHRAction.java",
+          0.9662778530306337
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9646725981252194
+        ],
+        [
+          "TransactionDAO.java",
+          0.9280852340504504
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9273230490216425
+        ],
+        [
+          "RiskDAO.java",
+          0.9205275362539003
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9010514841673848
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8961076415002516
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC30S3.txt",
+      "true_classes": [
+        "MessageDAO.java",
+        "SendMessageAction.java",
+        "ViewMyMessagesAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.1117414324557995
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0347279031493672
+        ],
+        [
+          "AuthDAO.java",
+          1.011399549921174
+        ],
+        [
+          "EditPHRAction.java",
+          0.9889847905107337
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9875064583030541
+        ],
+        [
+          "TransactionDAO.java",
+          0.9417059219690075
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9392023965662124
+        ],
+        [
+          "RiskDAO.java",
+          0.9330620239498272
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9268209312066962
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9104166566828089
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8938089166620572
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC30S4.txt",
+      "true_classes": [
+        "MessageDAO.java",
+        "SendMessageAction.java",
+        "ViewMyMessagesAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.121924062610506
+        ],
+        [
+          "FakeEmailDAO.java",
+          1.0826985225655676
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0408080392896655
+        ],
+        [
+          "AuthDAO.java",
+          1.0218238573471323
+        ],
+        [
+          "EditPHRAction.java",
+          0.9974050173203943
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.987482154007673
+        ],
+        [
+          "TransactionDAO.java",
+          0.9574311271954723
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9452427790624521
+        ],
+        [
+          "RiskDAO.java",
+          0.9390089839577084
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9297141828672605
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.913353234388876
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC30S5.txt",
+      "true_classes": [
+        "MessageDAO.java",
+        "ViewMyMessagesAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "MessageDAO.java",
+          1.0307750753197882
+        ],
+        [
+          "PatientDAO.java",
+          0.9427110485003651
+        ],
+        [
+          "AuthDAO.java",
+          0.9037746331034674
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9026954215463917
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8759260881536005
+        ],
+        [
+          "TransactionDAO.java",
+          0.866569235232018
+        ],
+        [
+          "EditPHRAction.java",
+          0.86425356258893
+        ],
+        [
+          "RiskDAO.java",
+          0.8578130754564379
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8493130779150968
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8392879508060631
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8281797929901575
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC30S6.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "MessageDAO.java",
+          1.060138968458024
+        ],
+        [
+          "PatientDAO.java",
+          1.0275414392691056
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9728012599778264
+        ],
+        [
+          "AuthDAO.java",
+          0.957617970979842
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9362757777312252
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9119422963738867
+        ],
+        [
+          "TransactionDAO.java",
+          0.9113374598091458
+        ],
+        [
+          "EditPHRAction.java",
+          0.9093318968672814
+        ],
+        [
+          "RiskDAO.java",
+          0.9045867247238085
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8710862073898703
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8649657087894783
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC30S7.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0697264013114143
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0297051057762692
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9975992463009339
+        ],
+        [
+          "AuthDAO.java",
+          0.9933100290801671
+        ],
+        [
+          "TransactionDAO.java",
+          0.972085458252273
+        ],
+        [
+          "RiskDAO.java",
+          0.9627555039842026
+        ],
+        [
+          "PersonnelDAO.java",
+          0.958552917807099
+        ],
+        [
+          "EditPHRAction.java",
+          0.9583815583292526
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9318187882949006
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9191001070128918
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.9090809229076529
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC31S1.txt",
+      "true_classes": [
+        "PatientDAO.java",
+        "PersonnelDAO.java",
+        "ViewExpiredPrescriptionsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          1.117280652341157
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1157356391746776
+        ],
+        [
+          "PatientDAO.java",
+          0.8885005825009035
+        ],
+        [
+          "RiskDAO.java",
+          0.7880501961007119
+        ],
+        [
+          "EmergencyReportAction.java",
+          0.7795123122346868
+        ],
+        [
+          "TransactionDAO.java",
+          0.773521942146063
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7601605989346504
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7586578784644602
+        ],
+        [
+          "PrescriptionReportAction.java",
+          0.7466835931053057
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.736853792825958
+        ],
+        [
+          "UpdateNDCodeListAction.java",
+          0.7205743766639205
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC31S2.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          0.9229978202844423
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8679661564916897
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.861462158173313
+        ],
+        [
+          "EditPHRAction.java",
+          0.8354081077558707
+        ],
+        [
+          "TransactionDAO.java",
+          0.8238481262113951
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8181409354816815
+        ],
+        [
+          "RiskDAO.java",
+          0.7982511031434918
+        ],
+        [
+          "DrugInteractionDAO.java",
+          0.7819894346557615
+        ],
+        [
+          "EmergencyReportAction.java",
+          0.7679150906712912
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7612691488540932
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.7584536885985087
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC32E1.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.9210940957081316
+        ],
+        [
+          "RiskDAO.java",
+          0.8949549024732112
+        ],
+        [
+          "FamilyDAO.java",
+          0.8514725730762329
+        ],
+        [
+          "PatientDAO.java",
+          0.8395504408407211
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8314864442968367
+        ],
+        [
+          "TransactionDAO.java",
+          0.8136994450664519
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7987238348708151
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.7902745149294094
+        ],
+        [
+          "EditPHRAction.java",
+          0.7805652419900895
+        ],
+        [
+          "AuthDAO.java",
+          0.7743034111976623
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.7657244880738255
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC32S1.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "EditPHRAction.java",
+          1.2633008723297179
+        ],
+        [
+          "PatientDAO.java",
+          1.148238407012499
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0342402107103754
+        ],
+        [
+          "RiskDAO.java",
+          0.9866698429439736
+        ],
+        [
+          "AuthDAO.java",
+          0.9779227519848498
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9770301055841447
+        ],
+        [
+          "TransactionDAO.java",
+          0.9604916384489351
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.9358753783775994
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9224381778154739
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9205455446601403
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9071138116004466
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC32S2.txt",
+      "true_classes": [
+        "PatientDAO.java",
+        "PersonnelDAO.java",
+        "ViewPrescriptionRenewalNeedsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.121353962223705
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.025247171038687
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0200513157196045
+        ],
+        [
+          "AuthDAO.java",
+          0.9911103304978846
+        ],
+        [
+          "EditPHRAction.java",
+          0.9799213979929285
+        ],
+        [
+          "RiskDAO.java",
+          0.9601391327581968
+        ],
+        [
+          "TransactionDAO.java",
+          0.9522513464235874
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9484328123349528
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.9146032613157066
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.904362989514564
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9035645577250476
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC33E1.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.8053216835463186
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7673249429318062
+        ],
+        [
+          "RiskDAO.java",
+          0.7595540758429273
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7448380946614601
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7328193521711825
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7229849183409773
+        ],
+        [
+          "DeclareHCPAction.java",
+          0.7170184586316136
+        ],
+        [
+          "PatientDAO.java",
+          0.7163672430147843
+        ],
+        [
+          "EditPHRAction.java",
+          0.690498050550573
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.6767471116582084
+        ],
+        [
+          "AuthDAO.java",
+          0.6688384556377635
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC33E2.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "ReferralDAO.java",
+          0.9898026361435329
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8743251473157782
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.838070077899343
+        ],
+        [
+          "RiskDAO.java",
+          0.8336028089733498
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.806052882656185
+        ],
+        [
+          "PatientDAO.java",
+          0.7677326044200595
+        ],
+        [
+          "EditPHRAction.java",
+          0.7536242177973295
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7475381249502518
+        ],
+        [
+          "AuthDAO.java",
+          0.7158412401196831
+        ],
+        [
+          "PersonnelDAO.java",
+          0.7030148757132729
+        ],
+        [
+          "TransactionDAO.java",
+          0.6896137826521773
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC33S1.txt",
+      "true_classes": [
+        "PatientDAO.java",
+        "PersonnelDAO.java",
+        "ReferralDAO.java",
+        "ReferralManagementAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0483383716110617
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0155116903964259
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9874529583284141
+        ],
+        [
+          "EditPHRAction.java",
+          0.9503978053898411
+        ],
+        [
+          "AuthDAO.java",
+          0.9447642813136696
+        ],
+        [
+          "TransactionDAO.java",
+          0.9189331556371866
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9168307421962253
+        ],
+        [
+          "RiskDAO.java",
+          0.9150348303711175
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8784855580949982
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8778655891268089
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8753269131763811
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC33S2.txt",
+      "true_classes": [
+        "PatientDAO.java",
+        "PersonnelDAO.java",
+        "ReferralDAO.java",
+        "ReferralManagementAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.2279961796665968
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.164230797833424
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0850319696837558
+        ],
+        [
+          "AuthDAO.java",
+          1.0590209506648234
+        ],
+        [
+          "RiskDAO.java",
+          1.048131843171109
+        ],
+        [
+          "EditPHRAction.java",
+          1.033898257990837
+        ],
+        [
+          "PersonnelDAO.java",
+          1.030371465927453
+        ],
+        [
+          "TransactionDAO.java",
+          1.014690277716302
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9731078348254508
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9689053461030952
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.9652105430059431
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC33S3.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "ReferralDAO.java",
+          1.0925838368156156
+        ],
+        [
+          "PatientDAO.java",
+          1.0576650265146224
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.990020191528762
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9845894448422041
+        ],
+        [
+          "EditPHRAction.java",
+          0.9580257102425978
+        ],
+        [
+          "AuthDAO.java",
+          0.9372590777670023
+        ],
+        [
+          "RiskDAO.java",
+          0.9218073517029793
+        ],
+        [
+          "TransactionDAO.java",
+          0.9201926927007336
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9142374248761771
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8991767342075063
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8824890800965584
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC34E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "GetUserNameAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "DeclareHCPAction.java",
+          0.9279616305020054
+        ],
+        [
+          "PatientDAO.java",
+          0.8815443600748476
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8438330920679568
+        ],
+        [
+          "RiskDAO.java",
+          0.800795120375633
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7995660585336684
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7794118605322836
+        ],
+        [
+          "PatientBaseAction.java",
+          0.7712894722543134
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7702254331569671
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7521958878643512
+        ],
+        [
+          "EditPHRAction.java",
+          0.7228147723102569
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.6966992630052566
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC34E2.txt",
+      "true_classes": [
+        "RemoteMonitoringDataBeanValidator.java"
+      ],
+      "predicted_classes": [
+        [
+          "RemoteMonitoringDAO.java",
+          1.3045927186181343
+        ],
+        [
+          "PatientDAO.java",
+          1.1812990421764211
+        ],
+        [
+          "EditPHRAction.java",
+          1.128535727753088
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0846789397801906
+        ],
+        [
+          "AuthDAO.java",
+          1.0583708737052249
+        ],
+        [
+          "TransactionDAO.java",
+          1.0440681318857237
+        ],
+        [
+          "RiskDAO.java",
+          1.0391795048916737
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0119408959291474
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0078736355615812
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9895946555243524
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.9712049350706251
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC34E3.txt",
+      "true_classes": [
+        "RemoteMonitoringDataBeanValidator.java"
+      ],
+      "predicted_classes": [
+        [
+          "RemoteMonitoringDAO.java",
+          1.317214496466259
+        ],
+        [
+          "PatientDAO.java",
+          1.2352549969104571
+        ],
+        [
+          "EditPHRAction.java",
+          1.153720999957323
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1347180165325677
+        ],
+        [
+          "AuthDAO.java",
+          1.1062152031765304
+        ],
+        [
+          "RiskDAO.java",
+          1.0948741275090665
+        ],
+        [
+          "TransactionDAO.java",
+          1.0947600003332811
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0557707985420224
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0550103263089379
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.0311826035060883
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.0166101555368028
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC34E4.txt",
+      "true_classes": [
+        "RemoteMonitoringDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          0.8686541263877104
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8562188029274652
+        ],
+        [
+          "RiskDAO.java",
+          0.8392058501639555
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8175810505963325
+        ],
+        [
+          "HealthRecordsDAO.java",
+          0.7715320383518885
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.7683993963672636
+        ],
+        [
+          "ReportRequestDAO.java",
+          0.7515965455728433
+        ],
+        [
+          "PatientDAO.java",
+          0.7509505938274383
+        ],
+        [
+          "EditPHRAction.java",
+          0.7344186329675674
+        ],
+        [
+          "TransactionDAO.java",
+          0.7330767229019163
+        ],
+        [
+          "AuthDAO.java",
+          0.7212002030467985
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC34S1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "EditMonitoringListAction.java",
+        "GetUserNameAction.java",
+        "RemoteMonitoringDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "RemoteMonitoringDAO.java",
+          1.273774413373429
+        ],
+        [
+          "PatientDAO.java",
+          1.1364499874360419
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.074972912412174
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.032662037608653
+        ],
+        [
+          "AuthDAO.java",
+          1.0203804855154235
+        ],
+        [
+          "EditPHRAction.java",
+          1.0183165133951189
+        ],
+        [
+          "RiskDAO.java",
+          0.994504660173747
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9788030781256514
+        ],
+        [
+          "TransactionDAO.java",
+          0.9775564829549777
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9514556481868998
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.9246694558777013
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC34S2.txt",
+      "true_classes": [
+        "AddRemoteMonitoringDataAction.java",
+        "RemoteMonitoringDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.042236181879676
+        ],
+        [
+          "EditPHRAction.java",
+          0.9592614989540577
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9549009870753546
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9326001171612275
+        ],
+        [
+          "RiskDAO.java",
+          0.9211511947687812
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9125485886149406
+        ],
+        [
+          "AuthDAO.java",
+          0.9095699202927324
+        ],
+        [
+          "TransactionDAO.java",
+          0.8842992732332219
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8830191380292022
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8608916803675112
+        ],
+        [
+          "FamilyDAO.java",
+          0.8585549895876644
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC34S3.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "RemoteMonitoringDAO.java",
+        "ViewMyRemoteMonitoringListAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "RemoteMonitoringDAO.java",
+          1.6749147005137432
+        ],
+        [
+          "PatientDAO.java",
+          0.9763281617635937
+        ],
+        [
+          "EditPHRAction.java",
+          0.9071355905629793
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9016657256718118
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8820484123875296
+        ],
+        [
+          "AuthDAO.java",
+          0.8806403538187839
+        ],
+        [
+          "TransactionDAO.java",
+          0.8721508005596752
+        ],
+        [
+          "RiskDAO.java",
+          0.8609060522275831
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8296484255689602
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8155706864048349
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8121269163644312
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC34S4.txt",
+      "true_classes": [
+        "PatientDAO.java",
+        "RemoteMonitoringDAO.java",
+        "ViewMyRemoteMonitoringListAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "RemoteMonitoringDAO.java",
+          1.0941266307223834
+        ],
+        [
+          "PatientDAO.java",
+          0.9906168950867015
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9213161260044115
+        ],
+        [
+          "EditPHRAction.java",
+          0.9137397208063335
+        ],
+        [
+          "AuthDAO.java",
+          0.9116764066180767
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8945518140306471
+        ],
+        [
+          "TransactionDAO.java",
+          0.8871805286965414
+        ],
+        [
+          "RiskDAO.java",
+          0.8736526672533841
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8650905210515843
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8320601416660414
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.8255827242005944
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC34S5.txt",
+      "true_classes": [
+        "AddRemoteMonitoringDataAction.java",
+        "AuthDAO.java",
+        "RemoteMonitoringDAO.java",
+        "ViewMyRemoteMonitoringListAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "RemoteMonitoringDAO.java",
+          1.1538867006234252
+        ],
+        [
+          "PatientDAO.java",
+          0.9729429253900481
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9231455446405998
+        ],
+        [
+          "EditPHRAction.java",
+          0.9156606272939496
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9011649095355501
+        ],
+        [
+          "AuthDAO.java",
+          0.8804241719225416
+        ],
+        [
+          "RiskDAO.java",
+          0.8796857268306064
+        ],
+        [
+          "TransactionDAO.java",
+          0.8588255802745008
+        ],
+        [
+          "PersonnelDAO.java",
+          0.849245909376283
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.8296549811656972
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.829646083622217
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC34S6.txt",
+      "true_classes": [
+        "AddRemoteMonitoringDataAction.java",
+        "EditRepresentativesAction.java",
+        "PatientDAO.java",
+        "RemoteMonitoringDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "RemoteMonitoringDAO.java",
+          1.2006402798163034
+        ],
+        [
+          "PatientDAO.java",
+          1.0045162767377245
+        ],
+        [
+          "EditPHRAction.java",
+          0.9504807002431784
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9481448041587955
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9262998466121307
+        ],
+        [
+          "AuthDAO.java",
+          0.9092680712918189
+        ],
+        [
+          "RiskDAO.java",
+          0.904738687376187
+        ],
+        [
+          "TransactionDAO.java",
+          0.8833160589101824
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8691001512866378
+        ],
+        [
+          "FamilyDAO.java",
+          0.856772156138277
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8544998860685769
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC35S1.txt",
+      "true_classes": [
+        "AdverseEventDAO.java",
+        "EmailUtil.java",
+        "PatientDAO.java",
+        "ReportAdverseEventAction.java",
+        "ViewPrescriptionRecordsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "AdverseEventDAO.java",
+          1.222320935659333
+        ],
+        [
+          "PatientDAO.java",
+          1.1811608310492898
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.103774905530694
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0790831370449325
+        ],
+        [
+          "AuthDAO.java",
+          1.044018034665049
+        ],
+        [
+          "EditPHRAction.java",
+          1.0406757161997489
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0128104328422463
+        ],
+        [
+          "RiskDAO.java",
+          1.0084814867506708
+        ],
+        [
+          "TransactionDAO.java",
+          0.9893887494915774
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9603969068748702
+        ],
+        [
+          "DrugInteractionDAO.java",
+          0.952104774988055
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC35S2.txt",
+      "true_classes": [
+        "AdverseEventDAO.java",
+        "EmailUtil.java",
+        "OfficeVisitDAO.java",
+        "ReportAdverseEventAction.java",
+        "ViewMyRecordsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "AdverseEventDAO.java",
+          1.1327902318780747
+        ],
+        [
+          "PatientDAO.java",
+          1.0425621588905503
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9608607887456415
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9605168749240337
+        ],
+        [
+          "EditPHRAction.java",
+          0.9548954884421824
+        ],
+        [
+          "AuthDAO.java",
+          0.9431974353304206
+        ],
+        [
+          "RiskDAO.java",
+          0.9157448200150704
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9089797902521415
+        ],
+        [
+          "TransactionDAO.java",
+          0.8985824674658552
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.881505250221729
+        ],
+        [
+          "EmergencyReportAction.java",
+          0.8782291703762735
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC36S1.txt",
+      "true_classes": [
+        "AdverseEventDAO.java",
+        "EmailUtil.java",
+        "MonitorAdverseEventAction.java",
+        "PatientDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "AdverseEventDAO.java",
+          1.0723999325734401
+        ],
+        [
+          "PatientDAO.java",
+          0.9297208774971161
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9154645411122981
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8897661121923921
+        ],
+        [
+          "AuthDAO.java",
+          0.8792789203834813
+        ],
+        [
+          "EditPHRAction.java",
+          0.8666818696825502
+        ],
+        [
+          "RiskDAO.java",
+          0.8378034731225743
+        ],
+        [
+          "TransactionDAO.java",
+          0.8368766507894843
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8363253322050643
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8236544071426389
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.819550755284071
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC36S2.txt",
+      "true_classes": [
+        "AdverseEventDAO.java",
+        "EmailUtil.java",
+        "MonitorAdverseEventAction.java",
+        "PatientDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "AdverseEventDAO.java",
+          1.076639119591727
+        ],
+        [
+          "PatientDAO.java",
+          0.9410738460784199
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9261412022284214
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8892681714849472
+        ],
+        [
+          "AuthDAO.java",
+          0.875583903026836
+        ],
+        [
+          "EditPHRAction.java",
+          0.873283671323061
+        ],
+        [
+          "RiskDAO.java",
+          0.8449540292972344
+        ],
+        [
+          "TransactionDAO.java",
+          0.8404187255936152
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8333526414681672
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.830357247425325
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8233324918259102
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC36S3.txt",
+      "true_classes": [
+        "AdverseEventDAO.java",
+        "EmailUtil.java",
+        "MessageDAO.java",
+        "MonitorAdverseEventAction.java",
+        "PersonnelDAO.java",
+        "SendMessageAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "AdverseEventDAO.java",
+          1.390026304252729
+        ],
+        [
+          "PatientDAO.java",
+          1.263369688901823
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1949023804830037
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1690693498933316
+        ],
+        [
+          "AuthDAO.java",
+          1.117138255646357
+        ],
+        [
+          "EditPHRAction.java",
+          1.0893688202090261
+        ],
+        [
+          "RiskDAO.java",
+          1.0824923904958272
+        ],
+        [
+          "TransactionDAO.java",
+          1.079322157822141
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0683814721628704
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.050506668410507
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.0344884498942446
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 4
+      }
+    },
+    {
+      "requirement_id": "UC37S1.txt",
+      "true_classes": [
+        "AllergyDAO.java",
+        "EditOfficeVisitAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          1.3604531502506731
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.2581518480088707
+        ],
+        [
+          "PatientDAO.java",
+          1.2545317431396241
+        ],
+        [
+          "RiskDAO.java",
+          1.1961230265169143
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          1.1405464802892207
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.094116167671442
+        ],
+        [
+          "MyDiagnosisAction.java",
+          1.0894254658763407
+        ],
+        [
+          "DrugInteractionDAO.java",
+          1.0550302629512696
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          1.0547304108781812
+        ],
+        [
+          "EditPHRAction.java",
+          1.0500865777158737
+        ],
+        [
+          "AuthDAO.java",
+          1.0237039904022218
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC37S2.txt",
+      "true_classes": [
+        "DrugInteractionDAO.java",
+        "EditOfficeVisitAction.java",
+        "OfficeVisitDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "DrugInteractionDAO.java",
+          1.0936831993075289
+        ],
+        [
+          "DrugInteractionAction.java",
+          1.0433291890371754
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8893391259559066
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.853162764552745
+        ],
+        [
+          "RiskDAO.java",
+          0.826695094027324
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7863075179167012
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.7787798598125631
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.773439496151317
+        ],
+        [
+          "DAOFactory.java",
+          0.7622416428620598
+        ],
+        [
+          "UpdateNDCodeListAction.java",
+          0.7620795855259894
+        ],
+        [
+          "PatientDAO.java",
+          0.7484234572284869
+        ]
+      ],
+      "metrics": {
+        "true_positives": 3,
+        "false_positives": 8,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC37S3.txt",
+      "true_classes": [
+        "EditOfficeVisitAction.java",
+        "EmailUtil.java",
+        "PatientDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "EditOfficeVisitAction.java",
+          1.3232479441963327
+        ],
+        [
+          "DrugInteractionDAO.java",
+          1.170046666143301
+        ],
+        [
+          "PatientDAO.java",
+          1.1425479111232413
+        ],
+        [
+          "FakeEmailDAO.java",
+          1.121195462443278
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.030524850097338
+        ],
+        [
+          "EditPHRAction.java",
+          1.028334545409094
+        ],
+        [
+          "AuthDAO.java",
+          0.9978146670093264
+        ],
+        [
+          "RiskDAO.java",
+          0.9931258447357142
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9642095318410331
+        ],
+        [
+          "TransactionDAO.java",
+          0.9587024973057653
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9514254980542659
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC38S1.txt",
+      "true_classes": [
+        "DrugInteractionAction.java",
+        "DrugInteractionDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "DrugInteractionDAO.java",
+          1.2619091439818486
+        ],
+        [
+          "PatientDAO.java",
+          1.1314621138406171
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0519912796444892
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0394366195189948
+        ],
+        [
+          "EditPHRAction.java",
+          1.0244364811241626
+        ],
+        [
+          "AuthDAO.java",
+          1.0169767697573082
+        ],
+        [
+          "RiskDAO.java",
+          1.0063007419785484
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.986392064845696
+        ],
+        [
+          "TransactionDAO.java",
+          0.9808421074004842
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.9686169386291205
+        ],
+        [
+          "NDCodesDAO.java",
+          0.9541053223290813
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC38S2.txt",
+      "true_classes": [
+        "DrugInteractionAction.java",
+        "DrugInteractionDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "DrugInteractionDAO.java",
+          1.3736694057873509
+        ],
+        [
+          "PatientDAO.java",
+          1.1553704688072293
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0902165929353238
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.075502131172611
+        ],
+        [
+          "AuthDAO.java",
+          1.0319739143565387
+        ],
+        [
+          "RiskDAO.java",
+          1.0294181712516954
+        ],
+        [
+          "EditPHRAction.java",
+          1.016874785754919
+        ],
+        [
+          "TransactionDAO.java",
+          0.987189311753855
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9752504312342404
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9747355702714368
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.9648894004544154
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC3E1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "ResetPasswordAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "LoginFailureAction.java",
+          1.145712864800403
+        ],
+        [
+          "PatientDAO.java",
+          1.0841757969584604
+        ],
+        [
+          "AuthDAO.java",
+          1.0291648790409849
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9885151986838745
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.9732283431637778
+        ],
+        [
+          "TransactionDAO.java",
+          0.9647420635022236
+        ],
+        [
+          "RiskDAO.java",
+          0.9424003836968667
+        ],
+        [
+          "EditPHRAction.java",
+          0.9415840149940127
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9376052901298135
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9092153222225077
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9028576549120853
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC3E2.txt",
+      "true_classes": [
+        "ResetPasswordAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "AuthDAO.java",
+          1.58067414430345
+        ],
+        [
+          "PatientDAO.java",
+          1.4052035724179857
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.2397803475851896
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.2172673465726374
+        ],
+        [
+          "TransactionDAO.java",
+          1.1914252982677218
+        ],
+        [
+          "RiskDAO.java",
+          1.1831994139982915
+        ],
+        [
+          "PersonnelDAO.java",
+          1.1577175916051918
+        ],
+        [
+          "EditPHRAction.java",
+          1.1567783684082031
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.1424661141745704
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.0849534140814256
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.0737751403481506
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC3S1.txt",
+      "true_classes": [
+        "ResetPasswordAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "SetSecurityQuestionAction.java",
+          1.5010531151521855
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8697237634760537
+        ],
+        [
+          "RiskDAO.java",
+          0.8241171049300829
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.7883672532238959
+        ],
+        [
+          "PatientDAO.java",
+          0.7691927078024546
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.766572721410195
+        ],
+        [
+          "AuthDAO.java",
+          0.7426265436458587
+        ],
+        [
+          "MyDiagnosisAction.java",
+          0.7218998285016218
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.7094384203869503
+        ],
+        [
+          "PersonnelDAO.java",
+          0.6985506678072612
+        ],
+        [
+          "TransactionDAO.java",
+          0.6774769682343799
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC3S2.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "EmailUtil.java",
+        "ResetPasswordAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "SetSecurityQuestionAction.java",
+          1.1213664810265105
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.0418284914398512
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8965738363330361
+        ],
+        [
+          "TransactionDAO.java",
+          0.8626737358396052
+        ],
+        [
+          "RiskDAO.java",
+          0.8599970412468908
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.8342999539818762
+        ],
+        [
+          "OfficeVisitBaseAction.java",
+          0.8158421517462728
+        ],
+        [
+          "AuthDAO.java",
+          0.8144875602722167
+        ],
+        [
+          "FakeEmailDAO.java",
+          0.7852641845468131
+        ],
+        [
+          "UpdateCPTCodeListAction.java",
+          0.7832823873538969
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7797657075862884
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC3S3.txt",
+      "true_classes": [
+        "AccessDAO.java",
+        "ChangeSessionTimeoutAction.java",
+        "SessionTimeoutListener.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.181196894299741
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0987547688199943
+        ],
+        [
+          "AuthDAO.java",
+          1.0667281963384743
+        ],
+        [
+          "RiskDAO.java",
+          1.0560514729843413
+        ],
+        [
+          "TransactionDAO.java",
+          1.0353394354577232
+        ],
+        [
+          "EditPHRAction.java",
+          1.0350670634424521
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0250977878396181
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0242090534265782
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.0080436502708012
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9912080691540144
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.9877414521929502
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC3S4.txt",
+      "true_classes": [
+        "LabProcHCPAction.java",
+        "LabProcedureDAO.java",
+        "OfficeVisitDAO.java",
+        "ReportRequestDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "LabProcedureDAO.java",
+          1.1416066984126065
+        ],
+        [
+          "PatientDAO.java",
+          1.0994790986800538
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0764017731405628
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0294044781434526
+        ],
+        [
+          "AuthDAO.java",
+          1.0170846417309922
+        ],
+        [
+          "EditPHRAction.java",
+          0.979486562226843
+        ],
+        [
+          "RiskDAO.java",
+          0.9778526242408943
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9726551927360328
+        ],
+        [
+          "TransactionDAO.java",
+          0.9560785206305994
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9270254457253102
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9226293794521653
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC3S5.txt",
+      "true_classes": [
+        "LabProcedureDAO.java",
+        "ReportRequestDAO.java",
+        "ViewMyReportRequestsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.6174941663604971
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.390334508165683
+        ],
+        [
+          "RiskDAO.java",
+          1.3491593237534678
+        ],
+        [
+          "AuthDAO.java",
+          1.3420338379309005
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.304280159152269
+        ],
+        [
+          "EditPHRAction.java",
+          1.2927778013734816
+        ],
+        [
+          "TransactionDAO.java",
+          1.2592677883175096
+        ],
+        [
+          "PersonnelDAO.java",
+          1.2580107122504454
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.24126764847993
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.2227250890120436
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.222191982101457
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC40S1.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.4834423939212686
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.3528603416213334
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.306574461706855
+        ],
+        [
+          "AuthDAO.java",
+          1.2847262644686197
+        ],
+        [
+          "TransactionDAO.java",
+          1.2504861698707612
+        ],
+        [
+          "RiskDAO.java",
+          1.2229901440222282
+        ],
+        [
+          "EditPHRAction.java",
+          1.2179379661041603
+        ],
+        [
+          "PersonnelDAO.java",
+          1.2017003548083567
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.1964994185613604
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          1.168056221238201
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.159377661173144
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC40S2.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "LabProcedureDAO.java",
+          1.1691363628891247
+        ],
+        [
+          "PatientDAO.java",
+          1.1351121385047565
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1245744839115448
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0595714461604355
+        ],
+        [
+          "AuthDAO.java",
+          0.997438142238289
+        ],
+        [
+          "EditPHRAction.java",
+          0.9727061923490601
+        ],
+        [
+          "RiskDAO.java",
+          0.9637539430747084
+        ],
+        [
+          "TransactionDAO.java",
+          0.9633833770574715
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9424992973754125
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9356448095115042
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.932624631456156
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC40S3.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.2078955383802323
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1127139285294458
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0948673364687351
+        ],
+        [
+          "AuthDAO.java",
+          1.088695937118363
+        ],
+        [
+          "TransactionDAO.java",
+          1.0530689770380846
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0324341188945305
+        ],
+        [
+          "EditPHRAction.java",
+          1.0312396025036668
+        ],
+        [
+          "RiskDAO.java",
+          1.0222319055949318
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9924199498562262
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.9837908560841429
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9746245559875834
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC40S4.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.077683408163965
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0239282254515565
+        ],
+        [
+          "AuthDAO.java",
+          1.0061742468789392
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.002470205736382
+        ],
+        [
+          "TransactionDAO.java",
+          0.981658390628274
+        ],
+        [
+          "EditPHRAction.java",
+          0.9731649920185887
+        ],
+        [
+          "RiskDAO.java",
+          0.9621522280894118
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9338460549154595
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9328987712817228
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9263792069634074
+        ],
+        [
+          "HospitalsDAO.java",
+          0.915995670063627
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC40S5.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "OfficeVisitDAO.java",
+          1.2422337510806214
+        ],
+        [
+          "PatientDAO.java",
+          1.2214487581433342
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1962988315234446
+        ],
+        [
+          "MyDiagnosisAction.java",
+          1.0321547264480095
+        ],
+        [
+          "LabProcedureDAO.java",
+          1.0203100842596264
+        ],
+        [
+          "EditPHRAction.java",
+          0.9058193230043806
+        ],
+        [
+          "AuthDAO.java",
+          0.8966033063859731
+        ],
+        [
+          "RiskDAO.java",
+          0.88909994156265
+        ],
+        [
+          "TransactionDAO.java",
+          0.8712164032740459
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8646210560899985
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8596413981164107
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC40S6.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0413673080100092
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0047489176859332
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0046565733470234
+        ],
+        [
+          "AuthDAO.java",
+          0.9644559160867483
+        ],
+        [
+          "EditPHRAction.java",
+          0.9353860618312698
+        ],
+        [
+          "TransactionDAO.java",
+          0.9261332631689759
+        ],
+        [
+          "RiskDAO.java",
+          0.9122760944953181
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9092830282433596
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8997020790723302
+        ],
+        [
+          "AdverseEventDAO.java",
+          0.8809199536866142
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.8771322654034507
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC40S7.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "LOINCDAO.java",
+          1.1654311260534334
+        ],
+        [
+          "LabProcedureDAO.java",
+          1.1537175588948345
+        ],
+        [
+          "PatientDAO.java",
+          1.0803599317334514
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0788571402456064
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0323027349986158
+        ],
+        [
+          "AuthDAO.java",
+          1.0042206722044167
+        ],
+        [
+          "RiskDAO.java",
+          0.9746842928339203
+        ],
+        [
+          "EditPHRAction.java",
+          0.9601819734101874
+        ],
+        [
+          "TransactionDAO.java",
+          0.9562523833659106
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9517617996687409
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9388118613619852
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC4E1.txt",
+      "true_classes": [
+        "PatientValidator.java",
+        "PersonnelValidator.java",
+        "SecurityQAValidator.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.24049420049163
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1359147718924234
+        ],
+        [
+          "AuthDAO.java",
+          1.1094644104967069
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0920503613796233
+        ],
+        [
+          "RiskDAO.java",
+          1.0542053244679157
+        ],
+        [
+          "PersonnelDAO.java",
+          1.0509450875868611
+        ],
+        [
+          "EditPHRAction.java",
+          1.029655150714159
+        ],
+        [
+          "TransactionDAO.java",
+          1.0294863753744774
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.0175480202061855
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9945410171806809
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9878868245546495
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC4E2.txt",
+      "true_classes": [],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.4161258103379322
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.2682669406688492
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.248560244278893
+        ],
+        [
+          "AuthDAO.java",
+          1.242196642377401
+        ],
+        [
+          "EditPHRAction.java",
+          1.1920730659127377
+        ],
+        [
+          "RiskDAO.java",
+          1.1841661627985118
+        ],
+        [
+          "TransactionDAO.java",
+          1.1736856174299726
+        ],
+        [
+          "PersonnelDAO.java",
+          1.1439480401316167
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          1.1258719822565102
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.1221661955883449
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.112046534512612
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC4S1.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "EditPatientAction.java",
+        "EmailUtil.java",
+        "PatientDAO.java",
+        "SetSecurityQuestionAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.1228507121391973
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0594576728771536
+        ],
+        [
+          "EditPHRAction.java",
+          1.0384659927694895
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.0349402605867244
+        ],
+        [
+          "RiskDAO.java",
+          1.0137618774951866
+        ],
+        [
+          "AuthDAO.java",
+          1.011960935725891
+        ],
+        [
+          "TransactionDAO.java",
+          1.0005293597907667
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9692663372298128
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9594551117169657
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9554977102035305
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9328428570611939
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC4S2.txt",
+      "true_classes": [
+        "EditPatientAction.java",
+        "EmailUtil.java",
+        "PatientDAO.java",
+        "SearchUsersAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.6649688493789376
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.5312022231060098
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.4427611564996663
+        ],
+        [
+          "AuthDAO.java",
+          1.4227236082061965
+        ],
+        [
+          "EditPHRAction.java",
+          1.4060719409178832
+        ],
+        [
+          "RiskDAO.java",
+          1.3791644882876677
+        ],
+        [
+          "PersonnelDAO.java",
+          1.3731058586843092
+        ],
+        [
+          "TransactionDAO.java",
+          1.3344511407439943
+        ],
+        [
+          "ResetPasswordAction.java",
+          1.3012563293303603
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.2804452245605085
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.2647824658087703
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 3
+      }
+    },
+    {
+      "requirement_id": "UC4S3.txt",
+      "true_classes": [
+        "AuthDAO.java",
+        "EditPersonnelAction.java",
+        "PersonnelDAO.java",
+        "SetSecurityQuestionAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "EditPersonnelAction.java",
+          0.9731532914283135
+        ],
+        [
+          "EditPHRAction.java",
+          0.9208522062395698
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.909042188256224
+        ],
+        [
+          "TransactionDAO.java",
+          0.83627648502779
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8248215308547018
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8052098470378873
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.7923880813627242
+        ],
+        [
+          "EditHealthHistoryAction.java",
+          0.789549909506472
+        ],
+        [
+          "EditPatientAction.java",
+          0.7883984169792954
+        ],
+        [
+          "PatientDAO.java",
+          0.7645385685920716
+        ],
+        [
+          "PersonnelDAO.java",
+          0.7340533945894243
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC4S4.txt",
+      "true_classes": [
+        "TransactionDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          2.257041834725567
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.9377037588525927
+        ],
+        [
+          "AuthDAO.java",
+          1.8021676452164308
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.7267648742563722
+        ],
+        [
+          "PersonnelDAO.java",
+          1.7049257371930309
+        ],
+        [
+          "TransactionDAO.java",
+          1.6847414575830357
+        ],
+        [
+          "RiskDAO.java",
+          1.6775274659262296
+        ],
+        [
+          "EditPHRAction.java",
+          1.6629125738861559
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.6022395302477987
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.5746794224561962
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          1.5646869798291918
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC5S1.txt",
+      "true_classes": [
+        "TransactionDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "LoginFailureAction.java",
+          1.534038288925475
+        ],
+        [
+          "TransactionDAO.java",
+          0.7943153876169888
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7677382046099662
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.7573232694934844
+        ],
+        [
+          "AuthDAO.java",
+          0.7359902254343033
+        ],
+        [
+          "EditApptTypeAction.java",
+          0.7221160491361094
+        ],
+        [
+          "PatientDAO.java",
+          0.7154578013496398
+        ],
+        [
+          "PrescriptionReportAction.java",
+          0.7059323450161457
+        ],
+        [
+          "DeclareHCPAction.java",
+          0.7020379133159638
+        ],
+        [
+          "EditPHRAction.java",
+          0.6963353720064162
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.6465811256513595
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC5S2.txt",
+      "true_classes": [
+        "TransactionDAO.java"
+      ],
+      "predicted_classes": [
+        [
+          "TransactionDAO.java",
+          1.3721452107636536
+        ],
+        [
+          "PatientDAO.java",
+          1.2115402120300005
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.1242773936871628
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1204439612693784
+        ],
+        [
+          "EditPHRAction.java",
+          1.1145751716887247
+        ],
+        [
+          "AuthDAO.java",
+          1.1005479510843625
+        ],
+        [
+          "RiskDAO.java",
+          1.0423551984682513
+        ],
+        [
+          "PersonnelDAO.java",
+          1.035443629246934
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          0.9970180240181754
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9928296965721101
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.9866966882294064
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 0
+      }
+    },
+    {
+      "requirement_id": "UC6S1.txt",
+      "true_classes": [
+        "PatientDAO.java",
+        "PersonnelDAO.java",
+        "ViewVisitedHCPsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.4894329513702613
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.4146623467507389
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.2926848087490526
+        ],
+        [
+          "RiskDAO.java",
+          1.2276590165588275
+        ],
+        [
+          "AuthDAO.java",
+          1.2263012918159173
+        ],
+        [
+          "PersonnelDAO.java",
+          1.2202004745449706
+        ],
+        [
+          "EditPHRAction.java",
+          1.2102462659647462
+        ],
+        [
+          "TransactionDAO.java",
+          1.1462291981986894
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.1172812206913334
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          1.1126453213698637
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.1106057921652195
+        ]
+      ],
+      "metrics": {
+        "true_positives": 2,
+        "false_positives": 9,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC6S2.txt",
+      "true_classes": [
+        "DeclareHCPAction.java",
+        "PatientDAO.java",
+        "ViewVisitedHCPsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.433319902054306
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.2498602146166478
+        ],
+        [
+          "AuthDAO.java",
+          1.2220782431687922
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.1898669081841073
+        ],
+        [
+          "RiskDAO.java",
+          1.1865706803153127
+        ],
+        [
+          "TransactionDAO.java",
+          1.164773533493934
+        ],
+        [
+          "EditPHRAction.java",
+          1.1560104816111254
+        ],
+        [
+          "PersonnelDAO.java",
+          1.1539540858830173
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          1.1241705759149148
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.1097867018233922
+        ],
+        [
+          "HospitalsDAO.java",
+          1.109572509634872
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 2
+      }
+    },
+    {
+      "requirement_id": "UC6S3.txt",
+      "true_classes": [
+        "PersonnelDAO.java",
+        "ViewVisitedHCPsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.4761422569928138
+        ],
+        [
+          "SurveyResultDAO.java",
+          1.3332665151638257
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.305576915660302
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.2617052592738107
+        ],
+        [
+          "AuthDAO.java",
+          1.2340763440837903
+        ],
+        [
+          "PersonnelDAO.java",
+          1.2028466090862493
+        ],
+        [
+          "RiskDAO.java",
+          1.1931260997072428
+        ],
+        [
+          "EditPHRAction.java",
+          1.1897415146934769
+        ],
+        [
+          "TransactionDAO.java",
+          1.1834399361078343
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.1232988211103967
+        ],
+        [
+          "GetVisitRemindersAction.java",
+          1.1061901665385634
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC8S1.txt",
+      "true_classes": [
+        "TransactionDAO.java",
+        "ViewMyAccessLogAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.52089406638092
+        ],
+        [
+          "TransactionDAO.java",
+          1.4916888244313535
+        ],
+        [
+          "MessageDAO.java",
+          1.3508004742800153
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.3078739985654448
+        ],
+        [
+          "RiskDAO.java",
+          1.2666649778817272
+        ],
+        [
+          "AuthDAO.java",
+          1.2614456616949334
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.2109441246837613
+        ],
+        [
+          "PersonnelDAO.java",
+          1.1835539904065242
+        ],
+        [
+          "EditPHRAction.java",
+          1.1774608087916374
+        ],
+        [
+          "ICDCodesDAO.java",
+          1.1719171248744058
+        ],
+        [
+          "CPTCodesDAO.java",
+          1.1650610802264942
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC8S2.txt",
+      "true_classes": [
+        "TransactionDAO.java",
+        "ViewMyAccessLogAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "TransactionDAO.java",
+          0.8921982250737338
+        ],
+        [
+          "PatientDAO.java",
+          0.8223647825059132
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.8004343329182623
+        ],
+        [
+          "RiskDAO.java",
+          0.7862759401203631
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.7681300861842153
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.7665278217563151
+        ],
+        [
+          "HealthRecordsDAO.java",
+          0.7348163774619358
+        ],
+        [
+          "UpdateICDCodeListAction.java",
+          0.7238019622131033
+        ],
+        [
+          "PatientBaseAction.java",
+          0.7148525137530591
+        ],
+        [
+          "EmergencyReportAction.java",
+          0.7126618170101102
+        ],
+        [
+          "AuthDAO.java",
+          0.682373634243965
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 1
+      }
+    },
+    {
+      "requirement_id": "UC9S1.txt",
+      "true_classes": [
+        "AllergyDAO.java",
+        "HealthRecordsDAO.java",
+        "LabProcedureDAO.java",
+        "OfficeVisitDAO.java",
+        "ViewMyRecordsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "PatientDAO.java",
+          1.0477888251534537
+        ],
+        [
+          "OfficeVisitDAO.java",
+          1.0332121715690985
+        ],
+        [
+          "EditPHRAction.java",
+          1.0043060811336846
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          1.00296808217726
+        ],
+        [
+          "RiskDAO.java",
+          0.9643203865824282
+        ],
+        [
+          "AuthDAO.java",
+          0.9526823589716559
+        ],
+        [
+          "TransactionDAO.java",
+          0.9412421939182711
+        ],
+        [
+          "PersonnelDAO.java",
+          0.9170427281510856
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.9121593527286713
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.9054586261458273
+        ],
+        [
+          "ResetPasswordAction.java",
+          0.8998669791872661
+        ]
+      ],
+      "metrics": {
+        "true_positives": 1,
+        "false_positives": 10,
+        "false_negatives": 4
+      }
+    },
+    {
+      "requirement_id": "UC9S2.txt",
+      "true_classes": [
+        "FamilyDAO.java",
+        "ViewMyRecordsAction.java"
+      ],
+      "predicted_classes": [
+        [
+          "EditPHRAction.java",
+          1.2448530059184966
+        ],
+        [
+          "PatientDAO.java",
+          0.9594963389977272
+        ],
+        [
+          "OfficeVisitDAO.java",
+          0.9175789151662992
+        ],
+        [
+          "RiskDAO.java",
+          0.8919934521405812
+        ],
+        [
+          "AuthDAO.java",
+          0.8860478456425245
+        ],
+        [
+          "TransactionDAO.java",
+          0.87611400296294
+        ],
+        [
+          "EditOfficeVisitAction.java",
+          0.864118679815792
+        ],
+        [
+          "RemoteMonitoringDAO.java",
+          0.8595632907978435
+        ],
+        [
+          "PersonnelDAO.java",
+          0.8441283750826928
+        ],
+        [
+          "ICDCodesDAO.java",
+          0.8402499880292811
+        ],
+        [
+          "CPTCodesDAO.java",
+          0.828149852245576
+        ]
+      ],
+      "metrics": {
+        "true_positives": 0,
+        "false_positives": 11,
+        "false_negatives": 2
+      }
+    }
+  ]
+}

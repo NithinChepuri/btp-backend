@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC37S2",
+      "EditPersonnelAction"
+    ],
+    [
+      "UC37S2",
+      "OfficeVisitLoader"
+    ],
+    [
+      "UC37S2",
+      "EditOfficeVisitValidator"
+    ],
+    [
+      "UC37S2",
+      "EditPrescriptionAction"
+    ],
+    [
+      "UC37S2",
+      "ApptTypeBean"
+    ]
+  ]
+}

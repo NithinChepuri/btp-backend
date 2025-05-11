@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC23E2",
+      "CPTCodesDAO"
+    ],
+    [
+      "UC23E2",
+      "ReferralBean"
+    ],
+    [
+      "UC23E2",
+      "PersonnelBaseAction"
+    ],
+    [
+      "UC23E2",
+      "AccessDAO"
+    ],
+    [
+      "UC23E2",
+      "ChronicDiseaseRiskAction"
+    ]
+  ]
+}

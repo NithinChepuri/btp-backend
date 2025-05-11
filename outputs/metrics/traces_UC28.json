@@ -1,0 +1,12 @@
+{
+  "links": [
+    [
+      "UC28",
+      "PatientVisitBean"
+    ],
+    [
+      "UC28",
+      "LabProcUAPAction"
+    ]
+  ]
+}

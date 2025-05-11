@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC15S2",
+      "PatientRiskFactor"
+    ],
+    [
+      "UC15S2",
+      "PatientBaseAction"
+    ],
+    [
+      "UC15S2",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC15S2",
+      "OfficeVisitBaseAction"
+    ],
+    [
+      "UC15S2",
+      "UpdateHospitalListAction"
+    ]
+  ]
+}

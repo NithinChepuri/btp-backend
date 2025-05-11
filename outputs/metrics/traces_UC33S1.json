@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC33S1",
+      "UpdateHospitalListAction"
+    ],
+    [
+      "UC33S1",
+      "EditPatientAction"
+    ],
+    [
+      "UC33S1",
+      "ReferralManagementAction"
+    ],
+    [
+      "UC33S1",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC33S1",
+      "OfficeVisitBaseAction"
+    ]
+  ]
+}

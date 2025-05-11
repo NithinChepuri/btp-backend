@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC30S2",
+      "EditPatientAction"
+    ],
+    [
+      "UC30S2",
+      "DeclareHCPAction"
+    ],
+    [
+      "UC30S2",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC30S2",
+      "PatientBaseAction"
+    ],
+    [
+      "UC30S2",
+      "OfficeVisitBaseAction"
+    ]
+  ]
+}

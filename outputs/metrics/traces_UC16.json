@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC16",
+      "AddPersonnelValidator"
+    ],
+    [
+      "UC16",
+      "HospitalBeanValidator"
+    ],
+    [
+      "UC16",
+      "RemoteMonitoringDataBeanValidator"
+    ],
+    [
+      "UC16",
+      "LabProcedureValidator"
+    ],
+    [
+      "UC16",
+      "Role"
+    ]
+  ]
+}

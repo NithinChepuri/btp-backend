@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC22S2",
+      "GenerateCalendarAction"
+    ],
+    [
+      "UC22S2",
+      "OfficeVisitBean"
+    ],
+    [
+      "UC22S2",
+      "AddOfficeVisitAction"
+    ],
+    [
+      "UC22S2",
+      "EmergencyReportAction"
+    ],
+    [
+      "UC22S2",
+      "ReferralBean"
+    ]
+  ]
+}

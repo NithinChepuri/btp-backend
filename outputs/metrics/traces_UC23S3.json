@@ -1,0 +1,20 @@
+{
+  "links": [
+    [
+      "UC23S3",
+      "PrescriptionReportBean"
+    ],
+    [
+      "UC23S3",
+      "AllergyBean"
+    ],
+    [
+      "UC23S3",
+      "SecurityQA"
+    ],
+    [
+      "UC23S3",
+      "GenderFactor"
+    ]
+  ]
+}

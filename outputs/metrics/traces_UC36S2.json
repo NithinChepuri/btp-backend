@@ -1,0 +1,16 @@
+{
+  "links": [
+    [
+      "UC36S2",
+      "PatientRiskFactor"
+    ],
+    [
+      "UC36S2",
+      "LabProcedureBean"
+    ],
+    [
+      "UC36S2",
+      "HCPDiagnosisBean"
+    ]
+  ]
+}

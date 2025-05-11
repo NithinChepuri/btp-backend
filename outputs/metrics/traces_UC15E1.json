@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC15E1",
+      "CPTCodesDAO"
+    ],
+    [
+      "UC15E1",
+      "ReferralBean"
+    ],
+    [
+      "UC15E1",
+      "PersonnelBaseAction"
+    ],
+    [
+      "UC15E1",
+      "AccessDAO"
+    ],
+    [
+      "UC15E1",
+      "ChronicDiseaseRiskAction"
+    ]
+  ]
+}

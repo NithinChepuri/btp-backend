@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC34S5",
+      "UpdateHospitalListAction"
+    ],
+    [
+      "UC34S5",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC34S5",
+      "OfficeVisitBaseAction"
+    ],
+    [
+      "UC34S5",
+      "PatientRiskFactor"
+    ],
+    [
+      "UC34S5",
+      "LabProcedureBean"
+    ]
+  ]
+}

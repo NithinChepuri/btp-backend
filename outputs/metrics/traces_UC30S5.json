@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC30S5",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC30S5",
+      "OfficeVisitBaseAction"
+    ],
+    [
+      "UC30S5",
+      "UpdateHospitalListAction"
+    ],
+    [
+      "UC30S5",
+      "PatientRiskFactor"
+    ],
+    [
+      "UC30S5",
+      "ReportRequestDAO"
+    ]
+  ]
+}

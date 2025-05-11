@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC31S1",
+      "AllergyBean"
+    ],
+    [
+      "UC31S1",
+      "PrescriptionReportBean"
+    ],
+    [
+      "UC31S1",
+      "SecurityQA"
+    ],
+    [
+      "UC31S1",
+      "PatientVisitBean"
+    ],
+    [
+      "UC31S1",
+      "SurveyBean"
+    ]
+  ]
+}

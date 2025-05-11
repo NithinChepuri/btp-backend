@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC26S4",
+      "LabProcUAPAction"
+    ],
+    [
+      "UC26S4",
+      "RiskChecker"
+    ],
+    [
+      "UC26S4",
+      "GetVisitRemindersAction"
+    ],
+    [
+      "UC26S4",
+      "SendMessageAction"
+    ],
+    [
+      "UC26S4",
+      "EmergencyReportAction"
+    ]
+  ]
+}

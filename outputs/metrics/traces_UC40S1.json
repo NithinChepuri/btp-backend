@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC40S1",
+      "ICDCodesDAO"
+    ],
+    [
+      "UC40S1",
+      "OfficeVisitBaseAction"
+    ],
+    [
+      "UC40S1",
+      "UpdateHospitalListAction"
+    ],
+    [
+      "UC40S1",
+      "PatientRiskFactor"
+    ],
+    [
+      "UC40S1",
+      "GenerateCalendarAction"
+    ]
+  ]
+}

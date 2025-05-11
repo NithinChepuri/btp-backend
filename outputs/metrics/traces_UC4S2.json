@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC4S2",
+      "LabProcUAPAction"
+    ],
+    [
+      "UC4S2",
+      "State"
+    ],
+    [
+      "UC4S2",
+      "GetVisitRemindersAction"
+    ],
+    [
+      "UC4S2",
+      "LOINCbean"
+    ],
+    [
+      "UC4S2",
+      "PatientNavigation"
+    ]
+  ]
+}

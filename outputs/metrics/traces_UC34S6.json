@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC34S6",
+      "HospitalBeanValidator"
+    ],
+    [
+      "UC34S6",
+      "EditOfficeVisitForm"
+    ],
+    [
+      "UC34S6",
+      "OfficeVisitBean"
+    ],
+    [
+      "UC34S6",
+      "ChronicDiseaseMediator"
+    ],
+    [
+      "UC34S6",
+      "AddPersonnelValidator"
+    ]
+  ]
+}

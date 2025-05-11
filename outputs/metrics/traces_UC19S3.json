@@ -1,0 +1,24 @@
+{
+  "links": [
+    [
+      "UC19S3",
+      "PersonnelBaseAction"
+    ],
+    [
+      "UC19S3",
+      "AccessDAO"
+    ],
+    [
+      "UC19S3",
+      "ChronicDiseaseRiskAction"
+    ],
+    [
+      "UC19S3",
+      "LabProcUAPAction"
+    ],
+    [
+      "UC19S3",
+      "PersonnelDAO"
+    ]
+  ]
+}
