@@ -188,7 +188,7 @@ class KeywordIndex(BaseIndex):
         docs = [self.doc_contents[doc_id] for doc_id in self.doc_ids]
         self.tfidf_matrix = self.vectorizer.fit_transform(docs)
         
-    def search(self, query: str, top_k: int = 5) -> List[Tuple[str, float]]:
+    def search(self, query: str, top_k: int = 11) -> List[Tuple[str, float]]:
         """Search for documents similar to the query"""
         if self.tfidf_matrix is None or self.vectorizer is None:
             return []
