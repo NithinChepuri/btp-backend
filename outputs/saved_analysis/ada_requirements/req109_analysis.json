@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req109",
+  "requirement_text": "An instance of the `Setting_Module` must be declared and registered in the AWA application.",
+  "top_files": [
+    {
+      "file": "awa-settings-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings-modules.ads",
+      "score": 0.7659002244472504,
+      "vector_score": 0.6655717492103577,
+      "keyword_score": 1.0,
+      "node_count": 20
+    },
+    {
+      "file": "awa-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-modules.ads",
+      "score": 0.6579378040937276,
+      "vector_score": 0.5772737860679626,
+      "keyword_score": 0.8461538461538461,
+      "node_count": 48
+    },
+    {
+      "file": "awa-users-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-modules.ads",
+      "score": 0.6537858412815974,
+      "vector_score": 0.5383753776550293,
+      "keyword_score": 0.9230769230769231,
+      "node_count": 8
+    },
+    {
+      "file": "awa-jobs-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-jobs\\src\\awa-jobs-modules.ads",
+      "score": 0.6536212847783015,
+      "vector_score": 0.5381402969360352,
+      "keyword_score": 0.9230769230769231,
+      "node_count": 8
+    },
+    {
+      "file": "awa-tags-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-tags\\src\\awa-tags-modules.ads",
+      "score": 0.6446491168095515,
+      "vector_score": 0.5253229141235352,
+      "keyword_score": 0.9230769230769231,
+      "node_count": 11
+    },
+    {
+      "file": "awa-votes-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-votes\\src\\awa-votes-modules.ads",
+      "score": 0.6445824847771571,
+      "vector_score": 0.5252277255058289,
+      "keyword_score": 0.9230769230769231,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-modules.ads",
+      "score": 0.636137114579861,
+      "vector_score": 0.5131629109382629,
+      "keyword_score": 0.9230769230769231,
+      "node_count": 8
+    },
+    {
+      "file": "awa-setup-applications.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup-applications.ads",
+      "score": 0.616788663313939,
+      "vector_score": 0.5514563322067261,
+      "keyword_score": 0.7692307692307693,
+      "node_count": 22
+    },
+    {
+      "file": "awa-settings.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings.ads",
+      "score": 0.6148024238072909,
+      "vector_score": 0.6475199460983276,
+      "keyword_score": 0.5384615384615384,
+      "node_count": 5
+    },
+    {
+      "file": "awa-blogs-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-modules.ads",
+      "score": 0.6105122999503062,
+      "vector_score": 0.47655603289604187,
+      "keyword_score": 0.9230769230769231,
+      "node_count": 13
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:36:18"
+}

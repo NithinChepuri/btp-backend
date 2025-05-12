@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req121",
+  "requirement_text": "The wiki lists contain the given page.",
+  "top_files": [
+    {
+      "file": "awa-wikis-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\regtests\\awa-wikis-tests.ads",
+      "score": 0.5497647702693939,
+      "vector_score": 0.35680681467056274,
+      "keyword_score": 1.0,
+      "node_count": 11
+    },
+    {
+      "file": "awa-wikis-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\awa-wikis-modules.adb",
+      "score": 0.4991785764694213,
+      "vector_score": 0.4273979663848877,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 19
+    },
+    {
+      "file": "awa-wikis-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\awa-wikis-modules.ads",
+      "score": 0.41990391612052913,
+      "vector_score": 0.3855770230293274,
+      "keyword_score": 0.5,
+      "node_count": 23
+    },
+    {
+      "file": "awa-wikis-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\regtests\\awa-wikis-tests.adb",
+      "score": 0.40609775483608246,
+      "vector_score": 0.3658539354801178,
+      "keyword_score": 0.5,
+      "node_count": 11
+    },
+    {
+      "file": "awa-wikis-modules-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\regtests\\awa-wikis-modules-tests.ads",
+      "score": 0.40473359227180483,
+      "vector_score": 0.363905131816864,
+      "keyword_score": 0.5,
+      "node_count": 8
+    },
+    {
+      "file": "awa-wikis-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\awa-wikis-beans.ads",
+      "score": 0.3953986197710037,
+      "vector_score": 0.3505694568157196,
+      "keyword_score": 0.5,
+      "node_count": 54
+    },
+    {
+      "file": "awa-questions-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-tests.ads",
+      "score": 0.39130867570638656,
+      "vector_score": 0.13044096529483795,
+      "keyword_score": 1.0,
+      "node_count": 9
+    },
+    {
+      "file": "awa-counters.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-counters\\src\\awa-counters.ads",
+      "score": 0.37542335838079455,
+      "vector_score": 0.1791762262582779,
+      "keyword_score": 0.8333333333333334,
+      "node_count": 6
+    },
+    {
+      "file": "awa-components-wikis.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-components-wikis.ads",
+      "score": 0.3709614127874374,
+      "vector_score": 0.38708773255348206,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 11
+    },
+    {
+      "file": "awa-wikis.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\awa-wikis.ads",
+      "score": 0.36057887375354764,
+      "vector_score": 0.3722555339336395,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 1
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:43:40"
+}

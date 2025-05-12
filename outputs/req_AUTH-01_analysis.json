@@ -1,0 +1,87 @@
+{
+  "requirement_id": "AUTH-01",
+  "requirement_text": "The system must provide a secure authentication mechanism for users to log in with their credentials. The authentication process should validate user credentials against stored data and enforce password policies including minimum length and complexity requirements. Failed login attempts should be recorded and after a configurable number of failed attempts, the account should be temporarily locked.",
+  "top_files": [
+    {
+      "file": "awa-sysadmin-beans.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-sysadmin\\src\\awa-sysadmin-beans.adb",
+      "score": 0.32267531467520666,
+      "vector_score": 0.4423311948776245,
+      "keyword_score": 0.043478260869565216,
+      "node_count": 1
+    },
+    {
+      "file": "awa-users-services-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\awa-users-services-tests.adb",
+      "score": 0.3119328314843385,
+      "vector_score": 0.3058667778968811,
+      "keyword_score": 0.32608695652173914,
+      "node_count": 8
+    },
+    {
+      "file": "awa-users-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.ads",
+      "score": 0.30833538589270215,
+      "vector_score": 0.272777259349823,
+      "keyword_score": 0.391304347826087,
+      "node_count": 15
+    },
+    {
+      "file": "awa-users-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-services.ads",
+      "score": 0.30745926305003785,
+      "vector_score": 0.2901591956615448,
+      "keyword_score": 0.34782608695652173,
+      "node_count": 25
+    },
+    {
+      "file": "awa-users-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\awa-users-tests.adb",
+      "score": 0.2982979261356851,
+      "vector_score": 0.30502188205718994,
+      "keyword_score": 0.2826086956521739,
+      "node_count": 10
+    },
+    {
+      "file": "awa-users-filters.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-filters.ads",
+      "score": 0.29140105040177056,
+      "vector_score": 0.28585243225097656,
+      "keyword_score": 0.30434782608695654,
+      "node_count": 8
+    },
+    {
+      "file": "security-auth-fake.ads",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\security-auth-fake.ads",
+      "score": 0.28746725994607675,
+      "vector_score": 0.29886627197265625,
+      "keyword_score": 0.2608695652173913,
+      "node_count": 8
+    },
+    {
+      "file": "awa-users-beans.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-beans.adb",
+      "score": 0.2784534550231436,
+      "vector_score": 0.30462294816970825,
+      "keyword_score": 0.21739130434782608,
+      "node_count": 12
+    },
+    {
+      "file": "awa-sysadmin-filters.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-sysadmin\\src\\awa-sysadmin-filters.ads",
+      "score": 0.26864425462225205,
+      "vector_score": 0.28129303455352783,
+      "keyword_score": 0.2391304347826087,
+      "node_count": 6
+    },
+    {
+      "file": "awa-tests-helpers-users.adb",
+      "file_path": "datasets\\ada-awa\\awa\\unit\\src\\awa-tests-helpers-users.adb",
+      "score": 0.25951624603375145,
+      "vector_score": 0.24030271172523499,
+      "keyword_score": 0.30434782608695654,
+      "node_count": 13
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T20:08:13.834105"
+}

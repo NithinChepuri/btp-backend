@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req113",
+  "requirement_text": "The setting table defines all the possible settings that an application manages.",
+  "top_files": [
+    {
+      "file": "awa-settings-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings-modules.ads",
+      "score": 0.4390279832211407,
+      "vector_score": 0.3544555604457855,
+      "keyword_score": 0.6363636363636364,
+      "node_count": 20
+    },
+    {
+      "file": "awa-settings-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\model\\awa-settings-models.ads",
+      "score": 0.41223041415214534,
+      "vector_score": 0.1603291630744934,
+      "keyword_score": 1.0,
+      "node_count": 80
+    },
+    {
+      "file": "awa-settings.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings.ads",
+      "score": 0.38967633355747566,
+      "vector_score": 0.3229142427444458,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 5
+    },
+    {
+      "file": "awa-settings-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings-modules.adb",
+      "score": 0.3605336313897913,
+      "vector_score": 0.39816492795944214,
+      "keyword_score": 0.2727272727272727,
+      "node_count": 14
+    },
+    {
+      "file": "awa-permissions-services.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions-services.adb",
+      "score": 0.3290271108800714,
+      "vector_score": 0.35315561294555664,
+      "keyword_score": 0.2727272727272727,
+      "node_count": 10
+    },
+    {
+      "file": "awa-settings-modules-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\regtests\\awa-settings-modules-tests.ads",
+      "score": 0.3120363807136362,
+      "vector_score": 0.3288831412792206,
+      "keyword_score": 0.2727272727272727,
+      "node_count": 6
+    },
+    {
+      "file": "awa-counters-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-counters\\src\\awa-counters-modules.ads",
+      "score": 0.29534593617374244,
+      "vector_score": 0.11023445427417755,
+      "keyword_score": 0.7272727272727273,
+      "node_count": 22
+    },
+    {
+      "file": "awa-permissions-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\model\\awa-permissions-models.ads",
+      "score": 0.28226886649023397,
+      "vector_score": 0.1694750040769577,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 49
+    },
+    {
+      "file": "awa-commands-migrate.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-migrate.adb",
+      "score": 0.276775800910863,
+      "vector_score": 0.23954984545707703,
+      "keyword_score": 0.36363636363636365,
+      "node_count": 5
+    },
+    {
+      "file": "awa-storages-stores-databases.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-stores-databases.ads",
+      "score": 0.27457666288722643,
+      "vector_score": 0.19744718074798584,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 6
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:38:52"
+}

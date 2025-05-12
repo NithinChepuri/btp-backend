@@ -1,0 +1,87 @@
+{
+  "requirement_id": "REQ-09",
+  "requirement_text": "The system must maintain an audit log of all security-related events including login attempts, password changes, permission changes, and administrator actions.",
+  "top_files": [
+    {
+      "file": "awa-audits-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-audits-services.ads",
+      "score": 0.34911037266254424,
+      "vector_score": 0.34872910380363464,
+      "keyword_score": 0.35,
+      "node_count": 8
+    },
+    {
+      "file": "awa-audits.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-audits.ads",
+      "score": 0.3135459095239639,
+      "vector_score": 0.3407798707485199,
+      "keyword_score": 0.25,
+      "node_count": 1
+    },
+    {
+      "file": "awa-permissions-controllers.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions-controllers.adb",
+      "score": 0.297216534614563,
+      "vector_score": 0.31745219230651855,
+      "keyword_score": 0.25,
+      "node_count": 1
+    },
+    {
+      "file": "awa-audits-services.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-audits-services.adb",
+      "score": 0.2936263817548752,
+      "vector_score": 0.37660911679267883,
+      "keyword_score": 0.1,
+      "node_count": 3
+    },
+    {
+      "file": "awa-permissions.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions.adb",
+      "score": 0.2935017561912536,
+      "vector_score": 0.33357393741607666,
+      "keyword_score": 0.2,
+      "node_count": 10
+    },
+    {
+      "file": "awa-changelogs-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-changelogs\\src\\awa-changelogs-modules.ads",
+      "score": 0.2760777318477631,
+      "vector_score": 0.2658253312110901,
+      "keyword_score": 0.3,
+      "node_count": 7
+    },
+    {
+      "file": "awa-changelogs.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-changelogs\\src\\awa-changelogs.ads",
+      "score": 0.25041299760341645,
+      "vector_score": 0.2505899965763092,
+      "keyword_score": 0.25,
+      "node_count": 1
+    },
+    {
+      "file": "awa-sysadmin-filters.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-sysadmin\\src\\awa-sysadmin-filters.ads",
+      "score": 0.24874500721693038,
+      "vector_score": 0.22677858173847198,
+      "keyword_score": 0.3,
+      "node_count": 6
+    },
+    {
+      "file": "awa-changelogs-modules-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-changelogs\\regtests\\awa-changelogs-modules-tests.adb",
+      "score": 0.2473650896549225,
+      "vector_score": 0.3319501280784607,
+      "keyword_score": 0.05,
+      "node_count": 2
+    },
+    {
+      "file": "awa-users-services-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\awa-users-services-tests.adb",
+      "score": 0.24634556561708448,
+      "vector_score": 0.22335080802440643,
+      "keyword_score": 0.3,
+      "node_count": 8
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:18:17"
+}

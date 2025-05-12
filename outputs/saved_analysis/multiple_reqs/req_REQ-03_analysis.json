@@ -1,0 +1,87 @@
+{
+  "requirement_id": "REQ-03",
+  "requirement_text": "The system must provide user account management features that allow administrators to create, modify, and delete user accounts. The system should maintain a record of all changes made to user accounts for audit purposes.",
+  "top_files": [
+    {
+      "file": "awa-permissions-controllers.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions-controllers.adb",
+      "score": 0.3185700155537704,
+      "vector_score": 0.3220950961112976,
+      "keyword_score": 0.3103448275862069,
+      "node_count": 1
+    },
+    {
+      "file": "awa-audits-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-audits-services.ads",
+      "score": 0.31622548000565887,
+      "vector_score": 0.27441078424453735,
+      "keyword_score": 0.41379310344827586,
+      "node_count": 8
+    },
+    {
+      "file": "awa-users-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-modules.ads",
+      "score": 0.30771810499758556,
+      "vector_score": 0.24747906625270844,
+      "keyword_score": 0.4482758620689655,
+      "node_count": 8
+    },
+    {
+      "file": "awa-tests-helpers-users.adb",
+      "file_path": "datasets\\ada-awa\\awa\\unit\\src\\awa-tests-helpers-users.adb",
+      "score": 0.2970640785735229,
+      "vector_score": 0.2913723289966583,
+      "keyword_score": 0.3103448275862069,
+      "node_count": 13
+    },
+    {
+      "file": "awa-audits-services.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-audits-services.adb",
+      "score": 0.27830719218171873,
+      "vector_score": 0.33846840262413025,
+      "keyword_score": 0.13793103448275862,
+      "node_count": 3
+    },
+    {
+      "file": "awa-users-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-services.ads",
+      "score": 0.2728025694345606,
+      "vector_score": 0.21237805485725403,
+      "keyword_score": 0.41379310344827586,
+      "node_count": 25
+    },
+    {
+      "file": "awa-users-filters.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-filters.ads",
+      "score": 0.2658763926604698,
+      "vector_score": 0.2320401668548584,
+      "keyword_score": 0.3448275862068966,
+      "node_count": 8
+    },
+    {
+      "file": "awa-users.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users.ads",
+      "score": 0.2636373311795037,
+      "vector_score": 0.21406318247318268,
+      "keyword_score": 0.3793103448275862,
+      "node_count": 1
+    },
+    {
+      "file": "awa-audits.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-audits.ads",
+      "score": 0.25433284332012307,
+      "vector_score": 0.2598843574523926,
+      "keyword_score": 0.2413793103448276,
+      "node_count": 1
+    },
+    {
+      "file": "awa-users-services-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\awa-users-services-tests.adb",
+      "score": 0.25327510268523773,
+      "vector_score": 0.2435949742794037,
+      "keyword_score": 0.27586206896551724,
+      "node_count": 8
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:16:46"
+}

@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req112",
+  "requirement_text": "The setting can be uniquely identified by its ID.",
+  "top_files": [
+    {
+      "file": "awa-settings.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings.ads",
+      "score": 0.3938118457794189,
+      "vector_score": 0.2768740653991699,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 5
+    },
+    {
+      "file": "awa-settings-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings-modules.ads",
+      "score": 0.3843348453442256,
+      "vector_score": 0.3109545409679413,
+      "keyword_score": 0.5555555555555556,
+      "node_count": 20
+    },
+    {
+      "file": "awa-applications-configs.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications-configs.adb",
+      "score": 0.34825393358866374,
+      "vector_score": 0.25941038131713867,
+      "keyword_score": 0.5555555555555556,
+      "node_count": 17
+    },
+    {
+      "file": "awa-settings-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings-modules.adb",
+      "score": 0.34303998152414955,
+      "vector_score": 0.3948190212249756,
+      "keyword_score": 0.2222222222222222,
+      "node_count": 14
+    },
+    {
+      "file": "awa-settings-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\model\\awa-settings-models.ads",
+      "score": 0.3392266198992729,
+      "vector_score": 0.1988951712846756,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 80
+    },
+    {
+      "file": "awa-users-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.ads",
+      "score": 0.30298413162430127,
+      "vector_score": 0.09950114041566849,
+      "keyword_score": 0.7777777777777778,
+      "node_count": 15
+    },
+    {
+      "file": "awa-counters-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-counters\\src\\awa-counters-modules.adb",
+      "score": 0.29289568861325577,
+      "vector_score": 0.2279462218284607,
+      "keyword_score": 0.4444444444444444,
+      "node_count": 19
+    },
+    {
+      "file": "awa-counters-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-counters\\src\\model\\awa-counters-models.ads",
+      "score": 0.2923707410693168,
+      "vector_score": 0.13195820152759552,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 83
+    },
+    {
+      "file": "awa-settings.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings.adb",
+      "score": 0.2915971904993057,
+      "vector_score": 0.4165674149990082,
+      "keyword_score": 0.0,
+      "node_count": 4
+    },
+    {
+      "file": "awa-sysadmin-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-sysadmin\\src\\model\\awa-sysadmin-models.ads",
+      "score": 0.27400230715672175,
+      "vector_score": 0.15333662927150726,
+      "keyword_score": 0.5555555555555556,
+      "node_count": 4
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:38:22"
+}

@@ -1,0 +1,87 @@
+{
+  "requirement_id": "REQ-07",
+  "requirement_text": "The system must provide a secure method for users to reset their forgotten passwords through email verification or security questions.",
+  "top_files": [
+    {
+      "file": "awa-users-beans.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-beans.adb",
+      "score": 0.28897786140441895,
+      "vector_score": 0.3056826591491699,
+      "keyword_score": 0.25,
+      "node_count": 12
+    },
+    {
+      "file": "awa-users-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\awa-users-tests.adb",
+      "score": 0.2855802857875824,
+      "vector_score": 0.27940040826797485,
+      "keyword_score": 0.3,
+      "node_count": 10
+    },
+    {
+      "file": "awa-users-services-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\awa-users-services-tests.adb",
+      "score": 0.2834288680553436,
+      "vector_score": 0.2763269543647766,
+      "keyword_score": 0.3,
+      "node_count": 8
+    },
+    {
+      "file": "awa-users-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.ads",
+      "score": 0.28236767202615737,
+      "vector_score": 0.18909667432308197,
+      "keyword_score": 0.5,
+      "node_count": 15
+    },
+    {
+      "file": "awa-tests-helpers-users.adb",
+      "file_path": "datasets\\ada-awa\\awa\\unit\\src\\awa-tests-helpers-users.adb",
+      "score": 0.27713130742311476,
+      "vector_score": 0.24590186774730682,
+      "keyword_score": 0.35,
+      "node_count": 13
+    },
+    {
+      "file": "awa-sysadmin-beans.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-sysadmin\\src\\awa-sysadmin-beans.adb",
+      "score": 0.24058565497398374,
+      "vector_score": 0.3436937928199768,
+      "keyword_score": 0.0,
+      "node_count": 1
+    },
+    {
+      "file": "awa-workspaces-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-workspaces\\regtests\\awa-workspaces-tests.adb",
+      "score": 0.23220704644918438,
+      "vector_score": 0.2245814949274063,
+      "keyword_score": 0.25,
+      "node_count": 7
+    },
+    {
+      "file": "awa-users-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-services.ads",
+      "score": 0.22837759524583817,
+      "vector_score": 0.1548251360654831,
+      "keyword_score": 0.4,
+      "node_count": 25
+    },
+    {
+      "file": "awa-users-services.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-services.adb",
+      "score": 0.22743700623512267,
+      "vector_score": 0.17491000890731812,
+      "keyword_score": 0.35,
+      "node_count": 23
+    },
+    {
+      "file": "awa-sysadmin-models.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-sysadmin\\src\\model\\awa-sysadmin-models.adb",
+      "score": 0.22563938498497008,
+      "vector_score": 0.3223419785499573,
+      "keyword_score": 0.0,
+      "node_count": 3
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:17:46"
+}

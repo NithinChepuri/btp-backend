@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req133",
+  "requirement_text": "Create a file storage service and use the Root directory to store the files.",
+  "top_files": [
+    {
+      "file": "awa-storages-stores-files.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-stores-files.ads",
+      "score": 0.5443946331739425,
+      "vector_score": 0.3491351902484894,
+      "keyword_score": 1.0,
+      "node_count": 9
+    },
+    {
+      "file": "awa-storages.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages.ads",
+      "score": 0.42542255108173077,
+      "vector_score": 0.278076171875,
+      "keyword_score": 0.7692307692307693,
+      "node_count": 6
+    },
+    {
+      "file": "awa-storages-stores-files.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-stores-files.adb",
+      "score": 0.42206864288220036,
+      "vector_score": 0.4051530063152313,
+      "keyword_score": 0.46153846153846156,
+      "node_count": 7
+    },
+    {
+      "file": "awa-storages-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-services.ads",
+      "score": 0.4115214485388536,
+      "vector_score": 0.258217453956604,
+      "keyword_score": 0.7692307692307693,
+      "node_count": 24
+    },
+    {
+      "file": "awa-storages-stores-databases.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-stores-databases.ads",
+      "score": 0.4114182877999086,
+      "vector_score": 0.25807008147239685,
+      "keyword_score": 0.7692307692307693,
+      "node_count": 6
+    },
+    {
+      "file": "awa-storages-services.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-services.adb",
+      "score": 0.40726221112104566,
+      "vector_score": 0.31806689500808716,
+      "keyword_score": 0.6153846153846154,
+      "node_count": 16
+    },
+    {
+      "file": "awa-storages-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-modules.ads",
+      "score": 0.38985093281819266,
+      "vector_score": 0.26022660732269287,
+      "keyword_score": 0.6923076923076923,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-servlets.ads",
+      "score": 0.38248177079054024,
+      "vector_score": 0.28266626596450806,
+      "keyword_score": 0.6153846153846154,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages-services-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\regtests\\awa-storages-services-tests.adb",
+      "score": 0.37344058843759387,
+      "vector_score": 0.3686513900756836,
+      "keyword_score": 0.38461538461538464,
+      "node_count": 8
+    },
+    {
+      "file": "awa-images-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-images\\src\\awa-images-servlets.ads",
+      "score": 0.36024551001878885,
+      "vector_score": 0.25090017914772034,
+      "keyword_score": 0.6153846153846154,
+      "node_count": 4
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:51:12"
+}

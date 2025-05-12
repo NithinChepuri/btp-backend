@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req100",
+  "requirement_text": "The bean instance of type Question_Bean or Answer_Bean can be created or saved.",
+  "top_files": [
+    {
+      "file": "awa-questions-modules-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-modules-tests.adb",
+      "score": 0.4886281192302704,
+      "vector_score": 0.4837544560432434,
+      "keyword_score": 0.5,
+      "node_count": 7
+    },
+    {
+      "file": "awa-questions-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\awa-questions-modules.adb",
+      "score": 0.47129731774330136,
+      "vector_score": 0.6018533110618591,
+      "keyword_score": 0.16666666666666666,
+      "node_count": 8
+    },
+    {
+      "file": "awa-questions-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\awa-questions-beans.ads",
+      "score": 0.46861538589000706,
+      "vector_score": 0.4194505512714386,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 22
+    },
+    {
+      "file": "awa-votes-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-votes\\src\\awa-votes-beans.ads",
+      "score": 0.42745698392391207,
+      "vector_score": 0.3606528341770172,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 7
+    },
+    {
+      "file": "awa-comments-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-comments\\src\\awa-comments-beans.ads",
+      "score": 0.42650650739669804,
+      "vector_score": 0.3592950105667114,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 15
+    },
+    {
+      "file": "awa-storages-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-beans.ads",
+      "score": 0.4019285708665848,
+      "vector_score": 0.3241836726665497,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 25
+    },
+    {
+      "file": "awa-events-dispatchers-actions.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-events-dispatchers-actions.adb",
+      "score": 0.40154499411582945,
+      "vector_score": 0.4307785630226135,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 9
+    },
+    {
+      "file": "awa-questions-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-tests.adb",
+      "score": 0.39885463714599606,
+      "vector_score": 0.42693519592285156,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 11
+    },
+    {
+      "file": "awa-modules-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-modules-beans.ads",
+      "score": 0.3955688923597336,
+      "vector_score": 0.350812703371048,
+      "keyword_score": 0.5,
+      "node_count": 8
+    },
+    {
+      "file": "awa-mail-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-mail\\src\\awa-mail-beans.ads",
+      "score": 0.3892279088497162,
+      "vector_score": 0.30603986978530884,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 5
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:31:55"
+}

@@ -1,0 +1,17 @@
+{
+  "constraints_created": true,
+  "nodes_created": {
+    "AdaNode": 287,
+    "Requirement": 0,
+    "Issue": 0,
+    "Commit": 0
+  },
+  "relationships_created": {
+    "DEPENDS_ON": 11730,
+    "REFERENCES": 0,
+    "IMPLEMENTS": 0,
+    "ISSUES_RELATED": 0,
+    "COMMITS_TO": 0
+  },
+  "last_updated": "2025-05-12T19:25:32.873867"
+}

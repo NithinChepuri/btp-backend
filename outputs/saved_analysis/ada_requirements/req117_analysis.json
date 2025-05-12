@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req117",
+  "requirement_text": "The setup process is managed by the *Configure* generic procedure.",
+  "top_files": [
+    {
+      "file": "awa-setup-applications.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup-applications.ads",
+      "score": 0.483947342634201,
+      "vector_score": 0.26278191804885864,
+      "keyword_score": 1.0,
+      "node_count": 22
+    },
+    {
+      "file": "awa-commands-migrate.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-migrate.adb",
+      "score": 0.46485731800397234,
+      "vector_score": 0.4736056923866272,
+      "keyword_score": 0.4444444444444444,
+      "node_count": 5
+    },
+    {
+      "file": "awa-commands-start.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-start.ads",
+      "score": 0.4505782822767893,
+      "vector_score": 0.5484451651573181,
+      "keyword_score": 0.2222222222222222,
+      "node_count": 8
+    },
+    {
+      "file": "awa-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.adb",
+      "score": 0.44882828593254087,
+      "vector_score": 0.4983261227607727,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 20
+    },
+    {
+      "file": "awa-setup-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup-applications.adb",
+      "score": 0.41940371394157405,
+      "vector_score": 0.4562910199165344,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 26
+    },
+    {
+      "file": "awa-commands-drivers.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-drivers.adb",
+      "score": 0.41778293251991266,
+      "vector_score": 0.4539756178855896,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 11
+    },
+    {
+      "file": "awa-commands-list.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-list.ads",
+      "score": 0.4159150640169779,
+      "vector_score": 0.4989262819290161,
+      "keyword_score": 0.2222222222222222,
+      "node_count": 4
+    },
+    {
+      "file": "awa-commands-migrate.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-migrate.ads",
+      "score": 0.4159150640169779,
+      "vector_score": 0.4989262819290161,
+      "keyword_score": 0.2222222222222222,
+      "node_count": 4
+    },
+    {
+      "file": "awa-commands-user.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-user.ads",
+      "score": 0.4159150640169779,
+      "vector_score": 0.4989262819290161,
+      "keyword_score": 0.2222222222222222,
+      "node_count": 4
+    },
+    {
+      "file": "awa-commands.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands.ads",
+      "score": 0.39324769576390584,
+      "vector_score": 0.5141633749008179,
+      "keyword_score": 0.1111111111111111,
+      "node_count": 23
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:40:55"
+}

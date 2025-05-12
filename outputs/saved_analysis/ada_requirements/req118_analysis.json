@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req118",
+  "requirement_text": "The setup application allows to configure the database, the Google and Facebook application identifiers and some other configuration parameters.",
+  "top_files": [
+    {
+      "file": "awa-setup.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup.ads",
+      "score": 0.4154609516263008,
+      "vector_score": 0.16494421660900116,
+      "keyword_score": 1.0,
+      "node_count": 1
+    },
+    {
+      "file": "awa-setup-applications.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup-applications.ads",
+      "score": 0.3875471529364586,
+      "vector_score": 0.23935307562351227,
+      "keyword_score": 0.7333333333333333,
+      "node_count": 22
+    },
+    {
+      "file": "awa-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.adb",
+      "score": 0.333775731921196,
+      "vector_score": 0.33396533131599426,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 20
+    },
+    {
+      "file": "awa-commands.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands.adb",
+      "score": 0.32566638231277467,
+      "vector_score": 0.2652376890182495,
+      "keyword_score": 0.4666666666666667,
+      "node_count": 21
+    },
+    {
+      "file": "awa-setup-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup-applications.adb",
+      "score": 0.3037659206986427,
+      "vector_score": 0.23395131528377533,
+      "keyword_score": 0.4666666666666667,
+      "node_count": 26
+    },
+    {
+      "file": "awa-applications-configs.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications-configs.ads",
+      "score": 0.29822889059782026,
+      "vector_score": 0.2260412722826004,
+      "keyword_score": 0.4666666666666667,
+      "node_count": 3
+    },
+    {
+      "file": "awa-commands-migrate.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-migrate.adb",
+      "score": 0.28504673063755037,
+      "vector_score": 0.23578104376792908,
+      "keyword_score": 0.4,
+      "node_count": 5
+    },
+    {
+      "file": "awa-applications.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.ads",
+      "score": 0.2844627639651298,
+      "vector_score": 0.17780394852161407,
+      "keyword_score": 0.5333333333333333,
+      "node_count": 19
+    },
+    {
+      "file": "awa-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-modules.ads",
+      "score": 0.2681201639771461,
+      "vector_score": 0.1258859485387802,
+      "keyword_score": 0.6,
+      "node_count": 48
+    },
+    {
+      "file": "awa-events-configs-reader_config.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-events-configs-reader_config.ads",
+      "score": 0.2679387673735618,
+      "vector_score": 0.23991252481937408,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 2
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:41:25"
+}

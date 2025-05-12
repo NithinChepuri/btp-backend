@@ -1,0 +1,680 @@
+================================================================================
+REQUIREMENT ANALYSIS REPORT: REQ-20250512203739
+================================================================================
+Timestamp: 2025-05-12 20:38:23
+
+Requirement Text:
+The system shall provide secure user authentication and password reset functionality
+
+--------------------------------------------------------------------------------
+FILES BY RELEVANCE:
+--------------------------------------------------------------------------------
+
+1. datasets\ada-awa\awa\src\awa-users-servlets.ads (Score: 0.3624)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  awa-users-servlets -- OpenID verification servlet for user authentication
+--  Copyright (C) 2011 - 2022 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+
+with Servlet.Core;
+with Servlet.Security.Servlets;
+with Servlet.Requests;
+with Servlet.Responses;
+with Servlet.Sessions;
+with Security.Auth;
+with AWA.Users.Principals;
+private with Ada.Strings.Unbounded;
+
+--  == OAuth Authentication Flow ==
+--  The OAuth/OpenID authentication flow is implemented by using two servlets
+--  that participate in the authentication.  A first servlet will start
+--  the OAuth/OpenID authentication by building the request that the user
+--  must use to authenticate through the OAuth/OpenID authorization server.
+--  This servlet is implemented by the `AWA.Users.Servlets.Request_Auth_Servlet`
+--  type.  The servlet will respond to an HTTP `GET` request and it will
+--  redirect the user to the authorization server.
+--
+--  ![OAuth Authentication Flow](images/OAuthAuthenticateFlow.png)
+--
+--  The user will be authenticated by the OAuth/OpenID authorization server
+--  and when s/he grants the application to access his or her account,
+--  a redirection is made to the second servlet.  The second servlet
+--  is implemented by `AWA.Users.Servlets.Verify_Auth_Servlet`.  It is...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .ads file
+- Size: 8866 bytes
+- Lines: 43
+- Packages: 0
+- Procedures: 0
+- Functions: 0
+- Uses access types (pointers)
+
+------------------------------------------------------------
+
+2. datasets\ada-awa\awa\src\awa-users-services.ads (Score: 0.3492)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  awa.users -- User registration, authentication processes
+--  Copyright (C) 2009, 2010, 2011, 2012, 2013, 2017, 2018, 2022, 2024 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+with Ada.Strings.Unbounded;
+
+with AWA.Users.Models;
+with AWA.Users.Principals;
+with AWA.Permissions.Services;
+with AWA.Modules;
+with AWA.Modules.Lifecycles;
+with AWA.Events;
+with Security.Auth;
+with Security.Random;
+
+with ADO;
+with ADO.Sessions;
+
+--  == Introduction ==
+--  The *users* module provides a *users* service which controls the user data model.
+--
+--  == Events ==
+--  The *users* module exposes a number of events which are posted when some action
+--  are performed at the service level.
+--
+--  === user-register ===
+--  This event is posted when a new user is registered in the application.
+--  It can be used to send a registration email.
+--
+--  === user-create ===
+--  This event is posted when a new user is created.  It can be used to trigger
+--  the pre-initialization of the application for the new user.
+--
+--  === user-lost-password ===
+--  This event is posted when a user asks for a password reset through an
+--  anonymous form.  It is intended to be used to send the reset password email.
+--
+--  === user-reset-password ===
+--  This event is posted when a us...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .ads file
+- Size: 14148 bytes
+- Lines: 53
+- Packages: 0
+- Procedures: 0
+- Functions: 0
+
+------------------------------------------------------------
+
+3. datasets\ada-awa\awa\src\awa-users-beans.adb (Score: 0.3425)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  awa-users-beans -- ASF Beans for user module
+--  Copyright (C) 2011, 2012, 2013, 2018, 2020, 2022 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+
+with Util.Log.Loggers;
+
+with Security;
+with Servlet.Sessions;
+with ASF.Contexts.Faces;
+with ASF.Contexts.Flash;
+with ASF.Cookies;
+with ASF.Applications.Messages.Factory;
+with ASF.Security.Filters;
+
+with ADO.Sessions;
+
+with AWA.Services.Contexts;
+with AWA.Users.Servlets;
+with AWA.Users.Filters;
+package body AWA.Users.Beans is
+
+   use AWA.Users.Models;
+   use ASF.Applications;
+   package UBO renames Util.Beans.Objects;
+
+   Log : constant Util.Log.Loggers.Logger := Util.Log.Loggers.Create ("AWA.Users.Beans");
+
+   --  Helper to send a remove cookie in the current response
+   procedure Remove_Cookie (Name : in String);
+
+   --  ------------------------------
+   --  Action to register a user
+   --  ------------------------------
+   overriding
+   procedure Register (Data    : in out Authenticate_Bean;
+                       Outcome : in out Unbounded_String) is
+      User  : User_Ref;
+      Email : Email_Ref;
+      Ctx   : constant ASF.Contexts.Faces.Faces_Context_Access := ASF.Contexts.Faces.Current;
+      Flash : constant ASF.Contexts.Faces.Flash_Context_Access := Ctx.Get_Flash;
+      Key   : constan...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .adb file
+- Size: 18829 bytes
+- Lines: 56
+- Packages: 2
+- Procedures: 2
+- Functions: 0
+- Uses access types (pointers)
+
+------------------------------------------------------------
+
+4. datasets\ada-awa\awa\regtests\src\awa-users-services-tests.adb (Score: 0.3354)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  awa-users-services-tests -- Unit tests for user service
+--  Copyright (C) 2009, 2010, 2011, 2012, 2017, 2018, 2022 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+
+with Util.Test_Caller;
+with Util.Measures;
+with Util.Log.Loggers;
+
+with ADO;
+with ADO.Sessions;
+with ADO.SQL;
+with ADO.Objects;
+with Ada.Calendar;
+
+with AWA.Users.Modules;
+with AWA.Tests.Helpers.Users;
+package body AWA.Users.Services.Tests is
+
+   use ADO;
+   use ADO.Objects;
+
+   Log : constant Util.Log.Loggers.Logger := Util.Log.Loggers.Create ("AWA.Users.Services.Tests");
+
+   package Caller is new Util.Test_Caller (Test, "Users.Services");
+
+   procedure Add_Tests (Suite : in Util.Tests.Access_Test_Suite) is
+   begin
+      Caller.Add_Test (Suite, "Test AWA.Users.Services.Create_User",
+                       Test_Create_User'Access);
+      Caller.Add_Test (Suite, "Test AWA.Users.Services.Close_Session",
+                       Test_Logout_User'Access);
+      Caller.Add_Test (Suite, "Test AWA.Users.Services.Authenticate, Close_Session",
+                       Test_Login_User'Access);
+      Caller.Add_Test (Suite, "Test AWA.Users.Services.Lost_Password, Reset_Password",
+                       Test_Reset_Password_User'Access);
+      Caller.Add_Test (Suite, "Test AWA.Users.Module.Get...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .adb file
+- Size: 12988 bytes
+- Lines: 51
+- Packages: 2
+- Procedures: 1
+- Functions: 0
+- Uses access types (pointers)
+
+------------------------------------------------------------
+
+5. datasets\ada-awa\awa\regtests\src\security-auth-fake.ads (Score: 0.3136)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  security-auth-fake -- A fake OAuth provider for unit tests
+--  Copyright (C) 2020 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+
+package Security.Auth.Fake is
+
+   type Manager is new Security.Auth.Manager with private;
+
+   --  Initialize the OpenID authentication realm.  Get the <tt>openid.realm</tt>
+   --  and <tt>openid.callback_url</tt> parameters to configure the realm.
+   overriding
+   procedure Initialize (Realm  : in out Manager;
+                         Params : in Parameters'Class;
+                         Name   : in String := PROVIDER_OPENID);
+
+   --  Discover the OpenID provider that must be used to authenticate the user.
+   --  The <b>Name</b> can be an URL or an alias that identifies the provider.
+   --  A cached OpenID provider can be returned.
+   --  Read the XRDS document from the URI and initialize the OpenID provider end point.
+   --  (See OpenID Section 7.3 Discovery)
+   overriding
+   procedure Discover (Realm  : in out Manager;
+                       Name   : in String;
+                       Result : out End_Point);
+
+   --  Associate the application (relying party) with the OpenID provider.
+   --  The association can be cached.
+   --  (See OpenID Section 8 Establishing Associations)
+   overriding
+   procedure Assoc...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .ads file
+- Size: 2961 bytes
+- Lines: 45
+- Packages: 1
+- Procedures: 3
+- Functions: 0
+
+------------------------------------------------------------
+
+6. datasets\ada-awa\awa\src\awa-users-filters.ads (Score: 0.3005)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  awa-users-filters -- Specific filters for authentication
+--  Copyright (C) 2011, 2012, 2015, 2019, 2022 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+
+with Ada.Strings.Unbounded;
+
+with Servlet.Requests;
+with Servlet.Responses;
+with Servlet.Sessions;
+with ASF.Principals;
+with Servlet.Core;
+with Servlet.Security.Filters;
+
+with AWA.Applications;
+package AWA.Users.Filters is
+
+   --  Get the redirection URL from the redirect cookie.
+   function Get_Redirect_Cookie (Request : in Servlet.Requests.Request'Class) return String;
+
+   --  Clear the redirect cookie in the response.
+   procedure Clear_Redirect_Cookie (Request  : in Servlet.Requests.Request'Class;
+                                    Response : in out Servlet.Responses.Response'Class);
+
+   --  ------------------------------
+   --  Authentication verification filter
+   --  ------------------------------
+   --  The <b>Auth_Filter</b> verifies that the user has the permission to access
+   --  a given page.  If the user is not logged, it tries to login automatically
+   --  by using some persistent cookie.  When this fails, it redirects the
+   --  user to a login page (configured by AUTH_FILTER_REDIRECT_PARAM property).
+   type Auth_Filter is new Servlet.Security.Filters.Auth_Filter with pr...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .ads file
+- Size: 4182 bytes
+- Lines: 46
+- Packages: 1
+- Procedures: 1
+- Functions: 1
+- Uses access types (pointers)
+
+------------------------------------------------------------
+
+7. datasets\ada-awa\awa\plugins\awa-sysadmin\src\awa-sysadmin-filters.ads (Score: 0.2893)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  awa-users-filters -- Specific filters for authentication and key verification
+--  Copyright (C) 2011, 2012, 2015, 2019 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+
+with Ada.Strings.Unbounded;
+
+with Servlet.Requests;
+with Servlet.Responses;
+with Servlet.Filters;
+with Servlet.Core;
+
+with AWA.Applications;
+package AWA.Sysadmin.Filters is
+
+   ADMIN_AUTH_BEAN : constant String := "sysadminAuth";
+
+   --  ------------------------------
+   --  Authentication verification filter
+   --  ------------------------------
+   --  The <b>Auth_Filter</b> verifies that the user has the permission to access
+   --  a given page.  If the user is not logged, it tries to login automatically
+   --  by using some persistent cookie.  When this fails, it redirects the
+   --  user to a login page (configured by AUTH_FILTER_REDIRECT_PARAM property).
+   type Auth_Filter is new Servlet.Filters.Filter with private;
+
+   --  Initialize the filter and configure the redirection URIs.
+   overriding
+   procedure Initialize (Filter  : in out Auth_Filter;
+                         Config  : in Servlet.Core.Filter_Config);
+
+   --  Display or redirects the user to the login page.  This procedure is called when
+   --  the user is not authenticated.
+   procedure Do_Login (Filter ...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .ads file
+- Size: 3090 bytes
+- Lines: 48
+- Packages: 1
+- Procedures: 3
+- Functions: 0
+- Uses access types (pointers)
+
+------------------------------------------------------------
+
+8. datasets\ada-awa\awa\regtests\src\awa-users-tests.adb (Score: 0.2868)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  awa-users-tests -- Unit tests for AWA users
+--  Copyright (C) 2009, 2010, 2011, 2012, 2017, 2018, 2020, 2022 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+
+with Util.Log;
+with Util.Test_Caller;
+
+with ASF.Tests;
+with AWA.Users.Models;
+with AWA.Tests.Helpers.Users;
+with AWA.Users.Services;
+with AWA.Tests.Helpers;
+
+with Servlet.Requests.Mockup;
+with Servlet.Responses.Mockup;
+with Security;
+package body AWA.Users.Tests is
+
+   use ASF.Tests;
+   use type Security.Principal_Access;
+   use type AWA.Users.Services.User_Service_Access;
+
+   package Caller is new Util.Test_Caller (Test, "Users.Tests");
+
+   procedure Add_Tests (Suite : in Util.Tests.Access_Test_Suite) is
+   begin
+      Caller.Add_Test (Suite, "Test AWA.Users.Tests.Create_User (/users/register.xhtml)",
+                       Test_Create_User'Access);
+      Caller.Add_Test (Suite, "Test AWA.Users.Tests.Create_User (Disabled)",
+                       Test_Registration_Disabled'Access);
+      Caller.Add_Test (Suite, "Test AWA.Users.Services.Close_Session",
+                       Test_Logout_User'Access);
+      Caller.Add_Test (Suite, "Test AWA.Users.Tests.Login_User (/users/login.xhtml)",
+                       Test_Login_User'Access);
+      Caller.Add_Test (Suite, "Test AWA.Users.Servi...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .adb file
+- Size: 17775 bytes
+- Lines: 50
+- Packages: 2
+- Procedures: 1
+- Functions: 0
+- Uses access types (pointers)
+
+------------------------------------------------------------
+
+9. datasets\ada-awa\awa\plugins\awa-sysadmin\src\awa-sysadmin-beans.adb (Score: 0.2846)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  awa-sysadmin-beans -- Sysadmin specific Ada beans
+--  Copyright (C) 2019 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+with ASF.Applications.Messages.Factory;
+with ASF.Contexts.Faces;
+with Servlet.Sessions;
+with Util.Beans.Objects;
+with AWA.Sysadmin.Filters;
+package body AWA.Sysadmin.Beans is
+
+   --  ------------------------------
+   --  Action to authenticate the sysadmin user.
+   --  ------------------------------
+   overriding
+   procedure Authenticate (Data    : in out Authenticate_Bean;
+                           Outcome : in out Unbounded_String) is
+      Ctx      : constant ASF.Contexts.Faces.Faces_Context_Access := ASF.Contexts.Faces.Current;
+      Password : constant String := To_String (Data.Password);
+      Session  : Servlet.Sessions.Session := Ctx.Get_Session;
+   begin
+      if Password = "sysadmin" then
+         Outcome := To_Unbounded_String ("success");
+         Session.Set_Attribute (Filters.ADMIN_AUTH_BEAN,
+                                Util.Beans.Objects.To_Object (True));
+      else
+         Outcome := To_Unbounded_String ("failure");
+         Session.Remove_Attribute (Filters.ADMIN_AUTH_BEAN);
+         ASF.Applications.Messages.Factory.Add_Message ("users.login_signup_fail_message");
+      end if;
+   end Authentic...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .adb file
+- Size: 2568 bytes
+- Lines: 45
+- Packages: 1
+- Procedures: 1
+- Functions: 0
+- Uses access types (pointers)
+
+------------------------------------------------------------
+
+10. datasets\ada-awa\awa\regtests\src\awa-users-tests.ads (Score: 0.2740)
+
+File Content:
+```
+-----------------------------------------------------------------------
+--  awa-users-tests -- Unit tests for AWA users
+--  Copyright (C) 2009, 2010, 2011, 2012, 2013, 2020, 2022 Stephane Carrez
+--  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
+--
+--  Licensed under the Apache License, Version 2.0 (the "License");
+--  you may not use this file except in compliance with the License.
+--  You may obtain a copy of the License at
+--
+--      http://www.apache.org/licenses/LICENSE-2.0
+--
+--  Unless required by applicable law or agreed to in writing, software
+--  distributed under the License is distributed on an "AS IS" BASIS,
+--  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+--  See the License for the specific language governing permissions and
+--  limitations under the License.
+-----------------------------------------------------------------------
+
+with Util.Tests;
+with AWA.Tests;
+
+package AWA.Users.Tests is
+
+   procedure Add_Tests (Suite : in Util.Tests.Access_Test_Suite);
+
+   type Test is new AWA.Tests.Test with null record;
+
+   --  Test creation of user by simulating web requests.
+   procedure Test_Create_User (T : in out Test);
+
+   --  Test creation of user when the registration is disabled.
+   procedure Test_Registration_Disabled (T : in out Test);
+
+   procedure Test_Logout_User (T : in out Test);
+
+   --  Test user authentication by simulating a web request.
+   procedure Test_Login_User (T : in out Test);
+
+   --  Test the reset password by simulating web requests.
+   procedure Test_Reset_Password_User (T : in out Test);
+
+   --  Test the reset password with an invalid user.
+   procedure Test_Reset_Password_Invalid_User (T : in out Test);
+
+   --  Test OAuth access using a fake OAuth provider.
+   procedure Test_OAuth_Login (T : in out Test);
+
+   --  Test validation with an invalid access key.
+   procedure Test_Validate_Bad_Key (T : in out Test);
+
+   --  Run the recovery password process for the given user and change the password.
+ ...
+[Content truncated for brevity]
+```
+
+File Analysis:
+- Type: .ads file
+- Size: 2239 bytes
+- Lines: 53
+- Packages: 1
+- Procedures: 9
+- Functions: 0
+- Uses access types (pointers)
+
+------------------------------------------------------------
+
+
+================================================================================
+NEO4J CONNECTIONS
+================================================================================
+Files connected: 10
+Commits connected: 2
+Issues connected: 40
+
+Neo4j query to view:
+MATCH (n) WHERE n.highlighted = true RETURN n

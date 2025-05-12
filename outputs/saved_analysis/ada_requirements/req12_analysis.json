@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req12",
+  "requirement_text": "The blog's ID shall be uniquely identified by an integer value.",
+  "top_files": [
+    {
+      "file": "awa-blogs-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-beans.ads",
+      "score": 0.4299068104137074,
+      "vector_score": 0.3803863525390625,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 42
+    },
+    {
+      "file": "awa-blogs-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-modules.ads",
+      "score": 0.4262321282516826,
+      "vector_score": 0.4140978455543518,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 13
+    },
+    {
+      "file": "awa-blogs-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\model\\awa-blogs-models.ads",
+      "score": 0.37175358940254555,
+      "vector_score": 0.29731032252311707,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 152
+    },
+    {
+      "file": "awa-counters-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-counters\\src\\awa-counters-modules.ads",
+      "score": 0.36743822720917785,
+      "vector_score": 0.2521844804286957,
+      "keyword_score": 0.6363636363636364,
+      "node_count": 22
+    },
+    {
+      "file": "awa-counters-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-counters\\src\\model\\awa-counters-models.ads",
+      "score": 0.36223102008754554,
+      "vector_score": 0.20578457415103912,
+      "keyword_score": 0.7272727272727273,
+      "node_count": 83
+    },
+    {
+      "file": "awa-blogs.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs.ads",
+      "score": 0.3582383518869226,
+      "vector_score": 0.39488595724105835,
+      "keyword_score": 0.2727272727272727,
+      "node_count": 1
+    },
+    {
+      "file": "awa-comments-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-comments\\src\\awa-comments-modules.ads",
+      "score": 0.34503049362789495,
+      "vector_score": 0.2591344714164734,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 11
+    },
+    {
+      "file": "awa-blogs-modules-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\regtests\\awa-blogs-modules-tests.ads",
+      "score": 0.3345302199775522,
+      "vector_score": 0.3610171973705292,
+      "keyword_score": 0.2727272727272727,
+      "node_count": 5
+    },
+    {
+      "file": "awa-blogs-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\regtests\\awa-blogs-tests.ads",
+      "score": 0.3316112613136118,
+      "vector_score": 0.35684725642204285,
+      "keyword_score": 0.2727272727272727,
+      "node_count": 12
+    },
+    {
+      "file": "awa-comments-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-comments\\src\\model\\awa-comments-models.ads",
+      "score": 0.32801841158758505,
+      "vector_score": 0.23483149707317352,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 50
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:42:30"
+}

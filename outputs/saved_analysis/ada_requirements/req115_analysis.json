@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req115",
+  "requirement_text": "The application shall provide a setup command to start and configure the application.",
+  "top_files": [
+    {
+      "file": "awa-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.adb",
+      "score": 0.4817049086093903,
+      "vector_score": 0.4381498694419861,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 20
+    },
+    {
+      "file": "awa-commands-setup.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-commands-setup.ads",
+      "score": 0.4796303689479828,
+      "vector_score": 0.3637576699256897,
+      "keyword_score": 0.75,
+      "node_count": 4
+    },
+    {
+      "file": "awa-setup-applications.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup-applications.ads",
+      "score": 0.466714009642601,
+      "vector_score": 0.3095914423465729,
+      "keyword_score": 0.8333333333333334,
+      "node_count": 22
+    },
+    {
+      "file": "awa-commands-info.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-info.ads",
+      "score": 0.40739167928695674,
+      "vector_score": 0.2962738275527954,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 8
+    },
+    {
+      "file": "awa-applications.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.ads",
+      "score": 0.40249202549457547,
+      "vector_score": 0.25356003642082214,
+      "keyword_score": 0.75,
+      "node_count": 19
+    },
+    {
+      "file": "awa-setup.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup.ads",
+      "score": 0.3842228844761848,
+      "vector_score": 0.22746126353740692,
+      "keyword_score": 0.75,
+      "node_count": 1
+    },
+    {
+      "file": "awa-commands.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands.adb",
+      "score": 0.3769257217645645,
+      "vector_score": 0.35989388823509216,
+      "keyword_score": 0.4166666666666667,
+      "node_count": 21
+    },
+    {
+      "file": "awa-applications-factory.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications-factory.ads",
+      "score": 0.36403889358043673,
+      "vector_score": 0.2700555622577667,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 4
+    },
+    {
+      "file": "awa-applications-configs.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications-configs.ads",
+      "score": 0.3561739236116409,
+      "vector_score": 0.29453417658805847,
+      "keyword_score": 0.5,
+      "node_count": 3
+    },
+    {
+      "file": "awa-setup-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup-applications.adb",
+      "score": 0.3508466273546219,
+      "vector_score": 0.25120946764945984,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 26
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:39:53"
+}

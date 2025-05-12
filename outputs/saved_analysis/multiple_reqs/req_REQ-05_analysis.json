@@ -1,0 +1,87 @@
+{
+  "requirement_id": "REQ-05",
+  "requirement_text": "The system must implement access control mechanisms that restrict user access to authorized functions and data based on their role and permissions in the system.",
+  "top_files": [
+    {
+      "file": "awa-permissions-controllers.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions-controllers.adb",
+      "score": 0.43091096254912287,
+      "vector_score": 0.459742933511734,
+      "keyword_score": 0.36363636363636365,
+      "node_count": 1
+    },
+    {
+      "file": "awa-permissions-services.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions-services.adb",
+      "score": 0.3887551453980532,
+      "vector_score": 0.3995203375816345,
+      "keyword_score": 0.36363636363636365,
+      "node_count": 10
+    },
+    {
+      "file": "awa-users-filters.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-filters.ads",
+      "score": 0.3831411052833904,
+      "vector_score": 0.3525392413139343,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 8
+    },
+    {
+      "file": "awa-sysadmin-filters.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-sysadmin\\src\\awa-sysadmin-filters.ads",
+      "score": 0.36754053614356297,
+      "vector_score": 0.34973323345184326,
+      "keyword_score": 0.4090909090909091,
+      "node_count": 6
+    },
+    {
+      "file": "awa-permissions-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions-services.ads",
+      "score": 0.36634198427200315,
+      "vector_score": 0.3090599775314331,
+      "keyword_score": 0.5,
+      "node_count": 15
+    },
+    {
+      "file": "awa-users-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-services.ads",
+      "score": 0.3559301395307888,
+      "vector_score": 0.313666433095932,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 25
+    },
+    {
+      "file": "awa-permissions.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions.ads",
+      "score": 0.35559737086296084,
+      "vector_score": 0.29371052980422974,
+      "keyword_score": 0.5,
+      "node_count": 14
+    },
+    {
+      "file": "awa-users-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-modules.ads",
+      "score": 0.35031873773444777,
+      "vector_score": 0.30565014481544495,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 8
+    },
+    {
+      "file": "awa-permissions-controllers.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions-controllers.ads",
+      "score": 0.3453893442045558,
+      "vector_score": 0.2986081540584564,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 3
+    },
+    {
+      "file": "awa-users-principals.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-principals.ads",
+      "score": 0.34304113875735887,
+      "vector_score": 0.29525357484817505,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 8
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:17:16"
+}

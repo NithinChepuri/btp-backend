@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req126",
+  "requirement_text": "An instance of the storage module must be declared and registered when the application is created and initialized.",
+  "top_files": [
+    {
+      "file": "awa-storages-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-modules.ads",
+      "score": 0.5939529687166214,
+      "vector_score": 0.4199328124523163,
+      "keyword_score": 1.0,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages.ads",
+      "score": 0.49628455936908716,
+      "vector_score": 0.38754937052726746,
+      "keyword_score": 0.75,
+      "node_count": 6
+    },
+    {
+      "file": "awa-storages-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-modules.adb",
+      "score": 0.4860181987285614,
+      "vector_score": 0.560383141040802,
+      "keyword_score": 0.3125,
+      "node_count": 3
+    },
+    {
+      "file": "awa-images-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-images\\src\\awa-images-modules.ads",
+      "score": 0.483891224861145,
+      "vector_score": 0.26270174980163574,
+      "keyword_score": 1.0,
+      "node_count": 22
+    },
+    {
+      "file": "awa-storages-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-services.ads",
+      "score": 0.44665195941925045,
+      "vector_score": 0.37021708488464355,
+      "keyword_score": 0.625,
+      "node_count": 24
+    },
+    {
+      "file": "awa-mail-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-mail\\src\\awa-mail-modules.ads",
+      "score": 0.4440405458211899,
+      "vector_score": 0.23255792260169983,
+      "keyword_score": 0.9375,
+      "node_count": 9
+    },
+    {
+      "file": "awa-storages-services.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-services.adb",
+      "score": 0.4306842267513275,
+      "vector_score": 0.4545488953590393,
+      "keyword_score": 0.375,
+      "node_count": 16
+    },
+    {
+      "file": "awa-storages-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-servlets.ads",
+      "score": 0.4222428262233734,
+      "vector_score": 0.36213260889053345,
+      "keyword_score": 0.5625,
+      "node_count": 8
+    },
+    {
+      "file": "awa-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-modules.ads",
+      "score": 0.41867855936288834,
+      "vector_score": 0.24989794194698334,
+      "keyword_score": 0.8125,
+      "node_count": 48
+    },
+    {
+      "file": "awa-votes-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-votes\\src\\awa-votes-modules.ads",
+      "score": 0.4007466375827789,
+      "vector_score": 0.2510666251182556,
+      "keyword_score": 0.75,
+      "node_count": 8
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:46:28"
+}

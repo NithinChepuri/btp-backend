@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req116",
+  "requirement_text": "The application base URL is http://localhost:8080/#{contextPath}.",
+  "top_files": [
+    {
+      "file": "awa-applications.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.ads",
+      "score": 0.3502825438976288,
+      "vector_score": 0.14326077699661255,
+      "keyword_score": 0.8333333333333334,
+      "node_count": 19
+    },
+    {
+      "file": "awa-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.adb",
+      "score": 0.3401682794094085,
+      "vector_score": 0.2716689705848694,
+      "keyword_score": 0.5,
+      "node_count": 20
+    },
+    {
+      "file": "awa_test_app.adb",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\awa_test_app.adb",
+      "score": 0.3329498618841171,
+      "vector_score": 0.3327855169773102,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 3
+    },
+    {
+      "file": "awa-users-servlets.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.adb",
+      "score": 0.3289871573448181,
+      "vector_score": 0.2556959390640259,
+      "keyword_score": 0.5,
+      "node_count": 15
+    },
+    {
+      "file": "awa-users-filters.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-filters.adb",
+      "score": 0.3126210138201714,
+      "vector_score": 0.23231573402881622,
+      "keyword_score": 0.5,
+      "node_count": 5
+    },
+    {
+      "file": "awa-sysadmin-filters.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-sysadmin\\src\\awa-sysadmin-filters.adb",
+      "score": 0.31059113591909404,
+      "vector_score": 0.2294159084558487,
+      "keyword_score": 0.5,
+      "node_count": 3
+    },
+    {
+      "file": "awa-users-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.ads",
+      "score": 0.3092699721455574,
+      "vector_score": 0.15609996020793915,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 15
+    },
+    {
+      "file": "awa-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-modules.ads",
+      "score": 0.3084453538060188,
+      "vector_score": 0.15492193400859833,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 48
+    },
+    {
+      "file": "awa_test_app.ads",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\awa_test_app.ads",
+      "score": 0.30561845451593395,
+      "vector_score": 0.2223120778799057,
+      "keyword_score": 0.5,
+      "node_count": 7
+    },
+    {
+      "file": "awa-commands-start.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-commands-start.adb",
+      "score": 0.2903109654784203,
+      "vector_score": 0.20044423639774323,
+      "keyword_score": 0.5,
+      "node_count": 11
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:40:24"
+}

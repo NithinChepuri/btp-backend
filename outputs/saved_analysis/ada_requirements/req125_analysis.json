@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req125",
+  "requirement_text": "Initialize the storage module.",
+  "top_files": [
+    {
+      "file": "awa-storages-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-modules.adb",
+      "score": 0.6123070955276488,
+      "vector_score": 0.5532958507537842,
+      "keyword_score": 0.75,
+      "node_count": 3
+    },
+    {
+      "file": "awa-storages-services.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-services.adb",
+      "score": 0.5437939077615738,
+      "vector_score": 0.4554198682308197,
+      "keyword_score": 0.75,
+      "node_count": 16
+    },
+    {
+      "file": "awa-storages-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-modules.ads",
+      "score": 0.5194892734289169,
+      "vector_score": 0.31355610489845276,
+      "keyword_score": 1.0,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-services.ads",
+      "score": 0.4921703904867172,
+      "vector_score": 0.2745291292667389,
+      "keyword_score": 1.0,
+      "node_count": 24
+    },
+    {
+      "file": "awa-storages-servlets.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-servlets.adb",
+      "score": 0.47825998961925503,
+      "vector_score": 0.3617999851703644,
+      "keyword_score": 0.75,
+      "node_count": 4
+    },
+    {
+      "file": "awa-storages-services-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\regtests\\awa-storages-services-tests.adb",
+      "score": 0.428521853685379,
+      "vector_score": 0.3978883624076843,
+      "keyword_score": 0.5,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-servlets.ads",
+      "score": 0.41533504724502557,
+      "vector_score": 0.2719072103500366,
+      "keyword_score": 0.75,
+      "node_count": 8
+    },
+    {
+      "file": "awa-images-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-images\\src\\awa-images-modules.ads",
+      "score": 0.40415335595607754,
+      "vector_score": 0.14879050850868225,
+      "keyword_score": 1.0,
+      "node_count": 22
+    },
+    {
+      "file": "awa-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.adb",
+      "score": 0.4037297874689102,
+      "vector_score": 0.2553282678127289,
+      "keyword_score": 0.75,
+      "node_count": 20
+    },
+    {
+      "file": "awa-storages-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\model\\awa-storages-models.ads",
+      "score": 0.37487121820449826,
+      "vector_score": 0.32124459743499756,
+      "keyword_score": 0.5,
+      "node_count": 156
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:45:55"
+}

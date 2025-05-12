@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req119",
+  "requirement_text": "Save something in a storage element and keep track of the store id in the test Id.",
+  "top_files": [
+    {
+      "file": "awa-storages-services-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\regtests\\awa-storages-services-tests.adb",
+      "score": 0.461655306816101,
+      "vector_score": 0.5166504383087158,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages-services-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\regtests\\awa-storages-services-tests.ads",
+      "score": 0.4487694042921066,
+      "vector_score": 0.24109914898872375,
+      "keyword_score": 0.9333333333333333,
+      "node_count": 10
+    },
+    {
+      "file": "awa-questions-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-tests.adb",
+      "score": 0.35236003994941706,
+      "vector_score": 0.3605143427848816,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 11
+    },
+    {
+      "file": "awa-wikis-modules-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\regtests\\awa-wikis-modules-tests.adb",
+      "score": 0.34835514903068543,
+      "vector_score": 0.3833644986152649,
+      "keyword_score": 0.26666666666666666,
+      "node_count": 6
+    },
+    {
+      "file": "awa-wikis-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\regtests\\awa-wikis-tests.adb",
+      "score": 0.34416853725910185,
+      "vector_score": 0.2916693389415741,
+      "keyword_score": 0.4666666666666667,
+      "node_count": 11
+    },
+    {
+      "file": "awa-questions-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\awa-questions-modules.adb",
+      "score": 0.34210665762424464,
+      "vector_score": 0.28872379660606384,
+      "keyword_score": 0.4666666666666667,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages-stores-files.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-stores-files.adb",
+      "score": 0.3408339905738831,
+      "vector_score": 0.37261998653411865,
+      "keyword_score": 0.26666666666666666,
+      "node_count": 7
+    },
+    {
+      "file": "awa-storages-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\regtests\\awa-storages-tests.adb",
+      "score": 0.3379072088003159,
+      "vector_score": 0.36843886971473694,
+      "keyword_score": 0.26666666666666666,
+      "node_count": 6
+    },
+    {
+      "file": "awa-questions-modules-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-modules-tests.adb",
+      "score": 0.3338973331451416,
+      "vector_score": 0.36271047592163086,
+      "keyword_score": 0.26666666666666666,
+      "node_count": 7
+    },
+    {
+      "file": "awa-users-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\regtests\\src\\awa-users-tests.adb",
+      "score": 0.3228985220193863,
+      "vector_score": 0.3184264600276947,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 10
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:41:57"
+}

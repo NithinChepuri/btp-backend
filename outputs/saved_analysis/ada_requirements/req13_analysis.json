@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req13",
+  "requirement_text": "The blog administrator can set the default format for posts.",
+  "top_files": [
+    {
+      "file": "awa-blogs-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-modules.ads",
+      "score": 0.41193632185459134,
+      "vector_score": 0.30276617407798767,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 13
+    },
+    {
+      "file": "awa-blogs-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-modules.adb",
+      "score": 0.3652484168608983,
+      "vector_score": 0.3313072621822357,
+      "keyword_score": 0.4444444444444444,
+      "node_count": 10
+    },
+    {
+      "file": "awa-blogs-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\model\\awa-blogs-models.ads",
+      "score": 0.3428056905666987,
+      "vector_score": 0.2516271770000458,
+      "keyword_score": 0.5555555555555556,
+      "node_count": 152
+    },
+    {
+      "file": "awa-blogs-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-beans.ads",
+      "score": 0.3306249941388766,
+      "vector_score": 0.23422618210315704,
+      "keyword_score": 0.5555555555555556,
+      "node_count": 42
+    },
+    {
+      "file": "awa-comments-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-comments\\src\\model\\awa-comments-models.ads",
+      "score": 0.3026760379473368,
+      "vector_score": 0.1942991018295288,
+      "keyword_score": 0.5555555555555556,
+      "node_count": 50
+    },
+    {
+      "file": "awa-blogs-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\regtests\\awa-blogs-tests.ads",
+      "score": 0.29989591141541794,
+      "vector_score": 0.2379465401172638,
+      "keyword_score": 0.4444444444444444,
+      "node_count": 12
+    },
+    {
+      "file": "awa-blogs.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs.ads",
+      "score": 0.28527608215808864,
+      "vector_score": 0.2646801173686981,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 1
+    },
+    {
+      "file": "awa-blogs-modules-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\regtests\\awa-blogs-modules-tests.adb",
+      "score": 0.27763554503520327,
+      "vector_score": 0.2061460167169571,
+      "keyword_score": 0.4444444444444444,
+      "node_count": 4
+    },
+    {
+      "file": "awa-blogs-modules-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\regtests\\awa-blogs-modules-tests.ads",
+      "score": 0.26678038388490677,
+      "vector_score": 0.23825769126415253,
+      "keyword_score": 0.3333333333333333,
+      "node_count": 5
+    },
+    {
+      "file": "awa-wikis-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\model\\awa-wikis-models.ads",
+      "score": 0.24956619640191396,
+      "vector_score": 0.16604694724082947,
+      "keyword_score": 0.4444444444444444,
+      "node_count": 166
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:48:53"
+}

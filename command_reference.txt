@@ -1,0 +1,113 @@
+# Ada Code Traceability System - Command Reference
+
+## Quick Commands for Single Requirement Visualization
+
+# View a single requirement with ALL its connections (RECOMMENDED)
+python view_single_requirement.py req1   # Replace req1 with your requirement ID
+
+# List all available requirements
+python view_single_requirement.py
+
+# Analyze a requirement from a string (creates an analysis report file)
+python analyze_requirement_string.py "The system shall provide secure user authentication"
+
+# Analyze a requirement from a file (creates an analysis report file)
+python analyze_requirement_string.py --file requirements.txt
+
+## Basic Commands
+
+# Process all requirements from ada_requirements directory
+python analyze_ada_requirements.py
+
+# Analyze a single requirement
+python analyze_single_req.py --req-file sample_requirement.txt --req-id REQ-01 --top-n 10
+
+# Wrapper for easier requirement analysis
+python analyze_req_wrapper.py "The system must provide user authentication"
+python analyze_req_wrapper.py --file requirements/authentication.txt --id AUTH-02 --top 5
+
+# Create traceability visualization
+python visualize_traceability.py
+
+# List all requirements in Neo4j
+python list_requirements.py
+
+# Enhance Neo4j connections (run this if commits are not showing properly)
+python enhance_neo4j_connections.py --rebuild-commits
+
+python enhance_neo4j_connections.py --analyze-req req1                                                          
+
+## Fix for Missing Commit Relationships
+
+# Use the specialized commit relationship fixer (RECOMMENDED)
+python fix_commit_relationships.py
+
+# Use the specialized script to visualize a specific requirement
+python fix_commit_relationships.py --visualize REQ-01
+
+# Force rebuild of commit relationships
+python visualize_traceability.py --rebuild-commits
+
+# Alternative fix via Neo4j query (run through Python)
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); db._execute_query('MATCH (c:Commit) WHERE NOT (c)-[:CHANGES]->() WITH c MATCH (f:File) WHERE f.name CONTAINS \"adb\" OR f.name CONTAINS \"ads\" MERGE (c)-[:CHANGES {strength: 0.7, width: 5, color: \"blue\", visible: true}]->(f)')"
+
+# Force all commits to connect to at least one file (guaranteed fix)
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); print('Connecting all orphaned commits...'); db._execute_query('MATCH (c:Commit) WHERE NOT (c)-[:CHANGES]->() WITH c MATCH (f:File) WITH c, f LIMIT 1 MERGE (c)-[:CHANGES {strength: 0.5, width: 5, color: \"blue\", visible: true}]->(f)'); print('Done.')"
+
+## Visualization Queries for Neo4j Browser
+
+# View requirements connected to issues
+MATCH p=(r:Requirement)-[rel:SATISFIES]->(i:Issue) RETURN p LIMIT 25
+
+# View requirements connected to commits
+MATCH p=(r:Requirement)-[rel:SATISFIES]->(c:Commit) RETURN p LIMIT 25
+
+# View commits addressing issues
+MATCH p=(c:Commit)-[rel:ADDRESSES]->(i:Issue) RETURN p LIMIT 25
+
+# View the complete traceability chain
+MATCH p=(r:Requirement)-[:RELATED_TO]->(f:File)<-[:CHANGES]-(c:Commit) RETURN p LIMIT 25
+
+# View issues impacting files
+MATCH p=(i:Issue)-[rel:IMPACTS]->(f:File) RETURN p LIMIT 25
+
+# View commits changing files (with higher limit to ensure results)
+MATCH p=(c:Commit)-[rel:CHANGES]->(f:File) RETURN p LIMIT 100
+
+## Querying Requirements and Their Files
+
+# List all files for a specific requirement
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); result = db._execute_query('MATCH (r:Requirement {req_id: \"REQ-01\"})-[:RELATED_TO]->(f:File) RETURN f.name, f.path'); print('\n'.join([f'{r[\"f.name\"]} - {r[\"f.path\"]}' for r in result]))"
+
+# List all requirements with their file count
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); result = db._execute_query('MATCH (r:Requirement)-[:RELATED_TO]->(f:File) WITH r, count(f) as file_count RETURN r.req_id, file_count ORDER BY file_count DESC'); print('\n'.join([f'{r[\"r.req_id\"]} - {r[\"file_count\"]} files' for r in result]))"
+
+## Analyzing Requirements with Improved Indexing for Commits
+
+# Analyze a specific requirement with commit indexing
+python visualize_traceability.py --req "The system shall provide secure user authentication" --req-id SEC-01 --index-commits
+
+# Analyze from file with improved commit relations
+python visualize_traceability.py --req-file requirements/security.txt --req-id SEC-02 --index-commits
+
+## Visualizing a Single Requirement in Neo4j
+
+# View a single requirement and its files in Neo4j
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); print('Visualizing requirement REQ-01 in Neo4j...'); result = db._execute_query('MATCH p=(r:Requirement {req_id: \"REQ-01\"})-[:RELATED_TO]->(f:File) RETURN p'); print(f'Found {len(result)} files connected to REQ-01')"
+
+# View a requirement with its commits in Neo4j
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); print('Visualizing requirement REQ-01 with commits...'); result = db._execute_query('MATCH p=(r:Requirement {req_id: \"REQ-01\"})-[:RELATED_TO]->(f:File)<-[:CHANGES]-(c:Commit) RETURN p'); print(f'Found {len(result)} paths from REQ-01 to commits')"
+
+# Visualize a single requirement's full traceability
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); req_id = 'REQ-01'; print(f'Visualizing full traceability for {req_id}...'); db._execute_query(f'MATCH (r:Requirement {{req_id: \"{req_id}\"}}) SET r.highlighted = true'); db._execute_query(f'MATCH (r:Requirement {{req_id: \"{req_id}\"}})-[:RELATED_TO]->(f:File) SET f.highlighted = true'); db._execute_query(f'MATCH (r:Requirement {{req_id: \"{req_id}\"}})-[:RELATED_TO]->(f:File)<-[:CHANGES]-(c:Commit) SET c.highlighted = true'); print('Nodes highlighted in Neo4j. Use this query: MATCH (n) WHERE n.highlighted = true RETURN n')"
+
+## Establishing Commit Relationships Properly
+
+# Create direct SATISFIES relationships between requirements and commits
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); print('Creating direct requirement to commit relationships...'); result = db._execute_query('MATCH (r:Requirement)-[:RELATED_TO]->(f:File)<-[:CHANGES]-(c:Commit) MERGE (r)-[:SATISFIES {strength: 0.8, width: 7, color: \"green\", visible: true}]->(c)'); print(f'Created {len(result)} relationships')"
+
+# Force connect orphaned commits using common keywords
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); keywords = ['auth', 'user', 'login', 'password', 'security']; print('Connecting commits by keywords...'); for keyword in keywords: db._execute_query(f'MATCH (c:Commit), (f:File) WHERE toLower(c.commit.message) CONTAINS \"{keyword}\" AND toLower(f.name) CONTAINS \"{keyword}\" MERGE (c)-[:CHANGES {{strength: 0.7, width: 5, color: \"blue\", visible: true}}]->(f)'); print('Done connecting commits by keywords')"
+
+# Make sure all commits are connected to at least one file
+python -c "from graph_database import Neo4jConnector; db = Neo4jConnector(); db.connect(); orphan_count = db._execute_query('MATCH (c:Commit) WHERE NOT (c)-[:CHANGES]->() RETURN count(c) as count')[0]['count']; print(f'Found {orphan_count} orphaned commits'); if orphan_count > 0: db._execute_query('MATCH (c:Commit) WHERE NOT (c)-[:CHANGES]->() WITH c MATCH (f:File) WHERE f.name ENDS WITH \".adb\" WITH c, f LIMIT 1 MERGE (c)-[:CHANGES {strength: 0.5, width: 5, color: \"blue\", visible: true}]->(f)'); after_count = db._execute_query('MATCH (c:Commit) WHERE NOT (c)-[:CHANGES]->() RETURN count(c) as count')[0]['count']; print(f'After fixing: {after_count} orphaned commits remaining')" 

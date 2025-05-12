@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req130",
+  "requirement_text": "The servlet should be safe, meaning that it should not have any side effects for which users are held responsible.",
+  "top_files": [
+    {
+      "file": "awa-storages-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-servlets.ads",
+      "score": 0.5673200160264968,
+      "vector_score": 0.38188573718070984,
+      "keyword_score": 1.0,
+      "node_count": 8
+    },
+    {
+      "file": "awa-users-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.ads",
+      "score": 0.48360368468259507,
+      "vector_score": 0.42018571496009827,
+      "keyword_score": 0.631578947368421,
+      "node_count": 15
+    },
+    {
+      "file": "awa-blogs-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-servlets.ads",
+      "score": 0.3409599573988663,
+      "vector_score": 0.3743036985397339,
+      "keyword_score": 0.2631578947368421,
+      "node_count": 4
+    },
+    {
+      "file": "awa-wikis-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\awa-wikis-servlets.ads",
+      "score": 0.3305298121351945,
+      "vector_score": 0.35940349102020264,
+      "keyword_score": 0.2631578947368421,
+      "node_count": 4
+    },
+    {
+      "file": "awa-images-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-images\\src\\awa-images-servlets.ads",
+      "score": 0.3266951532740342,
+      "vector_score": 0.3539254069328308,
+      "keyword_score": 0.2631578947368421,
+      "node_count": 4
+    },
+    {
+      "file": "awa-users-filters.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-filters.ads",
+      "score": 0.30820906044621216,
+      "vector_score": 0.214734748005867,
+      "keyword_score": 0.5263157894736842,
+      "node_count": 8
+    },
+    {
+      "file": "awa-applications.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.ads",
+      "score": 0.3062817753145569,
+      "vector_score": 0.16686870157718658,
+      "keyword_score": 0.631578947368421,
+      "node_count": 19
+    },
+    {
+      "file": "awa-users-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-services.ads",
+      "score": 0.3020446297369505,
+      "vector_score": 0.22848480939865112,
+      "keyword_score": 0.47368421052631576,
+      "node_count": 25
+    },
+    {
+      "file": "awa-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-modules.ads",
+      "score": 0.30020534702037505,
+      "vector_score": 0.1581880897283554,
+      "keyword_score": 0.631578947368421,
+      "node_count": 48
+    },
+    {
+      "file": "awa-users-servlets.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.adb",
+      "score": 0.29704346076438304,
+      "vector_score": 0.3115658462047577,
+      "keyword_score": 0.2631578947368421,
+      "node_count": 15
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:49:27"
+}

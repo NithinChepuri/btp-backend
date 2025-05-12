@@ -1,0 +1,92 @@
+{
+  "requirements": [
+    {
+      "requirement_id": "req1",
+      "requirement_text": "Test creation of a blog.",
+      "top_files": [
+        {
+          "file": "awa-blogs-tests.ads",
+          "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\regtests\\awa-blogs-tests.ads",
+          "score": 0.623290272951126,
+          "vector_score": 0.547557532787323,
+          "keyword_score": 0.8,
+          "node_count": 12
+        },
+        {
+          "file": "awa-blogs-modules-tests.ads",
+          "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\regtests\\awa-blogs-modules-tests.ads",
+          "score": 0.6232648634910583,
+          "vector_score": 0.5475212335586548,
+          "keyword_score": 0.8,
+          "node_count": 5
+        },
+        {
+          "file": "awa-blogs-modules-tests.adb",
+          "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\regtests\\awa-blogs-modules-tests.adb",
+          "score": 0.5996352756023406,
+          "vector_score": 0.5137646794319153,
+          "keyword_score": 0.8,
+          "node_count": 4
+        },
+        {
+          "file": "awa-comments-modules-tests.ads",
+          "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-comments\\regtests\\awa-comments-modules-tests.ads",
+          "score": 0.531605743765831,
+          "vector_score": 0.41657963395118713,
+          "keyword_score": 0.8,
+          "node_count": 10
+        },
+        {
+          "file": "awa-wikis-modules-tests.ads",
+          "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\regtests\\awa-wikis-modules-tests.ads",
+          "score": 0.5117033565044402,
+          "vector_score": 0.38814765214920044,
+          "keyword_score": 0.8,
+          "node_count": 8
+        },
+        {
+          "file": "awa-wikis-tests.ads",
+          "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\regtests\\awa-wikis-tests.ads",
+          "score": 0.4933439576625824,
+          "vector_score": 0.36191993951797485,
+          "keyword_score": 0.8,
+          "node_count": 11
+        },
+        {
+          "file": "awa-questions-modules-tests.ads",
+          "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-modules-tests.ads",
+          "score": 0.4904958868026733,
+          "vector_score": 0.3578512668609619,
+          "keyword_score": 0.8,
+          "node_count": 9
+        },
+        {
+          "file": "awa-tests-helpers-users.ads",
+          "file_path": "datasets\\ada-awa\\awa\\unit\\src\\awa-tests-helpers-users.ads",
+          "score": 0.4888512814044952,
+          "vector_score": 0.35550183057785034,
+          "keyword_score": 0.8,
+          "node_count": 14
+        },
+        {
+          "file": "awa-questions-tests.ads",
+          "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-tests.ads",
+          "score": 0.4824062699079513,
+          "vector_score": 0.34629467129707336,
+          "keyword_score": 0.8,
+          "node_count": 9
+        },
+        {
+          "file": "awa-tags-modules-tests.ads",
+          "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-tags\\regtests\\awa-tags-modules-tests.ads",
+          "score": 0.46068122327327726,
+          "vector_score": 0.3152588903903961,
+          "keyword_score": 0.8,
+          "node_count": 6
+        }
+      ]
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:59:40",
+  "num_requirements": 1
+}

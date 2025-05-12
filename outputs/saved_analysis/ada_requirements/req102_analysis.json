@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req102",
+  "requirement_text": "The module provides a set of operations for managing questions and answers.",
+  "top_files": [
+    {
+      "file": "awa-questions-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\awa-questions-modules.adb",
+      "score": 0.49319088160991664,
+      "vector_score": 0.454558402299881,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 8
+    },
+    {
+      "file": "awa-comments-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-comments\\src\\awa-comments-modules.ads",
+      "score": 0.4169872462749481,
+      "vector_score": 0.2742674946784973,
+      "keyword_score": 0.75,
+      "node_count": 11
+    },
+    {
+      "file": "awa-questions-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\awa-questions-beans.ads",
+      "score": 0.39695699810981744,
+      "vector_score": 0.24565285444259644,
+      "keyword_score": 0.75,
+      "node_count": 22
+    },
+    {
+      "file": "awa-blogs-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-modules.ads",
+      "score": 0.3926444292068481,
+      "vector_score": 0.2752063274383545,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 13
+    },
+    {
+      "file": "awa-users-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-modules.ads",
+      "score": 0.38258226215839386,
+      "vector_score": 0.2608318030834198,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 8
+    },
+    {
+      "file": "awa-votes-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-votes\\src\\awa-votes-modules.ads",
+      "score": 0.3768150448799133,
+      "vector_score": 0.25259292125701904,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 8
+    },
+    {
+      "file": "awa-wikis-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\awa-wikis-modules.ads",
+      "score": 0.3764611482620239,
+      "vector_score": 0.2520873546600342,
+      "keyword_score": 0.6666666666666666,
+      "node_count": 23
+    },
+    {
+      "file": "awa-comments-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-comments\\src\\awa-comments-beans.ads",
+      "score": 0.37459060251712795,
+      "vector_score": 0.21370086073875427,
+      "keyword_score": 0.75,
+      "node_count": 15
+    },
+    {
+      "file": "awa-questions-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\awa-questions-modules.ads",
+      "score": 0.3709116518497467,
+      "vector_score": 0.279873788356781,
+      "keyword_score": 0.5833333333333334,
+      "node_count": 12
+    },
+    {
+      "file": "awa-questions-modules-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-modules-tests.adb",
+      "score": 0.35944148898124695,
+      "vector_score": 0.3349164128303528,
+      "keyword_score": 0.4166666666666667,
+      "node_count": 7
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:32:52"
+}

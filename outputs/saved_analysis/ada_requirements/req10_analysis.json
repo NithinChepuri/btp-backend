@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req10",
+  "requirement_text": "The component that will handle an HTTP request received by the server will load the data content that corresponds to the GET request and get the name as well as mime-type and date.",
+  "top_files": [
+    {
+      "file": "awa-images-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-images\\src\\awa-images-servlets.ads",
+      "score": 0.4299329486878022,
+      "vector_score": 0.22288557887077332,
+      "keyword_score": 0.9130434782608695,
+      "node_count": 4
+    },
+    {
+      "file": "awa-storages-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-servlets.ads",
+      "score": 0.4212446628705315,
+      "vector_score": 0.19184020161628723,
+      "keyword_score": 0.9565217391304348,
+      "node_count": 8
+    },
+    {
+      "file": "awa-blogs-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-servlets.ads",
+      "score": 0.4167957571537598,
+      "vector_score": 0.20411816239356995,
+      "keyword_score": 0.9130434782608695,
+      "node_count": 4
+    },
+    {
+      "file": "awa-wikis-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\awa-wikis-servlets.ads",
+      "score": 0.4054976848156555,
+      "vector_score": 0.18797805905342102,
+      "keyword_score": 0.9130434782608695,
+      "node_count": 4
+    },
+    {
+      "file": "awa-services-filters.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-services-filters.adb",
+      "score": 0.32876367672629975,
+      "vector_score": 0.32059407234191895,
+      "keyword_score": 0.34782608695652173,
+      "node_count": 4
+    },
+    {
+      "file": "awa-users-servlets.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.adb",
+      "score": 0.29874454555304153,
+      "vector_score": 0.2590760588645935,
+      "keyword_score": 0.391304347826087,
+      "node_count": 15
+    },
+    {
+      "file": "awa-users-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.ads",
+      "score": 0.2802412943995517,
+      "vector_score": 0.1581086814403534,
+      "keyword_score": 0.5652173913043478,
+      "node_count": 15
+    },
+    {
+      "file": "awa-storages-servlets.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-servlets.adb",
+      "score": 0.27108773368856176,
+      "vector_score": 0.2754669487476349,
+      "keyword_score": 0.2608695652173913,
+      "node_count": 4
+    },
+    {
+      "file": "awa-images-servlets.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-images\\src\\awa-images-servlets.adb",
+      "score": 0.26275956980560133,
+      "vector_score": 0.3008366525173187,
+      "keyword_score": 0.17391304347826086,
+      "node_count": 1
+    },
+    {
+      "file": "awa-wikis-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\awa-wikis-modules.ads",
+      "score": 0.2522037962532562,
+      "vector_score": 0.11805511265993118,
+      "keyword_score": 0.5652173913043478,
+      "node_count": 23
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:31:26"
+}

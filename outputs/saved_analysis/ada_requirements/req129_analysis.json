@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req129",
+  "requirement_text": "When a client requests a file, the servlet should return the file content with the correct content type and headers, and the filename should be included in the response if the file is to be downloaded.",
+  "top_files": [
+    {
+      "file": "awa-storages-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-servlets.ads",
+      "score": 0.5356543420553207,
+      "vector_score": 0.4395062029361725,
+      "keyword_score": 0.76,
+      "node_count": 8
+    },
+    {
+      "file": "awa-users-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.ads",
+      "score": 0.4474754108190536,
+      "vector_score": 0.36496487259864807,
+      "keyword_score": 0.64,
+      "node_count": 15
+    },
+    {
+      "file": "awa-wikis-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-wikis\\src\\awa-wikis-servlets.ads",
+      "score": 0.43674706590175627,
+      "vector_score": 0.43535295128822327,
+      "keyword_score": 0.44,
+      "node_count": 4
+    },
+    {
+      "file": "awa-images-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-images\\src\\awa-images-servlets.ads",
+      "score": 0.4358403396606445,
+      "vector_score": 0.4512004852294922,
+      "keyword_score": 0.4,
+      "node_count": 4
+    },
+    {
+      "file": "awa-blogs-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-servlets.ads",
+      "score": 0.4328561849594116,
+      "vector_score": 0.4297945499420166,
+      "keyword_score": 0.44,
+      "node_count": 4
+    },
+    {
+      "file": "awa-mail-clients-files.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-mail\\src\\awa-mail-clients-files.ads",
+      "score": 0.3941005312204361,
+      "vector_score": 0.3230007588863373,
+      "keyword_score": 0.56,
+      "node_count": 16
+    },
+    {
+      "file": "awa-users-servlets.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.adb",
+      "score": 0.34029327356815336,
+      "vector_score": 0.2804189622402191,
+      "keyword_score": 0.48,
+      "node_count": 15
+    },
+    {
+      "file": "awa-storages-stores-files.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-stores-files.ads",
+      "score": 0.33357966864109034,
+      "vector_score": 0.27082809805870056,
+      "keyword_score": 0.48,
+      "node_count": 9
+    },
+    {
+      "file": "awa-components-wikis.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-components-wikis.ads",
+      "score": 0.32660995948314664,
+      "vector_score": 0.22658565640449524,
+      "keyword_score": 0.56,
+      "node_count": 11
+    },
+    {
+      "file": "awa-users-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-services.ads",
+      "score": 0.3234203107953072,
+      "vector_score": 0.22202901542186737,
+      "keyword_score": 0.56,
+      "node_count": 25
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:48:18"
+}

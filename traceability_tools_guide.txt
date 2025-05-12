@@ -1,0 +1,218 @@
+# Ada Code Traceability System - Tool Guide
+
+This document provides an explanation of each tool in the traceability system.
+
+## Core Tools
+
+### 1. view_single_requirement.py
+**Purpose:** Visualize a single requirement with all its connections in Neo4j.
+
+**Features:**
+- Clears Neo4j cache to ensure a fresh view
+- Shows a specific requirement by ID (e.g., req1)
+- Displays all connected files with relevance scores
+- Shows all connected commits and issues
+- Creates direct SATISFIES relationships for better visualization
+- Prints a detailed report including:
+  - Requirement details
+  - Connected files with scores
+  - Connected commits
+  - Connected issues
+  - Neo4j visualization queries
+
+**Usage:**
+```
+python view_single_requirement.py req1
+```
+
+### 2. analyze_requirement_string.py
+**Purpose:** Analyze a requirement given as a string rather than an ID.
+
+**Features:**
+- Takes requirement text directly (no need for predefined ID)
+- Creates a timestamped ID for the requirement
+- Analyzes the requirement against the codebase
+- Generates a detailed analysis report in a text file with:
+  - File contents
+  - File statistics (size, lines, etc.)
+  - Ada-specific metrics (procedures, functions, packages)
+  - Special Ada features detection
+- Establishes connections to files, commits, and issues
+- Creates visualization in Neo4j
+
+**Usage:**
+```
+# Directly from command line
+python analyze_requirement_string.py "The system shall provide secure user authentication"
+
+# From a file
+python analyze_requirement_string.py --file requirements.txt
+```
+
+### 3. fix_commit_relationships.py
+**Purpose:** Ensure all commits are properly connected to files in the traceability system.
+
+**Features:**
+- Rebuilds all commit relationships from scratch
+- Uses multiple connection methods:
+  1. File mentions in commit messages
+  2. Commit file data when available
+  3. Keyword matching between commits and files
+  4. Multiple fallback mechanisms
+- Creates SATISFIES relationships between requirements and commits
+- Can visualize a specific requirement
+
+**Usage:**
+```
+# Rebuild all commit relationships
+python fix_commit_relationships.py
+
+# Visualize a specific requirement
+python fix_commit_relationships.py --visualize req1
+```
+
+### 4. analyze_all_requirements.py
+**Purpose:** Process all requirements files in the ada_requirements directory.
+
+**Features:**
+- Analyzes each requirement against the codebase
+- Creates Neo4j nodes and relationships
+- Rebuilds commit relationships
+- Creates a batch results file
+
+**Usage:**
+```
+python analyze_all_requirements.py
+```
+
+## Analysis Tools
+
+### 5. analyze_single_req.py
+**Purpose:** Core analyzer for matching requirements to code files.
+
+**Features:**
+- Uses semantic similarity (BERT embeddings)
+- Includes keyword matching
+- Calculates combined relevance scores
+- Returns ranked list of matching files
+
+**Usage:**
+```
+python analyze_single_req.py --req-file sample.txt --req-id REQ-01 --top-n 10
+```
+
+### 6. analyze_req_wrapper.py
+**Purpose:** Wrapper for analyze_single_req.py with simpler interface.
+
+**Features:**
+- Handles direct text input or file input
+- Simplifies command-line arguments
+- Temporary file handling
+
+**Usage:**
+```
+python analyze_req_wrapper.py "The system must provide user authentication"
+```
+
+### 7. visualize_traceability.py
+**Purpose:** Create clear visual relationships in Neo4j.
+
+**Features:**
+- Creates IMPACTS relationships from issues to files
+- Creates CHANGES relationships from commits to files
+- Creates SATISFIES relationships from requirements to issues/commits
+- Creates ADDRESSES relationships between commits and issues
+- Sets visual properties (colors, widths) for relationships
+- Can rebuild commit relationships
+- Can analyze a single requirement
+
+**Usage:**
+```
+# Create visualization relationships
+python visualize_traceability.py
+
+# Rebuild commit relationships
+python visualize_traceability.py --rebuild-commits
+
+# Analyze a requirement with commit indexing
+python visualize_traceability.py --req "The system shall provide secure login" --req-id SEC-01 --index-commits
+```
+
+## Utility Tools
+
+### 8. enhance_neo4j_connections.py
+**Purpose:** Enhance Neo4j database with additional relationships.
+
+**Features:**
+- Rebuilds commit relationships
+- Analyzes specific requirements
+- Creates various connection types
+
+**Usage:**
+```
+python enhance_neo4j_connections.py --rebuild-commits
+python enhance_neo4j_connections.py --analyze-req req1
+```
+
+### 9. list_requirements.py
+**Purpose:** List all requirements found in Neo4j.
+
+**Features:**
+- Displays requirements with their IDs
+- Shows statistics about requirements
+
+**Usage:**
+```
+python list_requirements.py
+```
+
+## How to Use This System
+
+### For Existing Requirements
+
+1. View a specific requirement with all connections:
+   ```
+   python view_single_requirement.py req1
+   ```
+
+2. In Neo4j Browser, run:
+   ```
+   MATCH (n) WHERE n.highlighted = true RETURN n
+   ```
+
+### For New Requirements (as strings)
+
+1. Analyze a requirement given as text:
+   ```
+   python analyze_requirement_string.py "The system shall allow users to reset their passwords"
+   ```
+
+2. This will:
+   - Create a new requirement with a unique ID
+   - Generate an analysis report file
+   - Create connections in Neo4j
+   - Highlight the nodes for visualization
+
+3. In Neo4j Browser, run:
+   ```
+   MATCH (n) WHERE n.highlighted = true RETURN n
+   ```
+
+### If Commit Relationships Are Missing
+
+1. Fix commit relationships:
+   ```
+   python fix_commit_relationships.py
+   ```
+
+2. This guarantees all commits will be connected to at least one file.
+
+## Analysis Reports
+
+When using `analyze_requirement_string.py`, analysis reports are generated in the `analysis_reports` directory. These include:
+- Requirement details
+- File contents with relevance scores
+- File statistics and metrics
+- Ada-specific analysis
+- Connection counts (files, commits, issues)
+- Neo4j visualization queries 

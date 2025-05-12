@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req128",
+  "requirement_text": "The Storage Service provides the operations to access and use the persistent storage.",
+  "top_files": [
+    {
+      "file": "awa-storages-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-services.ads",
+      "score": 0.5532505184412002,
+      "vector_score": 0.36178645491600037,
+      "keyword_score": 1.0,
+      "node_count": 24
+    },
+    {
+      "file": "awa-storages.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages.ads",
+      "score": 0.5226466387510299,
+      "vector_score": 0.31806662678718567,
+      "keyword_score": 1.0,
+      "node_count": 6
+    },
+    {
+      "file": "awa-storages-stores-files.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-stores-files.ads",
+      "score": 0.4417565489357168,
+      "vector_score": 0.31939247250556946,
+      "keyword_score": 0.7272727272727273,
+      "node_count": 9
+    },
+    {
+      "file": "awa-storages-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-servlets.ads",
+      "score": 0.43614816096695985,
+      "vector_score": 0.3503415286540985,
+      "keyword_score": 0.6363636363636364,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-modules.ads",
+      "score": 0.43591180985624134,
+      "vector_score": 0.311042845249176,
+      "keyword_score": 0.7272727272727273,
+      "node_count": 8
+    },
+    {
+      "file": "awa-storages-stores-databases.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-stores-databases.ads",
+      "score": 0.4043063315478238,
+      "vector_score": 0.3048532009124756,
+      "keyword_score": 0.6363636363636364,
+      "node_count": 6
+    },
+    {
+      "file": "awa-storages-services-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\regtests\\awa-storages-services-tests.ads",
+      "score": 0.3925534757700833,
+      "vector_score": 0.2880634069442749,
+      "keyword_score": 0.6363636363636364,
+      "node_count": 10
+    },
+    {
+      "file": "awa-storages-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-storages\\src\\awa-storages-beans.ads",
+      "score": 0.37400293160568576,
+      "vector_score": 0.30052366852760315,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 25
+    },
+    {
+      "file": "awa-blogs-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-blogs\\src\\awa-blogs-servlets.ads",
+      "score": 0.3539204667914997,
+      "vector_score": 0.27183443307876587,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 4
+    },
+    {
+      "file": "awa-events-queues-persistents.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-events-queues-persistents.ads",
+      "score": 0.3456173937429081,
+      "vector_score": 0.2599729001522064,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 5
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:47:42"
+}

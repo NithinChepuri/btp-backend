@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req105",
+  "requirement_text": "The question table holds a single question asked by a user to the community.",
+  "top_files": [
+    {
+      "file": "awa-questions-models.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\model\\awa-questions-models.ads",
+      "score": 0.3983246490359306,
+      "vector_score": 0.14046378433704376,
+      "keyword_score": 1.0,
+      "node_count": 105
+    },
+    {
+      "file": "awa-questions-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\awa-questions-modules.adb",
+      "score": 0.33499221178618344,
+      "vector_score": 0.3227161467075348,
+      "keyword_score": 0.36363636363636365,
+      "node_count": 8
+    },
+    {
+      "file": "awa-questions-modules-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-modules-tests.ads",
+      "score": 0.33438277203928335,
+      "vector_score": 0.24392344057559967,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 9
+    },
+    {
+      "file": "awa-questions-modules-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-modules-tests.adb",
+      "score": 0.3325772699984637,
+      "vector_score": 0.3192662298679352,
+      "keyword_score": 0.36363636363636365,
+      "node_count": 7
+    },
+    {
+      "file": "awa-questions-tests.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\regtests\\awa-questions-tests.ads",
+      "score": 0.29016923647035253,
+      "vector_score": 0.21972228586673737,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 9
+    },
+    {
+      "file": "awa-comments-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-comments\\src\\awa-comments-beans.ads",
+      "score": 0.2759430329230699,
+      "vector_score": 0.12147706001996994,
+      "keyword_score": 0.6363636363636364,
+      "node_count": 15
+    },
+    {
+      "file": "awa-tests-helpers-users.ads",
+      "file_path": "datasets\\ada-awa\\awa\\unit\\src\\awa-tests-helpers-users.ads",
+      "score": 0.2738604728471149,
+      "vector_score": 0.19642405211925507,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 14
+    },
+    {
+      "file": "awa-questions-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\awa-questions-modules.ads",
+      "score": 0.25692273120988496,
+      "vector_score": 0.17222727835178375,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 12
+    },
+    {
+      "file": "awa-counters.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-counters\\src\\awa-counters.ads",
+      "score": 0.25593041736971245,
+      "vector_score": 0.13184864819049835,
+      "keyword_score": 0.5454545454545454,
+      "node_count": 6
+    },
+    {
+      "file": "awa-questions-beans.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-questions\\src\\awa-questions-beans.ads",
+      "score": 0.25535500090230595,
+      "vector_score": 0.16998766362667084,
+      "keyword_score": 0.45454545454545453,
+      "node_count": 22
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:34:18"
+}

@@ -1,0 +1,87 @@
+{
+  "requirement_id": "req111",
+  "requirement_text": "A setting is identified by a unique name in the application and is saved in the database and associated with a user.",
+  "top_files": [
+    {
+      "file": "awa-settings-modules.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings-modules.adb",
+      "score": 0.5502383589744568,
+      "vector_score": 0.5181976556777954,
+      "keyword_score": 0.625,
+      "node_count": 14
+    },
+    {
+      "file": "awa-settings.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings.ads",
+      "score": 0.5144922673702239,
+      "vector_score": 0.3064175248146057,
+      "keyword_score": 1.0,
+      "node_count": 5
+    },
+    {
+      "file": "awa-settings-modules.ads",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\src\\awa-settings-modules.ads",
+      "score": 0.4612000405788421,
+      "vector_score": 0.33742862939834595,
+      "keyword_score": 0.75,
+      "node_count": 20
+    },
+    {
+      "file": "awa-users-services.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-services.ads",
+      "score": 0.42269902825355526,
+      "vector_score": 0.17528432607650757,
+      "keyword_score": 1.0,
+      "node_count": 25
+    },
+    {
+      "file": "awa-permissions-services.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-permissions-services.adb",
+      "score": 0.3919711798429489,
+      "vector_score": 0.3456731140613556,
+      "keyword_score": 0.5,
+      "node_count": 10
+    },
+    {
+      "file": "awa-users-servlets.ads",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-users-servlets.ads",
+      "score": 0.3699930623173714,
+      "vector_score": 0.1535615175962448,
+      "keyword_score": 0.875,
+      "node_count": 15
+    },
+    {
+      "file": "awa-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications.adb",
+      "score": 0.363709831237793,
+      "vector_score": 0.3052997589111328,
+      "keyword_score": 0.5,
+      "node_count": 20
+    },
+    {
+      "file": "awa-applications-configs.adb",
+      "file_path": "datasets\\ada-awa\\awa\\src\\awa-applications-configs.adb",
+      "score": 0.35492507219314573,
+      "vector_score": 0.2659643888473511,
+      "keyword_score": 0.5625,
+      "node_count": 17
+    },
+    {
+      "file": "awa-settings-modules-tests.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-settings\\regtests\\awa-settings-modules-tests.adb",
+      "score": 0.3449273586273193,
+      "vector_score": 0.27846765518188477,
+      "keyword_score": 0.5,
+      "node_count": 4
+    },
+    {
+      "file": "awa-setup-applications.adb",
+      "file_path": "datasets\\ada-awa\\awa\\plugins\\awa-setup\\src\\awa-setup-applications.adb",
+      "score": 0.34215832054615014,
+      "vector_score": 0.247726172208786,
+      "keyword_score": 0.5625,
+      "node_count": 26
+    }
+  ],
+  "analysis_timestamp": "2025-05-12T19:37:51"
+}
